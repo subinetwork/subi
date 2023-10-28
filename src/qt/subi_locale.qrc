@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/subi_ar.qm</file>
+        <file alias="bg">locale/subi_bg.qm</file>
+        <file alias="de">locale/subi_de.qm</file>
+        <file alias="en">locale/subi_en.qm</file>
+        <file alias="es">locale/subi_es.qm</file>
+        <file alias="fi">locale/subi_fi.qm</file>
+        <file alias="fr">locale/subi_fr.qm</file>
+        <file alias="it">locale/subi_it.qm</file>
+        <file alias="ja">locale/subi_ja.qm</file>
+        <file alias="ko">locale/subi_ko.qm</file>
+        <file alias="nl">locale/subi_nl.qm</file>
+        <file alias="pl">locale/subi_pl.qm</file>
+        <file alias="pt">locale/subi_pt.qm</file>
+        <file alias="ro">locale/subi_ro.qm</file>
+        <file alias="ru">locale/subi_ru.qm</file>
+        <file alias="sk">locale/subi_sk.qm</file>
+        <file alias="th">locale/subi_th.qm</file>
+        <file alias="tr">locale/subi_tr.qm</file>
+        <file alias="vi">locale/subi_vi.qm</file>
+        <file alias="zh_CN">locale/subi_zh_CN.qm</file>
+        <file alias="zh_TW">locale/subi_zh_TW.qm</file>
+    </qresource>
+</RCC>
