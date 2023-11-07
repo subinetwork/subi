@@ -1,4 +1,4 @@
-subi Core Latest v1.1.1.4
+subi Core Latest v1.1.2.4
 ===========================
 
 |CI|master|develop|
