@@ -40,7 +40,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the subi Qt UI.
+/** Utility functions used by the Subi Qt UI.
  */
 namespace GUIUtil
 {

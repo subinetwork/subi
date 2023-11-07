@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2020 The Dash Core developers
-// Copyright (c) 2020-2022 The subi developers
+// Copyright (c) 2020-2022 The Subi developers
 
 #include <governance/governance.h>
 

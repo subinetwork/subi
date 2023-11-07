@@ -68,9 +68,9 @@ can then be controlled by group membership.
 ### Mac OS X
 
 Binary:              `/usr/local/bin/subid`  
-Configuration file:  `~/Library/Application Support/subiCore/subi.conf`  
-Data directory:      `~/Library/Application Support/subiCore`
-Lock file:           `~/Library/Application Support/subiCore/.lock`
+Configuration file:  `~/Library/Application Support/SubiCore/subi.conf`  
+Data directory:      `~/Library/Application Support/SubiCore`
+Lock file:           `~/Library/Application Support/SubiCore/.lock`
 
 Installing Service Configuration
 -----------------------------------

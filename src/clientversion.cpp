@@ -12,7 +12,7 @@
  * for both subid and subi-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("subi Core");
+const std::string CLIENT_NAME("Subi Core");
 
 /**
  * Client version number
@@ -44,7 +44,7 @@ const std::string CLIENT_NAME("subi Core");
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives. 
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "SUBId2b745b223cb514b51aa5a4a7e0773631519"
+#define GIT_COMMIT_ID "c136d2b745b223cb514b51aa5a4a7e0773631519"
 #define GIT_COMMIT_DATE "Wed, 21 Sep 2022 11:43:56 -0700"
 #endif
 

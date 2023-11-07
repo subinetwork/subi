@@ -1,11 +1,11 @@
-subi Core
+Subi Core
 ==========
 
-This is the official reference wallet for subi digital currency and comprises the backbone of the subi peer-to-peer network. You can [download subi Core](https://www.subinetwork.com/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Subi digital currency and comprises the backbone of the Subi peer-to-peer network. You can [download Subi Core](https://www.subinetwork.com/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run subi on your native platform.
+The following are some helpful notes on how to run Subi on your native platform.
 
 ### Unix
 
@@ -20,20 +20,20 @@ Unpack the files into a directory, and then run subi-qt.exe.
 
 ### OS X
 
-Drag subi-Qt to your applications folder, and then run subi-Qt.
+Drag Subi-Qt to your applications folder, and then run Subi-Qt.
 
 ### Need Help?
 
-* See the [subi documentation](https://docs.subinetwork.com)
+* See the [Subi documentation](https://docs.subinetwork.com)
 for help and more information.
-* See the [subi Developer Documentation](https://subi-docs.github.io/) 
+* See the [Subi Developer Documentation](https://subi-docs.github.io/) 
 for technical specifications and implementation details.
-* Ask for help on [subi Nation Discord](http://subichat.org)
-* Ask for help on the [subi Forum](https://subinetwork.com/forum)
+* Ask for help on [Subi Nation Discord](http://subichat.org)
+* Ask for help on the [Subi Forum](https://subinetwork.com/forum)
 
 Building
 ---------------------
-The following are developer notes on how to build subi Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Subi Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -43,7 +43,7 @@ The following are developer notes on how to build subi Core on your native platf
 
 Development
 ---------------------
-The subi Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Subi Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -59,8 +59,8 @@ The subi Core repo's [root README](/README.md) contains relevant information on 
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [subi Forum](https://subinetwork.com/forum), in the Development & Technical Discussion board.
-* Discuss on [subi Nation Discord](http://subichat.org)
+* Discuss on the [Subi Forum](https://subinetwork.com/forum), in the Development & Technical Discussion board.
+* Discuss on [Subi Nation Discord](http://subichat.org)
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

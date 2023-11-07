@@ -34,10 +34,10 @@ Package: subid
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- subi is an experimental new digital currency that enables instant, private
- payments to anyone, anywhere in the world. subi uses peer-to-peer
+ Subi is an experimental new digital currency that enables instant, private
+ payments to anyone, anywhere in the world. Subi uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. subi Core
+ and issuing money are carried out collectively by the network. Subi Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, subid, and the CLI tool
@@ -47,22 +47,22 @@ Package: subi-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- subi is an experimental new digital currency that enables instant, private
- payments to anyone, anywhere in the world. subi uses peer-to-peer
+ Subi is an experimental new digital currency that enables instant, private
+ payments to anyone, anywhere in the world. Subi uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. subi Core
+ and issuing money are carried out collectively by the network. Subi Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides subi-Qt, a GUI for subi based on Qt.
+ This package provides Subi-Qt, a GUI for Subi based on Qt.
 
 Package: subi-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- subi is an experimental new digital currency that enables instant, private
- payments to anyone, anywhere in the world. subi uses peer-to-peer
+ Subi is an experimental new digital currency that enables instant, private
+ payments to anyone, anywhere in the world. Subi uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. subi Core
+ and issuing money are carried out collectively by the network. Subi Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides subi-tx, a command-line transaction creation

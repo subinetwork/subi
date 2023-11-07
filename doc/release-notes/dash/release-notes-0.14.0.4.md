@@ -1,4 +1,4 @@
-subi Core version 0.14.0.4
+Subi Core version 0.14.0.4
 ==========================
 
 Release is now available from:
@@ -20,14 +20,14 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/subi-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Subi-Qt (on Mac) or
 subid/subi-qt (on Linux). If you upgrade after DIP0003 activation and you were
 using version < 0.13 you will have to reindex (start with -reindex-chainstate
 or -reindex) to make sure your wallet has all the new data synced. Upgrading from
 version 0.13 should not require any additional actions.
 
 When upgrading from a version prior to 0.14.0.3, the
-first startup of subi Core will run a migration process which can take a few minutes
+first startup of Subi Core will run a migration process which can take a few minutes
 to finish. After the migration, a downgrade to an older version is only possible with
 a reindex (or reindex-chainstate).
 
@@ -46,9 +46,9 @@ Notable changes
 Fix respends of freshly received InstantSend transactions
 ---------------------------------------------------------
 
-A bug in subi Core caused respends to not work before a received InstantSend transaction was confirmed in at least
+A bug in Subi Core caused respends to not work before a received InstantSend transaction was confirmed in at least
 one block. This is fixed in this release, so that InstantSend locked mempool transactions can be
-respent immediately in subi Core (other wallets were not affected).
+respent immediately in Subi Core (other wallets were not affected).
 
 Deprecation of SPORK_16_INSTANTSEND_AUTOLOCKS
 ---------------------------------------------
@@ -69,7 +69,7 @@ the stress tests performed by an unknown entity on mainnet.
 Improve re-requesting for already known transactions
 ----------------------------------------------------
 
-Previously, subi would re-request old transactions even though they were already known locally. This
+Previously, Subi would re-request old transactions even though they were already known locally. This
 happened when the outputs were respent very shortly after confirmation of the transaction. This lead to
 wrongly handling these transactions as orphans, filling up the orphan set and hitting limits very fast.
 This release fixes this for nodes which have txindex enabled, which is the case for all smartnodes. Normal
@@ -88,34 +88,34 @@ Fix for CVE-2017-18350
 ----------------------
 
 Bitcoin silently implemented a hidden fix for [CVE-2017-18350](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-November/017453.html).
-in Bitcoin v0.15.1. This release of subi Core includes a backport of this fix.
+in Bitcoin v0.15.1. This release of Subi Core includes a backport of this fix.
 
 
 0.14.0.4 Change log
 ===================
 
-See detailed [set of changes](https://github.com/subinetwork/subi/compare/v0.14.0.3...subi:v0.14.0.4).
+See detailed [set of changes](https://github.com/subinetwork/subinetwork.compare/v0.14.0.3...subi:v0.14.0.4).
 
-- [`5f98ed7a5`](https://github.com/subinetwork/subi/commit/5f98ed7a5) [v0.14.0.x] Bump version to 0.14.0.4 and draft release notes (#3203)
-- [`c0dda38fe`](https://github.com/subinetwork/subi/commit/c0dda38fe) Circumvent BIP69 sorting in fundrawtransaction.py test (#3100)
-- [`64ae6365f`](https://github.com/subinetwork/subi/commit/64ae6365f) Fix compile issues
-- [`36473015b`](https://github.com/subinetwork/subi/commit/36473015b) Merge #11397: net: Improve and document SOCKS code
-- [`66e298728`](https://github.com/subinetwork/subi/commit/66e298728) Slightly optimize ApproximateBestSubset and its usage for PS txes (#3184)
-- [`16b6b6f7c`](https://github.com/subinetwork/subi/commit/16b6b6f7c) Update activemn if protx info changed (#3176)
-- [`ce6687130`](https://github.com/subinetwork/subi/commit/ce6687130) Actually update spent index on DisconnectBlock (#3167)
-- [`9b49bfda8`](https://github.com/subinetwork/subi/commit/9b49bfda8) Only track last seen time instead of first and last seen time (#3165)
-- [`ad720eef1`](https://github.com/subinetwork/subi/commit/ad720eef1) Merge #17118: build: depends macOS: point --sysroot to SDK (#3161)
-- [`909d6a4ba`](https://github.com/subinetwork/subi/commit/909d6a4ba) Simulate BlockConnected/BlockDisconnected for PS caches
-- [`db7f471c7`](https://github.com/subinetwork/subi/commit/db7f471c7) Few fixes related to SelectCoinsGroupedByAddresses (#3144)
-- [`1acd4742c`](https://github.com/subinetwork/subi/commit/1acd4742c) Various fixes for mixing queues (#3138)
-- [`0031d6b04`](https://github.com/subinetwork/subi/commit/0031d6b04) Also consider txindex for transactions in AlreadyHave() (#3126)
-- [`c4be5ac4d`](https://github.com/subinetwork/subi/commit/c4be5ac4d) Ignore recent rejects filter for locked txes (#3124)
-- [`f2d401aa8`](https://github.com/subinetwork/subi/commit/f2d401aa8) Make orphan TX map limiting dependent on total TX size instead of TX count (#3121)
-- [`87ff566a0`](https://github.com/subinetwork/subi/commit/87ff566a0) Update/modernize macOS plist (#3074)
-- [`2141d5f9d`](https://github.com/subinetwork/subi/commit/2141d5f9d) Fix bip69 vs change position issue (#3063)
-- [`75fddde67`](https://github.com/subinetwork/subi/commit/75fddde67) Partially revert 3061 (#3150)
-- [`c74f2cd8b`](https://github.com/subinetwork/subi/commit/c74f2cd8b) Fix SelectCoinsMinConf to allow instant respends (#3061)
-- [`2e7ec2369`](https://github.com/subinetwork/subi/commit/2e7ec2369) [0.14.0.x] Remove check for mempool size in CInstantSendManager::CheckCanLock (#3119)
+- [`5f98ed7a5`](https://github.com/subinetwork/subinetwork.commit/5f98ed7a5) [v0.14.0.x] Bump version to 0.14.0.4 and draft release notes (#3203)
+- [`c0dda38fe`](https://github.com/subinetwork/subinetwork.commit/c0dda38fe) Circumvent BIP69 sorting in fundrawtransaction.py test (#3100)
+- [`64ae6365f`](https://github.com/subinetwork/subinetwork.commit/64ae6365f) Fix compile issues
+- [`36473015b`](https://github.com/subinetwork/subinetwork.commit/36473015b) Merge #11397: net: Improve and document SOCKS code
+- [`66e298728`](https://github.com/subinetwork/subinetwork.commit/66e298728) Slightly optimize ApproximateBestSubset and its usage for PS txes (#3184)
+- [`16b6b6f7c`](https://github.com/subinetwork/subinetwork.commit/16b6b6f7c) Update activemn if protx info changed (#3176)
+- [`ce6687130`](https://github.com/subinetwork/subinetwork.commit/ce6687130) Actually update spent index on DisconnectBlock (#3167)
+- [`9b49bfda8`](https://github.com/subinetwork/subinetwork.commit/9b49bfda8) Only track last seen time instead of first and last seen time (#3165)
+- [`ad720eef1`](https://github.com/subinetwork/subinetwork.commit/ad720eef1) Merge #17118: build: depends macOS: point --sysroot to SDK (#3161)
+- [`909d6a4ba`](https://github.com/subinetwork/subinetwork.commit/909d6a4ba) Simulate BlockConnected/BlockDisconnected for PS caches
+- [`db7f471c7`](https://github.com/subinetwork/subinetwork.commit/db7f471c7) Few fixes related to SelectCoinsGroupedByAddresses (#3144)
+- [`1acd4742c`](https://github.com/subinetwork/subinetwork.commit/1acd4742c) Various fixes for mixing queues (#3138)
+- [`0031d6b04`](https://github.com/subinetwork/subinetwork.commit/0031d6b04) Also consider txindex for transactions in AlreadyHave() (#3126)
+- [`c4be5ac4d`](https://github.com/subinetwork/subinetwork.commit/c4be5ac4d) Ignore recent rejects filter for locked txes (#3124)
+- [`f2d401aa8`](https://github.com/subinetwork/subinetwork.commit/f2d401aa8) Make orphan TX map limiting dependent on total TX size instead of TX count (#3121)
+- [`87ff566a0`](https://github.com/subinetwork/subinetwork.commit/87ff566a0) Update/modernize macOS plist (#3074)
+- [`2141d5f9d`](https://github.com/subinetwork/subinetwork.commit/2141d5f9d) Fix bip69 vs change position issue (#3063)
+- [`75fddde67`](https://github.com/subinetwork/subinetwork.commit/75fddde67) Partially revert 3061 (#3150)
+- [`c74f2cd8b`](https://github.com/subinetwork/subinetwork.commit/c74f2cd8b) Fix SelectCoinsMinConf to allow instant respends (#3061)
+- [`2e7ec2369`](https://github.com/subinetwork/subinetwork.commit/2e7ec2369) [0.14.0.x] Remove check for mempool size in CInstantSendManager::CheckCanLock (#3119)
 
 Credits
 =======
@@ -132,7 +132,7 @@ As well as everyone that submitted issues and reviewed pull requests.
 Older releases
 ==============
 
-subi was previously known as Darkcoin.
+Subi was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -143,12 +143,12 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
-Darkcoin was rebranded to subi.
+Subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
+Darkcoin was rebranded to Subi.
 
-subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
-subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
+Subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 

@@ -1,4 +1,4 @@
-subi Core version 0.12.2.3
+Subi Core version 0.12.2.3
 ==========================
 
 Release is now available from:
@@ -21,7 +21,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/subi-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Subi-Qt (on Mac) or
 subid/subi-qt (on Linux).
 
 Downgrade warning
@@ -76,25 +76,25 @@ This release also fixes a few crashes and compatibility issues.
 0.12.2.3 Change log
 ===================
 
-See detailed [change log](https://github.com/subinetwork/subi/compare/v0.12.2.2...subi:v0.12.2.3) below.
+See detailed [change log](https://github.com/subinetwork/subinetwork.compare/v0.12.2.2...subi:v0.12.2.3) below.
 
 ### Backports:
-- [`068b20bc7`](https://github.com/subinetwork/subi/commit/068b20bc7) Merge #8256: BUG: bitcoin-qt crash
-- [`f71ab1daf`](https://github.com/subinetwork/subi/commit/f71ab1daf) Merge #11847: Fixes compatibility with boost 1.66 (#1836)
+- [`068b20bc7`](https://github.com/subinetwork/subinetwork.commit/068b20bc7) Merge #8256: BUG: bitcoin-qt crash
+- [`f71ab1daf`](https://github.com/subinetwork/subinetwork.commit/f71ab1daf) Merge #11847: Fixes compatibility with boost 1.66 (#1836)
 
 ### PrivateSend:
-- [`fa5fc418a`](https://github.com/subinetwork/subi/commit/fa5fc418a) Fix -liquidityprovider option (#1829)
-- [`d261575b4`](https://github.com/subinetwork/subi/commit/d261575b4) Skip existing smartnode conections on mixing (#1833)
-- [`21a10057d`](https://github.com/subinetwork/subi/commit/21a10057d) Protect CKeyHolderStorage via mutex (#1834)
-- [`476888683`](https://github.com/subinetwork/subi/commit/476888683) Avoid reference leakage in CKeyHolderStorage::AddKey (#1840)
+- [`fa5fc418a`](https://github.com/subinetwork/subinetwork.commit/fa5fc418a) Fix -liquidityprovider option (#1829)
+- [`d261575b4`](https://github.com/subinetwork/subinetwork.commit/d261575b4) Skip existing smartnode conections on mixing (#1833)
+- [`21a10057d`](https://github.com/subinetwork/subinetwork.commit/21a10057d) Protect CKeyHolderStorage via mutex (#1834)
+- [`476888683`](https://github.com/subinetwork/subinetwork.commit/476888683) Avoid reference leakage in CKeyHolderStorage::AddKey (#1840)
 
 ### InstantSend:
-- [`d6e2aa843`](https://github.com/subinetwork/subi/commit/d6e2aa843) Swap iterations and fUseInstantSend parameters in ApproximateBestSubset (#1819)
-- [`c9bafe154`](https://github.com/subinetwork/subi/commit/c9bafe154) Vote on IS only if it was accepted to mempool (#1826)
+- [`d6e2aa843`](https://github.com/subinetwork/subinetwork.commit/d6e2aa843) Swap iterations and fUseInstantSend parameters in ApproximateBestSubset (#1819)
+- [`c9bafe154`](https://github.com/subinetwork/subinetwork.commit/c9bafe154) Vote on IS only if it was accepted to mempool (#1826)
 
 ### Other:
-- [`ada41c3af`](https://github.com/subinetwork/subi/commit/ada41c3af) Fix crash on exit when -createwalletbackups=0 (#1810)
-- [`63e0e30e3`](https://github.com/subinetwork/subi/commit/63e0e30e3) bump version to 0.12.2.3 (#1827)
+- [`ada41c3af`](https://github.com/subinetwork/subinetwork.commit/ada41c3af) Fix crash on exit when -createwalletbackups=0 (#1810)
+- [`63e0e30e3`](https://github.com/subinetwork/subinetwork.commit/63e0e30e3) bump version to 0.12.2.3 (#1827)
 
 Credits
 =======
@@ -113,7 +113,7 @@ reviewed pull requests or helped translating on
 Older releases
 ==============
 
-subi was previously known as Darkcoin.
+Subi was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -124,12 +124,12 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
-Darkcoin was rebranded to subi.
+Subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
+Darkcoin was rebranded to Subi.
 
-subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
-subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
+Subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 

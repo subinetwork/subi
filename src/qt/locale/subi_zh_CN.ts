@@ -75,12 +75,12 @@
       <translation>正在接收地址</translation>
     </message>
     <message>
-      <source>These are your subi addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-      <translation>这些是您要付款过去的subi地址。在付款之前，务必要检查金额和收款地址是否正确。</translation>
+      <source>These are your Subi addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+      <translation>这些是您要付款过去的Subi地址。在付款之前，务必要检查金额和收款地址是否正确。</translation>
     </message>
     <message>
-      <source>These are your subi addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-      <translation>这些是您用来收款的subi地址。建议在每次交易时，都使用一个新的收款地址。</translation>
+      <source>These are your Subi addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+      <translation>这些是您用来收款的Subi地址。建议在每次交易时，都使用一个新的收款地址。</translation>
     </message>
     <message>
       <source>&amp;Copy Address</source>
@@ -237,7 +237,7 @@
     </message>
     <message>
       <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SUBI&lt;/b&gt;!</source>
-      <translation>警告:如果把钱包加​​密后又忘记密码，您就会从此&lt;b&gt;失去所有的subi&lt;/b&gt;！</translation>
+      <translation>警告:如果把钱包加​​密后又忘记密码，您就会从此&lt;b&gt;失去所有的Subi&lt;/b&gt;！</translation>
     </message>
     <message>
       <source>Are you sure you wish to encrypt your wallet?</source>
@@ -313,12 +313,12 @@
   <context>
     <name>BitcoinGUI</name>
     <message>
-      <source>A fatal error occurred. subi Core can no longer continue safely and will quit.</source>
-      <translation>发生严重错误。subi Core钱包不再能安全地运行下去，程序将会关闭。</translation>
+      <source>A fatal error occurred. Subi Core can no longer continue safely and will quit.</source>
+      <translation>发生严重错误。Subi Core钱包不再能安全地运行下去，程序将会关闭。</translation>
     </message>
     <message>
-      <source>subi Core</source>
-      <translation>subi Core</translation>
+      <source>Subi Core</source>
+      <translation>Subi Core</translation>
     </message>
     <message>
       <source>Wallet</source>
@@ -341,8 +341,8 @@
       <translation>发送(&amp;S)</translation>
     </message>
     <message>
-      <source>Send coins to a subi address</source>
-      <translation>发送币至subi地址</translation>
+      <source>Send coins to a Subi address</source>
+      <translation>发送币至Subi地址</translation>
     </message>
     <message>
       <source>&amp;Receive</source>
@@ -350,7 +350,7 @@
     </message>
     <message>
       <source>Request payments (generates QR codes and subi: URIs)</source>
-      <translation>请求付款(生成二维码和subi付款协议的URI)</translation>
+      <translation>请求付款(生成二维码和Subi付款协议的URI)</translation>
     </message>
     <message>
       <source>&amp;Transactions</source>
@@ -377,8 +377,8 @@
       <translation>退出程序</translation>
     </message>
     <message>
-      <source>Show information about subi Core</source>
-      <translation>显示关于subi Core信息</translation>
+      <source>Show information about Subi Core</source>
+      <translation>显示关于Subi Core信息</translation>
     </message>
     <message>
       <source>About &amp;Qt</source>
@@ -397,8 +397,8 @@
       <translation>关于 %1</translation>
     </message>
     <message>
-      <source>Send %1 funds to a subi address</source>
-      <translation>发送%1资金至一个subi地址</translation>
+      <source>Send %1 funds to a Subi address</source>
+      <translation>发送%1资金至一个Subi地址</translation>
     </message>
     <message>
       <source>Modify configuration options for %1</source>
@@ -453,7 +453,7 @@
       <translation>消息签名(&amp;M)...</translation>
     </message>
     <message>
-      <source>Sign messages with your subi addresses to prove you own them</source>
+      <source>Sign messages with your Subi addresses to prove you own them</source>
       <translation>使用您的达市币地址进行消息签名以证明对此地址的所有权</translation>
     </message>
     <message>
@@ -461,8 +461,8 @@
       <translation>验证消息(&amp;V)...</translation>
     </message>
     <message>
-      <source>Verify messages to ensure they were signed with specified subi addresses</source>
-      <translation>验证消息是用来确定此消息是用指定的subi地址签发的</translation>
+      <source>Verify messages to ensure they were signed with specified Subi addresses</source>
+      <translation>验证消息是用来确定此消息是用指定的Subi地址签发的</translation>
     </message>
     <message>
       <source>&amp;Information</source>
@@ -542,14 +542,14 @@
     </message>
     <message>
       <source>Open a subi: URI or payment request</source>
-      <translation>打开一个subi协议的URI或付款请求</translation>
+      <translation>打开一个Subi协议的URI或付款请求</translation>
     </message>
     <message>
       <source>&amp;Command-line options</source>
       <translation>命令行选项(&amp;C)</translation>
     </message>
     <message>
-      <source>Show the %1 help message to get a list with possible subi command-line options</source>
+      <source>Show the %1 help message to get a list with possible Subi command-line options</source>
       <translation>显示 %1 帮助信息，获取可用命令行选项列表</translation>
     </message>
     <message>
@@ -599,9 +599,9 @@
       <translation>分页工具栏</translation>
     </message>
     <message numerus="yes">
-      <source>%n active connection(s) to subi network</source>
+      <source>%n active connection(s) to Subi network</source>
       <translation>
-        <numerusform>%n个有效的subi网络连接</numerusform>
+        <numerusform>%n个有效的Subi网络连接</numerusform>
       </translation>
     </message>
     <message>
@@ -983,8 +983,8 @@
       <translation>编辑发送地址</translation>
     </message>
     <message>
-      <source>The entered address "%1" is not a valid subi address.</source>
-      <translation>输入的地址“%1”不是有效的subi地址。</translation>
+      <source>The entered address "%1" is not a valid Subi address.</source>
+      <translation>输入的地址“%1”不是有效的Subi地址。</translation>
     </message>
     <message>
       <source>The entered address "%1" is already in the address book.</source>
@@ -1045,8 +1045,8 @@
       <translation>%1信息</translation>
     </message>
     <message>
-      <source>&lt;h3&gt;%1 Basics&lt;/h3&gt; %1 gives you true financial privacy by obscuring the origins of your funds. All the subi in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; %1 uses an innovative process to mix your inputs with the inputs of two or more other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The %1 process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;%1 begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI and 10 SUBI -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "smartnodes." These smartnodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the smartnodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two or more other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The smartnode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of %1 makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have %1 disabled. &lt;hr&gt;For more information, see the &lt;a style="%2" href="%3"&gt;%1 documentation&lt;/a&gt;.</source>
-      <translation>&lt;h3&gt;%1基础知识&lt;/h3&gt;%1通过隐藏您的资金来源为您提供真正的财务隐私。您的钱包中所有的subi都由不同的“输入”组成，您可以将其视为分开的离散硬币。&lt;br&gt;%1使用创新的方法将您的输入与其他两个人的输入相结合，而过程中不会让您的subi离开您的钱包。每时每刻，您仍然控制着您的钱。&lt;hr&gt;&lt;b&gt;%1的运作原理如下：&lt;/b&gt;&lt;ol type="1"&gt;&lt;li&gt;%1首先将您的交易分柝成多个标准面额的交易。这些标准面额分别为0.001 SUBI，0.01 SUBI，0.1 SUBI，1 SUBI和10 SUBI --有点像您每天使用的纸币。&lt;/li&gt;&lt;li&gt;您的钱包然后发送请求到网络上有专门配置的软件节点，称为“主节点”。这些主节点会收到您希望混合一些资金的通知。没有可识别的信息发送到主节点，所以他们永远不会知道您是“谁”。&lt;li&gt;当另外两个人发送类似的消息时，表示希望混合相同的面额的话，混合会话就会开始。相关的主节点会混合这些输入，并指示所有三个用户的钱包将已经转换了输入的交易支付给自己。您的钱包直接支付给自己，但是付给不同的位址（称之为找零地址）。&lt;/li&gt;&lt;li&gt;为了完全掩盖您的资金来源，您的钱包必须以每个面额来重复此过程数次。每次这个过程完成后，都称之为一个“循环”。每个循环的%1都会令确定您的资金来源的工作倍加困难。&lt;/li&gt;&lt;li&gt;这种混合过程发生在后台，而不需要您进行任何操作。当您想进行交易时，您的资金将已被混币处理。不需再花额外的时间等待。&lt;/li&gt;&lt;/ol&gt;&lt;hr&gt;重要：&lt;b&gt;您的钱包只能拥有1000个“找零地址”。每次混合事件发生时，最多会使用9个找零地址。这意味着这1000个地址可以容许100次的混合事件。当其的中900个已经被使用后，您的钱包必须创建更多的地址。如果您启用了自动备份，则只能够这样做。&lt;br&gt;因此，禁用备份的用户也将禁用%1。&lt;hr&gt;如欲了解更多信息请参阅&lt;a style="%2" href="%3"&gt;%1文档&lt;/a&gt;。</translation>
+      <source>&lt;h3&gt;%1 Basics&lt;/h3&gt; %1 gives you true financial privacy by obscuring the origins of your funds. All the Subi in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; %1 uses an innovative process to mix your inputs with the inputs of two or more other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The %1 process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;%1 begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI and 10 SUBI -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "smartnodes." These smartnodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the smartnodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two or more other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The smartnode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of %1 makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have %1 disabled. &lt;hr&gt;For more information, see the &lt;a style="%2" href="%3"&gt;%1 documentation&lt;/a&gt;.</source>
+      <translation>&lt;h3&gt;%1基础知识&lt;/h3&gt;%1通过隐藏您的资金来源为您提供真正的财务隐私。您的钱包中所有的Subi都由不同的“输入”组成，您可以将其视为分开的离散硬币。&lt;br&gt;%1使用创新的方法将您的输入与其他两个人的输入相结合，而过程中不会让您的Subi离开您的钱包。每时每刻，您仍然控制着您的钱。&lt;hr&gt;&lt;b&gt;%1的运作原理如下：&lt;/b&gt;&lt;ol type="1"&gt;&lt;li&gt;%1首先将您的交易分柝成多个标准面额的交易。这些标准面额分别为0.001 SUBI，0.01 SUBI，0.1 SUBI，1 SUBI和10 SUBI --有点像您每天使用的纸币。&lt;/li&gt;&lt;li&gt;您的钱包然后发送请求到网络上有专门配置的软件节点，称为“主节点”。这些主节点会收到您希望混合一些资金的通知。没有可识别的信息发送到主节点，所以他们永远不会知道您是“谁”。&lt;li&gt;当另外两个人发送类似的消息时，表示希望混合相同的面额的话，混合会话就会开始。相关的主节点会混合这些输入，并指示所有三个用户的钱包将已经转换了输入的交易支付给自己。您的钱包直接支付给自己，但是付给不同的位址（称之为找零地址）。&lt;/li&gt;&lt;li&gt;为了完全掩盖您的资金来源，您的钱包必须以每个面额来重复此过程数次。每次这个过程完成后，都称之为一个“循环”。每个循环的%1都会令确定您的资金来源的工作倍加困难。&lt;/li&gt;&lt;li&gt;这种混合过程发生在后台，而不需要您进行任何操作。当您想进行交易时，您的资金将已被混币处理。不需再花额外的时间等待。&lt;/li&gt;&lt;/ol&gt;&lt;hr&gt;重要：&lt;b&gt;您的钱包只能拥有1000个“找零地址”。每次混合事件发生时，最多会使用9个找零地址。这意味着这1000个地址可以容许100次的混合事件。当其的中900个已经被使用后，您的钱包必须创建更多的地址。如果您启用了自动备份，则只能够这样做。&lt;br&gt;因此，禁用备份的用户也将禁用%1。&lt;hr&gt;如欲了解更多信息请参阅&lt;a style="%2" href="%3"&gt;%1文档&lt;/a&gt;。</translation>
     </message>
   </context>
   <context>
@@ -1092,7 +1092,7 @@
       <translation>会在此目录中存储约 %1 GB 的数据。</translation>
     </message>
     <message>
-      <source>%1 will download and store a copy of the subi block chain.</source>
+      <source>%1 will download and store a copy of the Subi block chain.</source>
       <translation>%1 将会下载并存储比特币区块链。</translation>
     </message>
     <message>
@@ -1123,12 +1123,12 @@
       <translation>表单</translation>
     </message>
     <message>
-      <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the subi network, as detailed below.</source>
-      <translation>最近的交易可能尚未显示，因此您的钱包的余额可能不正确。一旦您的钱包完成与subi网络的同步，这个信息将会修正，如下所述。</translation>
+      <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Subi network, as detailed below.</source>
+      <translation>最近的交易可能尚未显示，因此您的钱包的余额可能不正确。一旦您的钱包完成与Subi网络的同步，这个信息将会修正，如下所述。</translation>
     </message>
     <message>
-      <source>Attempting to spend subi that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-      <translation>假如您正在尝试花费尚未显示出来的subi，这个交易将不会被网络所接受。</translation>
+      <source>Attempting to spend Subi that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+      <translation>假如您正在尝试花费尚未显示出来的Subi，这个交易将不会被网络所接受。</translation>
     </message>
     <message>
       <source>Number of blocks left</source>
@@ -1285,8 +1285,8 @@
       <translation>目标余额</translation>
     </message>
     <message>
-      <source>Automatically open the subi Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-      <translation>自动在路由器打开subi Core客户端端口。此项只在路由器支持UPnP且开启时有效。</translation>
+      <source>Automatically open the Subi Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+      <translation>自动在路由器打开Subi Core客户端端口。此项只在路由器支持UPnP且开启时有效。</translation>
     </message>
     <message>
       <source>Accept connections from outside.</source>
@@ -1297,8 +1297,8 @@
       <translation>允许连入连接</translation>
     </message>
     <message>
-      <source>Connect to the subi network through a SOCKS5 proxy.</source>
-      <translation>通过SOCKS5代理连接subi网络。</translation>
+      <source>Connect to the Subi network through a SOCKS5 proxy.</source>
+      <translation>通过SOCKS5代理连接Subi网络。</translation>
     </message>
     <message>
       <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1397,8 +1397,8 @@
       <translation>Tor</translation>
     </message>
     <message>
-      <source>Connect to the subi network through a separate SOCKS5 proxy for Tor hidden services.</source>
-      <translation>通过另一个SOCKS5代理服务器作为Tor隐藏服务来连接到subi网络。</translation>
+      <source>Connect to the Subi network through a separate SOCKS5 proxy for Tor hidden services.</source>
+      <translation>通过另一个SOCKS5代理服务器作为Tor隐藏服务来连接到Subi网络。</translation>
     </message>
     <message>
       <source>Show only a tray icon after minimizing the window.</source>
@@ -1498,8 +1498,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>表单</translation>
     </message>
     <message>
-      <source>The displayed information may be out of date. Your wallet automatically synchronizes with the subi network after a connection is established, but this process has not completed yet.</source>
-      <translation>显示的信息也许已过期。当与subi网络连接后钱包程序会自动同步，但现在还未完成。</translation>
+      <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Subi network after a connection is established, but this process has not completed yet.</source>
+      <translation>显示的信息也许已过期。当与Subi网络连接后钱包程序会自动同步，但现在还未完成。</translation>
     </message>
     <message>
       <source>Available:</source>
@@ -1595,7 +1595,7 @@ https://www.transifex.com/projects/p/subi/</translation>
     </message>
     <message>
       <source>The denominations you submitted to the Smartnode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-      <translation>您向主节点所提交的用以面额化混合的subi。&lt;br&gt;为了混合，其他用户必须提交完全一样的面额。</translation>
+      <translation>您向主节点所提交的用以面额化混合的Subi。&lt;br&gt;为了混合，其他用户必须提交完全一样的面额。</translation>
     </message>
     <message>
       <source>out of sync</source>
@@ -1722,7 +1722,7 @@ https://www.transifex.com/projects/p/subi/</translation>
     </message>
     <message>
       <source>Cannot start subi: click-to-pay handler</source>
-      <translation>无法启动subi程序：click-to-pay handler</translation>
+      <translation>无法启动Subi程序：click-to-pay handler</translation>
     </message>
     <message>
       <source>URI handling</source>
@@ -1741,8 +1741,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>无效的付款地址 %1</translation>
     </message>
     <message>
-      <source>URI cannot be parsed! This can be caused by an invalid subi address or malformed URI parameters.</source>
-      <translation>URI不能被解析! 原因可能是无效的subi地址或URI参数格式错误。</translation>
+      <source>URI cannot be parsed! This can be caused by an invalid Subi address or malformed URI parameters.</source>
+      <translation>URI不能被解析! 原因可能是无效的Subi地址或URI参数格式错误。</translation>
     </message>
     <message>
       <source>Payment request file handling</source>
@@ -1887,8 +1887,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>金额</translation>
     </message>
     <message>
-      <source>Enter a subi address (e.g. %1)</source>
-      <translation>输入一个subi地址(例如 %1)</translation>
+      <source>Enter a Subi address (e.g. %1)</source>
+      <translation>输入一个Subi地址(例如 %1)</translation>
     </message>
     <message>
       <source>Appearance Setup</source>
@@ -2509,8 +2509,8 @@ https://www.transifex.com/projects/p/subi/</translation>
   <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-      <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the subi network.</source>
-      <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。注意：这个讯息不会随着付款送到subi网路上。</translation>
+      <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Subi network.</source>
+      <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。注意：这个讯息不会随着付款送到Subi网路上。</translation>
     </message>
     <message>
       <source>&amp;Message:</source>
@@ -2521,8 +2521,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>可为新建的收款地址添加一个可选标签。</translation>
     </message>
     <message>
-      <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the subi network.</source>
-      <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。&lt;br&gt;注意：这个讯息不会随着付款送到subi网路上。</translation>
+      <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Subi network.</source>
+      <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。&lt;br&gt;注意：这个讯息不会随着付款送到Subi网路上。</translation>
     </message>
     <message>
       <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2994,8 +2994,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       </translation>
     </message>
     <message>
-      <source>Warning: Invalid subi address</source>
-      <translation>警告：无效的subi地址</translation>
+      <source>Warning: Invalid Subi address</source>
+      <translation>警告：无效的Subi地址</translation>
     </message>
     <message>
       <source>Warning: Unknown change address</source>
@@ -3025,7 +3025,7 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>付给(&amp;T)：</translation>
     </message>
     <message>
-      <source>The subi address to send the payment to</source>
+      <source>The Subi address to send the payment to</source>
       <translation>选择发款地址</translation>
     </message>
     <message>
@@ -3065,8 +3065,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>金额(&amp;M)</translation>
     </message>
     <message>
-      <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of subi than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-      <translation>手续费将从发送金额中扣除。接收者将收到的subi金额将会比您在金额字段中输入的金额为少。如果选择了多个收款人，该费用将会被平均摊分。</translation>
+      <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Subi than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+      <translation>手续费将从发送金额中扣除。接收者将收到的Subi金额将会比您在金额字段中输入的金额为少。如果选择了多个收款人，该费用将会被平均摊分。</translation>
     </message>
     <message>
       <source>S&amp;ubtract fee from amount</source>
@@ -3081,8 +3081,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>消息：</translation>
     </message>
     <message>
-      <source>A message that was attached to the subi: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the subi network.</source>
-      <translation>附加在subi付款协议URI中的信息，会和交易内容一并存储，可供您参考。提示：此信息不会发送到subi网络上。</translation>
+      <source>A message that was attached to the subi: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Subi network.</source>
+      <translation>附加在Subi付款协议URI中的信息，会和交易内容一并存储，可供您参考。提示：此信息不会发送到Subi网络上。</translation>
     </message>
     <message>
       <source>Future</source>
@@ -3158,11 +3158,11 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>签名消息(&amp;S)</translation>
     </message>
     <message>
-      <source>You can sign messages/agreements with your addresses to prove you can receive subi sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+      <source>You can sign messages/agreements with your addresses to prove you can receive Subi sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
       <translation>您可以用自己的地址签署信息/协议，来证明您对地址的所有权。但是请小心，不要签署语意含糊不清的内容，因为钓鱼式诈骗可能会用骗您签署的手法来冒充是您。只有在语句中的细节您都同意时才签署。</translation>
     </message>
     <message>
-      <source>The subi address to sign the message with</source>
+      <source>The Subi address to sign the message with</source>
       <translation>对此地址进行签名</translation>
     </message>
     <message>
@@ -3194,8 +3194,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-      <source>Sign the message to prove you own this subi address</source>
-      <translation>签署信息证明您拥有此subi地址</translation>
+      <source>Sign the message to prove you own this Subi address</source>
+      <translation>签署信息证明您拥有此Subi地址</translation>
     </message>
     <message>
       <source>Sign &amp;Message</source>
@@ -3218,12 +3218,12 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>请在下面输入接收者地址、消息（确保换行符、空格符、制表符等完全相同）和签名以验证消息。请仔细核对签名信息，以提防中间人攻击。请注意，这只是证明接收方签名的地址，它不能证明任何交易！</translation>
     </message>
     <message>
-      <source>The subi address the message was signed with</source>
+      <source>The Subi address the message was signed with</source>
       <translation>已签名的地址</translation>
     </message>
     <message>
-      <source>Verify the message to ensure it was signed with the specified subi address</source>
-      <translation>验证信息用来确保此被签署信息对应相对的subi地址</translation>
+      <source>Verify the message to ensure it was signed with the specified Subi address</source>
+      <translation>验证信息用来确保此被签署信息对应相对的Subi地址</translation>
     </message>
     <message>
       <source>Verify &amp;Message</source>
@@ -3651,7 +3651,7 @@ https://www.transifex.com/projects/p/subi/</translation>
     </message>
     <message>
       <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-      <translation>生成的subi在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比您早几秒钟成功生成一个区块。</translation>
+      <translation>生成的Subi在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比您早几秒钟成功生成一个区块。</translation>
     </message>
     <message>
       <source>Debug information</source>
@@ -4055,7 +4055,7 @@ https://www.transifex.com/projects/p/subi/</translation>
     <name>WalletModel</name>
     <message>
       <source>Send Coins</source>
-      <translation>发送subi</translation>
+      <translation>发送Subi</translation>
     </message>
   </context>
   <context>
@@ -4104,8 +4104,8 @@ https://www.transifex.com/projects/p/subi/</translation>
   <context>
     <name>subi-core</name>
     <message>
-      <source>subi Core</source>
-      <translation>subi Core</translation>
+      <source>Subi Core</source>
+      <translation>Subi Core</translation>
     </message>
     <message>
       <source>The %s developers</source>

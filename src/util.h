@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2018 The Bitcoin Core developers
 // Copyright (c) 2014-2021 The Dash Core developers
-// Copyright (c) 2020-2022 The subi developers
+// Copyright (c) 2020-2022 The Subi developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -50,7 +50,7 @@
 #define DBG( x )
 #endif
 
-//subi only features
+//Subi only features
 
 extern bool fSmartnodeMode;
 extern bool fDisableGovernance;

@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2020 The Dash Core developers
-// Copyright (c) 2020-2021 The subi developers
+// Copyright (c) 2020-2021 The Subi developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -74,10 +74,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case SUBI: return QString("subi");
-            case mSUBI: return QString("Milli-subi (1 / 1" THIN_SP_UTF8 "000)");
-            case uSUBI: return QString("Micro-subi (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case ruffs: return QString("Ten Nano-subi (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SUBI: return QString("Subi");
+            case mSUBI: return QString("Milli-Subi (1 / 1" THIN_SP_UTF8 "000)");
+            case uSUBI: return QString("Micro-Subi (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case ruffs: return QString("Ten Nano-Subi (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -85,10 +85,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case SUBI: return QString("Testsubis");
-            case mSUBI: return QString("Milli-Testsubi (1 / 1" THIN_SP_UTF8 "000)");
-            case uSUBI: return QString("Micro-Testsubi (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case ruffs: return QString("Ten Nano-Testsubi (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SUBI: return QString("TestSubis");
+            case mSUBI: return QString("Milli-TestSubi (1 / 1" THIN_SP_UTF8 "000)");
+            case uSUBI: return QString("Micro-TestSubi (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case ruffs: return QString("Ten Nano-TestSubi (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

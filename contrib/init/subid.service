@@ -1,5 +1,5 @@
 [Unit]
-Description=subi's distributed currency daemon
+Description=Subi's distributed currency daemon
 After=network.target
 
 [Service]

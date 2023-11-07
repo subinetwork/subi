@@ -1,4 +1,4 @@
-subi Core version 0.14.0.2
+Subi Core version 0.14.0.2
 ==========================
 
 Release is now available from:
@@ -20,7 +20,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/subi-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Subi-Qt (on Mac) or
 subid/subi-qt (on Linux). If you upgrade after DIP0003 activation and you were
 using version < 0.13 you will have to reindex (start with -reindex-chainstate
 or -reindex) to make sure your wallet has all the new data synced. Upgrading from
@@ -62,20 +62,20 @@ updates. This should be fixed now.
 0.14.0.2 Change log
 ===================
 
-See detailed [set of changes](https://github.com/subinetwork/subi/compare/v0.14.0.1...subi:v0.14.0.2).
+See detailed [set of changes](https://github.com/subinetwork/subinetwork.compare/v0.14.0.1...subi:v0.14.0.2).
 
-- [`d2ff63e8d`](https://github.com/subinetwork/subi/commit/d2ff63e8d) Use std::unique_ptr for mnList in CSimplifiedMNList (#3014)
-- [`321bbf5af`](https://github.com/subinetwork/subi/commit/321bbf5af) Fix excessive memory use when flushing chainstate and EvoDB (#3008)
-- [`0410259dd`](https://github.com/subinetwork/subi/commit/0410259dd) Fix 2 common Travis failures which happen when Travis has network issues (#3003)
-- [`8d763c144`](https://github.com/subinetwork/subi/commit/8d763c144) Only load signingActiveQuorumCount + 1 quorums into cache (#3002)
-- [`2dc1b06ec`](https://github.com/subinetwork/subi/commit/2dc1b06ec) Remove skipped denom from the list on tx commit (#2997)
-- [`dff2c851d`](https://github.com/subinetwork/subi/commit/dff2c851d) Update manpages for 0.14.0.2 (#2999)
-- [`46c4f5844`](https://github.com/subinetwork/subi/commit/46c4f5844) Use Travis stages instead of custom timeouts (#2948)
-- [`49c37b82a`](https://github.com/subinetwork/subi/commit/49c37b82a) Back off for 1m when connecting to quorum smartnodes (#2975)
-- [`c1f756fd9`](https://github.com/subinetwork/subi/commit/c1f756fd9) Multiple speed optimizations for deterministic MN list handling (#2972)
-- [`11699f540`](https://github.com/subinetwork/subi/commit/11699f540) Process/keep messages/connections from PoSe-banned MNs (#2967)
-- [`c5415e746`](https://github.com/subinetwork/subi/commit/c5415e746) Fix UI smartnode list (#2966)
-- [`fb6f0e04d`](https://github.com/subinetwork/subi/commit/fb6f0e04d) Bump version to 0.14.0.2 and copy release notes (#2991)
+- [`d2ff63e8d`](https://github.com/subinetwork/subinetwork.commit/d2ff63e8d) Use std::unique_ptr for mnList in CSimplifiedMNList (#3014)
+- [`321bbf5af`](https://github.com/subinetwork/subinetwork.commit/321bbf5af) Fix excessive memory use when flushing chainstate and EvoDB (#3008)
+- [`0410259dd`](https://github.com/subinetwork/subinetwork.commit/0410259dd) Fix 2 common Travis failures which happen when Travis has network issues (#3003)
+- [`8d763c144`](https://github.com/subinetwork/subinetwork.commit/8d763c144) Only load signingActiveQuorumCount + 1 quorums into cache (#3002)
+- [`2dc1b06ec`](https://github.com/subinetwork/subinetwork.commit/2dc1b06ec) Remove skipped denom from the list on tx commit (#2997)
+- [`dff2c851d`](https://github.com/subinetwork/subinetwork.commit/dff2c851d) Update manpages for 0.14.0.2 (#2999)
+- [`46c4f5844`](https://github.com/subinetwork/subinetwork.commit/46c4f5844) Use Travis stages instead of custom timeouts (#2948)
+- [`49c37b82a`](https://github.com/subinetwork/subinetwork.commit/49c37b82a) Back off for 1m when connecting to quorum smartnodes (#2975)
+- [`c1f756fd9`](https://github.com/subinetwork/subinetwork.commit/c1f756fd9) Multiple speed optimizations for deterministic MN list handling (#2972)
+- [`11699f540`](https://github.com/subinetwork/subinetwork.commit/11699f540) Process/keep messages/connections from PoSe-banned MNs (#2967)
+- [`c5415e746`](https://github.com/subinetwork/subinetwork.commit/c5415e746) Fix UI smartnode list (#2966)
+- [`fb6f0e04d`](https://github.com/subinetwork/subinetwork.commit/fb6f0e04d) Bump version to 0.14.0.2 and copy release notes (#2991)
 
 Credits
 =======
@@ -90,7 +90,7 @@ As well as everyone that submitted issues and reviewed pull requests.
 Older releases
 ==============
 
-subi was previously known as Darkcoin.
+Subi was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -101,12 +101,12 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
-Darkcoin was rebranded to subi.
+Subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
+Darkcoin was rebranded to Subi.
 
-subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
-subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
+Subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 

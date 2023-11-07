@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 The subi developer
+ * Copyright (c) 2020 The Subi developer
  * Distributed under the MIT software license, see the accompanying
  * file COPYING or http://www.opensource.org/licenses/mit-license.php.
  * 
@@ -18,7 +18,7 @@
 #include <limits.h>
 using namespace std;
 
-static const string DEFAULT_FOUNDER_ADDRESS = "STDnSyLXz5ojTm9ZNq9Lm1rLwmwzzJ7uSG";
+static const string DEFAULT_FOUNDER_ADDRESS = "GdHPW3rko8DSp3rFT7aSwkTVbXAK8GMptc";
 struct FounderRewardStructure {
 	int blockHeight;
 	int rewardPercentage;

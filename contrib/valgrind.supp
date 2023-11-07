@@ -1,4 +1,4 @@
-# Valgrind suppressions file for subi.
+# Valgrind suppressions file for Subi.
 #
 # Includes known Valgrind warnings in our dependencies that cannot be fixed
 # in-tree.

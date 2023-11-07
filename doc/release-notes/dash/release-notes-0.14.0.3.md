@@ -1,4 +1,4 @@
-subi Core version 0.14.0.3
+Subi Core version 0.14.0.3
 ==========================
 
 Release is now available from:
@@ -20,14 +20,14 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/subi-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Subi-Qt (on Mac) or
 subid/subi-qt (on Linux). If you upgrade after DIP0003 activation and you were
 using version < 0.13 you will have to reindex (start with -reindex-chainstate
 or -reindex) to make sure your wallet has all the new data synced. Upgrading from
 version 0.13 should not require any additional actions.
 
 Due to the changes in the "evodb" database format introduced in this release, the
-first startup of subi Core will run a migration process which can take a few minutes
+first startup of Subi Core will run a migration process which can take a few minutes
 to finish. After the migration, a downgrade to an older version is only possible with
 a reindex (or reindex-chainstate).
 
@@ -45,13 +45,13 @@ Notable changes
 
 Database space usage improvements
 --------------------------------
-Version 0.13.0.0 introduced a new database (evodb) which is found in the datadir of subi Core. It turned
+Version 0.13.0.0 introduced a new database (evodb) which is found in the datadir of Subi Core. It turned
 out that this database grows quite fast when a lot of changes inside the deterministic smartnode list happen,
 which is for example the case when a lot PoSe punishing/banning is happening. Such a situation happened
 immediately after the activation LLMQ DKGs, causing the database to grow a lot. This release introduces
 a new format in which information in "evodb" is stored, which causes it grow substantially slower.  
 
-Version 0.14.0.0 also introduced a new database (llmq) which is also found in the datadir of subi Core.
+Version 0.14.0.0 also introduced a new database (llmq) which is also found in the datadir of Subi Core.
 This database stores all LLMQ signatures for 7 days. After 7 days, a cleanup task removes old signatures.
 The idea was that the "llmq" database would grow in the beginning and then stay at an approximately constant
 size. The recent stress test on mainnet has however shown that the database grows too much and causes a risk
@@ -67,7 +67,7 @@ This release fixes this and thus makes it a highly recommended upgrade for smart
 
 MacOS: macOS: disable AppNap during sync and mixing
 ---------------------------------------------------
-AppNap is disabled now when subi Core is syncing/reindexing or mixing.
+AppNap is disabled now when Subi Core is syncing/reindexing or mixing.
 
 Signed binaries for Windows
 ---------------------------
@@ -80,7 +80,7 @@ if the smartnode succesfully participated in the DKG process.
 
 More information about number of InstantSend locks
 --------------------------------------------------
-The debug console will now show how many InstantSend locks subi Core knows about. Please note that this number
+The debug console will now show how many InstantSend locks Subi Core knows about. Please note that this number
 does not necessarily equal the number of mempool transactions.
 
 The "getmempoolinfo" RPC also has a new field now which shows the same information.
@@ -88,26 +88,26 @@ The "getmempoolinfo" RPC also has a new field now which shows the same informati
 0.14.0.3 Change log
 ===================
 
-See detailed [set of changes](https://github.com/subinetwork/subi/compare/v0.14.0.2...subi:v0.14.0.3).
+See detailed [set of changes](https://github.com/subinetwork/subinetwork.compare/v0.14.0.2...subi:v0.14.0.3).
 
-- [`f2443709b`](https://github.com/subinetwork/subi/commit/f2443709b) Update release-notes.md for 0.14.0.3 (#3054)
-- [`17ba23871`](https://github.com/subinetwork/subi/commit/17ba23871) Re-verify invalid IS sigs when the active quorum set rotated (#3052)
-- [`8c49d9b54`](https://github.com/subinetwork/subi/commit/8c49d9b54) Remove recovered sigs from the LLMQ db when corresponding IS locks get confirmed (#3048)
-- [`2e0cf8a30`](https://github.com/subinetwork/subi/commit/2e0cf8a30) Add "instantsendlocks" to getmempoolinfo RPC (#3047)
-- [`a8fb8252e`](https://github.com/subinetwork/subi/commit/a8fb8252e) Use fEnablePrivateSend instead of fPrivateSendRunning
-- [`a198a04e0`](https://github.com/subinetwork/subi/commit/a198a04e0) Show number of InstantSend locks in Debug Console (#2919)
-- [`013169d63`](https://github.com/subinetwork/subi/commit/013169d63) Optimize on-disk deterministic smartnode storage to reduce size of evodb (#3017)
-- [`9ac7a998b`](https://github.com/subinetwork/subi/commit/9ac7a998b) Add "isValidMember" and "memberIndex" to "quorum memberof" and allow to specify quorum scan count (#3009)
-- [`99824a879`](https://github.com/subinetwork/subi/commit/99824a879) Implement "quorum memberof" (#3004)
-- [`7ea319fd2`](https://github.com/subinetwork/subi/commit/7ea319fd2) Bail out properly on Evo DB consistency check failures in ConnectBlock/DisconnectBlock (#3044)
-- [`b1ffedb2d`](https://github.com/subinetwork/subi/commit/b1ffedb2d) Do not count 0-fee txes for fee estimation (#3037)
-- [`974055a9b`](https://github.com/subinetwork/subi/commit/974055a9b) Fix broken link in PrivateSend info dialog (#3031)
-- [`781b16579`](https://github.com/subinetwork/subi/commit/781b16579) Merge pull request #3028 from PastaPastaPasta/backport-12588
-- [`5af6ce91d`](https://github.com/subinetwork/subi/commit/5af6ce91d) Add subi Core Group codesign certificate (#3027)
-- [`873ab896c`](https://github.com/subinetwork/subi/commit/873ab896c) Fix osslsigncode compile issue in gitian-build (#3026)
-- [`ea8569e97`](https://github.com/subinetwork/subi/commit/ea8569e97) Backport #12783: macOS: disable AppNap during sync (and mixing) (#3024)
-- [`4286dde49`](https://github.com/subinetwork/subi/commit/4286dde49) Remove support for InstantSend locked gobject collaterals (#3019)
-- [`788d42dbc`](https://github.com/subinetwork/subi/commit/788d42dbc) Bump version to 0.14.0.3 and copy release notes (#3053)
+- [`f2443709b`](https://github.com/subinetwork/subinetwork.commit/f2443709b) Update release-notes.md for 0.14.0.3 (#3054)
+- [`17ba23871`](https://github.com/subinetwork/subinetwork.commit/17ba23871) Re-verify invalid IS sigs when the active quorum set rotated (#3052)
+- [`8c49d9b54`](https://github.com/subinetwork/subinetwork.commit/8c49d9b54) Remove recovered sigs from the LLMQ db when corresponding IS locks get confirmed (#3048)
+- [`2e0cf8a30`](https://github.com/subinetwork/subinetwork.commit/2e0cf8a30) Add "instantsendlocks" to getmempoolinfo RPC (#3047)
+- [`a8fb8252e`](https://github.com/subinetwork/subinetwork.commit/a8fb8252e) Use fEnablePrivateSend instead of fPrivateSendRunning
+- [`a198a04e0`](https://github.com/subinetwork/subinetwork.commit/a198a04e0) Show number of InstantSend locks in Debug Console (#2919)
+- [`013169d63`](https://github.com/subinetwork/subinetwork.commit/013169d63) Optimize on-disk deterministic smartnode storage to reduce size of evodb (#3017)
+- [`9ac7a998b`](https://github.com/subinetwork/subinetwork.commit/9ac7a998b) Add "isValidMember" and "memberIndex" to "quorum memberof" and allow to specify quorum scan count (#3009)
+- [`99824a879`](https://github.com/subinetwork/subinetwork.commit/99824a879) Implement "quorum memberof" (#3004)
+- [`7ea319fd2`](https://github.com/subinetwork/subinetwork.commit/7ea319fd2) Bail out properly on Evo DB consistency check failures in ConnectBlock/DisconnectBlock (#3044)
+- [`b1ffedb2d`](https://github.com/subinetwork/subinetwork.commit/b1ffedb2d) Do not count 0-fee txes for fee estimation (#3037)
+- [`974055a9b`](https://github.com/subinetwork/subinetwork.commit/974055a9b) Fix broken link in PrivateSend info dialog (#3031)
+- [`781b16579`](https://github.com/subinetwork/subinetwork.commit/781b16579) Merge pull request #3028 from PastaPastaPasta/backport-12588
+- [`5af6ce91d`](https://github.com/subinetwork/subinetwork.commit/5af6ce91d) Add Subi Core Group codesign certificate (#3027)
+- [`873ab896c`](https://github.com/subinetwork/subinetwork.commit/873ab896c) Fix osslsigncode compile issue in gitian-build (#3026)
+- [`ea8569e97`](https://github.com/subinetwork/subinetwork.commit/ea8569e97) Backport #12783: macOS: disable AppNap during sync (and mixing) (#3024)
+- [`4286dde49`](https://github.com/subinetwork/subinetwork.commit/4286dde49) Remove support for InstantSend locked gobject collaterals (#3019)
+- [`788d42dbc`](https://github.com/subinetwork/subinetwork.commit/788d42dbc) Bump version to 0.14.0.3 and copy release notes (#3053)
 
 Credits
 =======
@@ -125,7 +125,7 @@ As well as everyone that submitted issues and reviewed pull requests.
 Older releases
 ==============
 
-subi was previously known as Darkcoin.
+Subi was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -136,12 +136,12 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
-Darkcoin was rebranded to subi.
+Subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
+Darkcoin was rebranded to Subi.
 
-subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
-subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
+Subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 

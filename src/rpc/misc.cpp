@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2020 The Dash Core developers
-// Copyright (c) 2020-2022 The subi developers
+// Copyright (c) 2020-2022 The Subi developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -52,7 +52,7 @@ UniValue debug(const JSONRPCRequest& request)
             "libevent logging is configured on startup and cannot be modified by this RPC during runtime.\n"
             "There are also a few meta-categories:\n"
             " - \"all\", \"1\" and \"\" activate all categories at once;\n"
-            " - \"subi\" activates all subi-specific categories at once;\n"
+            " - \"subi\" activates all Subi-specific categories at once;\n"
             " - \"none\" (or \"0\") deactivates all categories at once.\n"
             "Note: If specified category doesn't match any of the above, no error is thrown.\n"
             "\nArguments:\n"
@@ -1068,7 +1068,7 @@ UniValue logging(const JSONRPCRequest& request)
             "The valid logging categories are: " + ListLogCategories() + "\n"
             "In addition, the following are available as category names with special meanings:\n"
             "  - \"all\",  \"1\" : represent all logging categories.\n"
-            "  - \"subi\" activates all subi-specific categories at once.\n"
+            "  - \"subi\" activates all Subi-specific categories at once.\n"
             "To deactivate all categories at once you can specify \"all\" in <exclude>.\n"
             "  - \"none\", \"0\" : even if other logging categories are specified, ignore all of them.\n"
             "\nArguments:\n"
@@ -1170,7 +1170,7 @@ static const CRPCCommand commands[] =
     { "addressindex",       "getaddresstxids",        &getaddresstxids,        {"addresses"} },
     { "addressindex",       "getaddressbalance",      &getaddressbalance,      {"addresses"} },
 
-    /* subi features */
+    /* Subi features */
     { "subi",               "mnsync",                 &mnsync,            {} },
     { "subi",               "spork",                  &spork,             {"arg0","value"} },
 

@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.subi.subi-Qt";
+        return @"org.subi.Subi-Qt";
     } else {
         return [self __bundleIdentifier];
     }

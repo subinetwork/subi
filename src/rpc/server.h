@@ -136,7 +136,7 @@ public:
 };
 
 /**
- * subi RPC command dispatcher.
+ * Subi RPC command dispatcher.
  */
 class CRPCTable
 {

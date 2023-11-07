@@ -26,16 +26,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>subi-Qt</string>
+  <string>Subi-Qt</string>
 
   <key>CFBundleName</key>
-  <string>subi-Qt</string>
+  <string>Subi-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.subi.subi-Qt</string>
+  <string>org.subi.Subi-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -43,7 +43,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.subi.subiPayment</string>
+      <string>org.subi.SubiPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>subi</string>
@@ -57,7 +57,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.subi.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>subi payment request</string>
+      <string>Subi payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

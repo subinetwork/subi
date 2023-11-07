@@ -1,10 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=subi Core
-Comment=subi P2P Cryptocurrency
-Comment[de]=Verbinde mit dem subi peer-to-peer Netzwerk
-Comment[fr]=subi, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=subi, eşten eşe kriptografik sanal para birimi
+Name=Subi Core
+Comment=Subi P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Subi peer-to-peer Netzwerk
+Comment[fr]=Subi, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Subi, eşten eşe kriptografik sanal para birimi
 Exec=subi-qt %u
 Terminal=false
 Type=Application

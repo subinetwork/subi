@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2015-2020 The Dash Core developers
-# Copyright (c) 2020-2022 The subi developers
+# Copyright (c) 2020-2022 The Subi developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 from test_framework.mininode import *
@@ -35,7 +35,7 @@ class TestP2PConn(P2PInterface):
         return self.last_mnlistdiff
 
 
-class LLMQCoinbaseCommitmentsTest(subiTestFramework):
+class LLMQCoinbaseCommitmentsTest(SubiTestFramework):
     def set_test_params(self):
         self.set_subi_test_params(4, 3, fast_dip3_enforcement=True)
 
@@ -53,7 +53,7 @@ class LLMQCoinbaseCommitmentsTest(subiTestFramework):
         mnList = self.test_getmnlistdiff(null_hash, self.nodes[0].getbestblockhash(), {}, [], expectedUpdated)
         expectedUpdated2 = expectedUpdated + []
 
-        # Register one more MN, but don't start it (that would fail as subiTestFramework doesn't support this atm)
+        # Register one more MN, but don't start it (that would fail as SubiTestFramework doesn't support this atm)
         baseBlockHash = self.nodes[0].getbestblockhash()
         self.prepare_smartnode(self.mn_count)
         new_mn = self.mninfo[self.mn_count]

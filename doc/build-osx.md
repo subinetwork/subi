@@ -38,19 +38,19 @@ Next, follow the instructions in [build-generic](build-generic.md)
 Running
 -------
 
-subi Core is now available at `./src/subid`
+Subi Core is now available at `./src/subid`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=subirpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/subiCore/subi.conf"
+    echo -e "rpcuser=subirpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/SubiCore/subi.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/subiCore/subi.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/SubiCore/subi.conf"
 
 The first time you run subid, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/subiCore/debug.log
+    tail -f $HOME/Library/Application\ Support/SubiCore/debug.log
 
 Other commands:
 -------

@@ -1,4 +1,4 @@
-subi Core version 0.14.0.5
+Subi Core version 0.14.0.5
 ==========================
 
 Release is now available from:
@@ -22,14 +22,14 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/subi-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Subi-Qt (on Mac) or
 subid/subi-qt (on Linux). If you upgrade after DIP0003 activation and you were
 using version < 0.13 you will have to reindex (start with -reindex-chainstate
 or -reindex) to make sure your wallet has all the new data synced. Upgrading from
 version 0.13 should not require any additional actions.
 
 When upgrading from a version prior to 0.14.0.3, the
-first startup of subi Core will run a migration process which can take a few minutes
+first startup of Subi Core will run a migration process which can take a few minutes
 to finish. After the migration, a downgrade to an older version is only possible with
 a reindex (or reindex-chainstate).
 
@@ -66,21 +66,21 @@ known in the network. This should cause ChainLocks to succeed in such situations
 0.14.0.5 Change log
 ===================
 
-See detailed [set of changes](https://github.com/subinetwork/subi/compare/v0.14.0.4...subi:v0.14.0.5).
+See detailed [set of changes](https://github.com/subinetwork/subinetwork.compare/v0.14.0.4...subi:v0.14.0.5).
 
-- [`20d4a27778`](https://github.com/subinetwork/subi/commit/dc07a0c5e1) Make sure mempool txes are properly processed by CChainLocksHandler despite node restarts (#3230)
-- [`dc07a0c5e1`](https://github.com/subinetwork/subi/commit/dc07a0c5e1) [v0.14.0.x] Bump version and prepare release notes (#3228)
-- [`401da32090`](https://github.com/subinetwork/subi/commit/401da32090) More fixes in llmq-is-retroactive tests
-- [`33721eaa11`](https://github.com/subinetwork/subi/commit/33721eaa11) Make llmq-is-retroactive test compatible with 0.14.0.x
-- [`85bd162a3e`](https://github.com/subinetwork/subi/commit/85bd162a3e) Make wait_for_xxx methods compatible with 0.14.0.x
-- [`22cfddaf12`](https://github.com/subinetwork/subi/commit/22cfddaf12) Allow re-signing of IS locks when performing retroactive signing (#3219)
-- [`a8b8891a1d`](https://github.com/subinetwork/subi/commit/a8b8891a1d) Add wait_for_xxx methods as found in develop
-- [`8dae12cc60`](https://github.com/subinetwork/subi/commit/8dae12cc60) More/better logging for InstantSend
-- [`fdd19cf667`](https://github.com/subinetwork/subi/commit/fdd19cf667) Tests: Fix the way nodes are connected to each other in setup_network/start_smartnodes (#3221)
-- [`41f0e9d028`](https://github.com/subinetwork/subi/commit/41f0e9d028) More fixes related to extra_args
-- [`5213118601`](https://github.com/subinetwork/subi/commit/5213118601) Tests: Allow specifying different cmd-line params for each smartnode (#3222)
-- [`2fef21fd80`](https://github.com/subinetwork/subi/commit/2fef21fd80) Don't join thread in CQuorum::~CQuorum when called from within the thread (#3223)
-- [`e69c6c3207`](https://github.com/subinetwork/subi/commit/e69c6c3207) Merge #12392: Fix ignoring tx data requests when fPauseSend is set on a peer (#3225)
+- [`20d4a27778`](https://github.com/subinetwork/subinetwork.commit/dc07a0c5e1) Make sure mempool txes are properly processed by CChainLocksHandler despite node restarts (#3230)
+- [`dc07a0c5e1`](https://github.com/subinetwork/subinetwork.commit/dc07a0c5e1) [v0.14.0.x] Bump version and prepare release notes (#3228)
+- [`401da32090`](https://github.com/subinetwork/subinetwork.commit/401da32090) More fixes in llmq-is-retroactive tests
+- [`33721eaa11`](https://github.com/subinetwork/subinetwork.commit/33721eaa11) Make llmq-is-retroactive test compatible with 0.14.0.x
+- [`85bd162a3e`](https://github.com/subinetwork/subinetwork.commit/85bd162a3e) Make wait_for_xxx methods compatible with 0.14.0.x
+- [`22cfddaf12`](https://github.com/subinetwork/subinetwork.commit/22cfddaf12) Allow re-signing of IS locks when performing retroactive signing (#3219)
+- [`a8b8891a1d`](https://github.com/subinetwork/subinetwork.commit/a8b8891a1d) Add wait_for_xxx methods as found in develop
+- [`8dae12cc60`](https://github.com/subinetwork/subinetwork.commit/8dae12cc60) More/better logging for InstantSend
+- [`fdd19cf667`](https://github.com/subinetwork/subinetwork.commit/fdd19cf667) Tests: Fix the way nodes are connected to each other in setup_network/start_smartnodes (#3221)
+- [`41f0e9d028`](https://github.com/subinetwork/subinetwork.commit/41f0e9d028) More fixes related to extra_args
+- [`5213118601`](https://github.com/subinetwork/subinetwork.commit/5213118601) Tests: Allow specifying different cmd-line params for each smartnode (#3222)
+- [`2fef21fd80`](https://github.com/subinetwork/subinetwork.commit/2fef21fd80) Don't join thread in CQuorum::~CQuorum when called from within the thread (#3223)
+- [`e69c6c3207`](https://github.com/subinetwork/subinetwork.commit/e69c6c3207) Merge #12392: Fix ignoring tx data requests when fPauseSend is set on a peer (#3225)
 
 Credits
 =======
@@ -95,7 +95,7 @@ As well as everyone that submitted issues and reviewed pull requests.
 Older releases
 ==============
 
-subi was previously known as Darkcoin.
+Subi was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -106,12 +106,12 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
-Darkcoin was rebranded to subi.
+Subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
+Darkcoin was rebranded to Subi.
 
-subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
-subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
+Subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 

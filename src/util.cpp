@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2021 The Dash Core developers
-// Copyright (c) 2020-2022 The subi developers
+// Copyright (c) 2020-2022 The Subi developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -91,7 +91,7 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-//subi only features
+//Subi only features
 bool fSmartnodeMode = false;
 bool fDisableGovernance = false;
 /**
@@ -666,13 +666,13 @@ void PrintExceptionContinue(const std::exception_ptr pex, const char* pszExcepti
 
 fs::path GetDefaultDataDir()
 {
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\subiCore
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\subiCore
-    // Mac: ~/Library/Application Support/subiCore
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\SubiCore
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\SubiCore
+    // Mac: ~/Library/Application Support/SubiCore
     // Unix: ~/.subicore
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "subiCore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "SubiCore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -682,7 +682,7 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/subiCore";
+    return pathRet / "Library/Application Support/SubiCore";
 #else
     // Unix
     return pathRet / ".subicore";
@@ -1149,8 +1149,8 @@ std::string CopyrightHolders(const std::string& strPrefix, unsigned int nStartYe
     std::string strCopyrightHolders = strPrefix + strprintf(" %u ", nEndYear) + strprintf(_(COPYRIGHT_HOLDERS), _(COPYRIGHT_HOLDERS_SUBSTITUTION));
 
     // Check for untranslated substitution to make sure Dash Core copyright is not removed by accident
-    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("subi Core") == std::string::npos) {
-        strCopyrightHolders += "\n" + strPrefix + strprintf(" %u-%u ", 2021, nEndYear) + "The subi Core developers";
+    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Subi Core") == std::string::npos) {
+        strCopyrightHolders += "\n" + strPrefix + strprintf(" %u-%u ", 2021, nEndYear) + "The Subi Core developers";
     }
 
     // Check for untranslated substitution to make sure Dash Core copyright is not removed by accident

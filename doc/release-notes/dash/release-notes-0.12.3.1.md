@@ -1,4 +1,4 @@
-subi Core version 0.12.3.1
+Subi Core version 0.12.3.1
 ==========================
 
 Release is now available from:
@@ -21,7 +21,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/subi-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Subi-Qt (on Mac) or
 subid/subi-qt (on Linux).
 
 Downgrade warning
@@ -64,7 +64,7 @@ If a node connects to the wrong network, it will immediately be disconnected.
 New format of network message signatures
 ----------------------------------------
 
-We introduced a new signature format for subi-specific network messages,
+We introduced a new signature format for Subi-specific network messages,
 read more [here](https://github.com/subinetwork/subi/pull/1936) and [here](https://github.com/subinetwork/subi/pull/1937).
 We also introduced a new spork `SPORK_6_NEW_SIGS` which is going to be used to activate the new format after the network has finished the upgrade.
 Note that old pre-12.3 nodes won't be able to recognize and verify new signatures after `SPORK_6_NEW_SIGS` activates.
@@ -110,7 +110,7 @@ Support for pruned nodes in Lite Mode
 -------------------------------------
 
 It is now possible to run a pruned node which stores only some recent blocks and not the whole blockchain.
-However this option is only available in so called Lite Mode. In this mode, subi specific features are disabled, meaning
+However this option is only available in so called Lite Mode. In this mode, Subi specific features are disabled, meaning
 that such nodes won't fully validate the blockchain (smartnode payments and superblocks).
 PrivateSend and InstantSend functions are also disabled on such nodes. Such nodes are comparable to SPV-like nodes
 in terms of security and validation - it relies a lot on surrounding nodes, so please keep this in mind if you decide to
@@ -148,7 +148,7 @@ Command-line options
 --------------------
 
 New cmd-line options:
-- introduced in subi Core 0.12.3.1: `allowprivatenet`, `bip9params`, `sporkaddr`, `devnet`;
+- introduced in Subi Core 0.12.3.1: `allowprivatenet`, `bip9params`, `sporkaddr`, `devnet`;
 - backported from Bitcoin Core 0.13/0.14: `blockreconstructionextratxn`, `maxtimeadjustment`, `maxtipage`,
 `incrementalrelayfee`, `dustrelayfee`, `blockmintxfee`.
 
@@ -175,7 +175,7 @@ case of future ASIC uses on testnet.
 Using smartnode lists for initial peers discovery
 --------------------------------------------------
 
-We now use a recent smartnode list to feed the hardcoded seed nodes list in subi Core. This list was previously
+We now use a recent smartnode list to feed the hardcoded seed nodes list in Subi Core. This list was previously
 unmaintained as we fully relied on DNS based discovery on startup. DNS discovery is still used as the main discovery
 method, but the hardcoded seed list should now be able to serve as a proper backup in case DNS fails for some reason.
 
@@ -208,232 +208,232 @@ A lot of refactoring, code cleanups and other small fixes were done in this rele
 0.12.3.1 Change log
 ===================
 
-See detailed [change log](https://github.com/subinetwork/subi/compare/v0.12.2.3...subi:v0.12.3.1) below.
+See detailed [change log](https://github.com/subinetwork/subinetwork.compare/v0.12.2.3...subi:v0.12.3.1) below.
 
 ### Governance:
-- [`6c79c348e`](https://github.com/subinetwork/subi/commit/6c79c348e) Drop "MAY, 2018" clause for proposal validation on mainnet (#2101)
-- [`6079b860e`](https://github.com/subinetwork/subi/commit/6079b860e) Drop trigger objects when triggers are deleted or failed to be created (#2098)
-- [`2583e1963`](https://github.com/subinetwork/subi/commit/2583e1963) Test: Add few valid/invalid proposals (internationalization) (#2044)
-- [`25eb6d7b3`](https://github.com/subinetwork/subi/commit/25eb6d7b3) clean up governance vote code (#2042)
-- [`a0874b72a`](https://github.com/subinetwork/subi/commit/a0874b72a) Validate data size for proposals only (#2004)
-- [`15fac7c7e`](https://github.com/subinetwork/subi/commit/15fac7c7e) Validate proposals for expiration (#2003)
-- [`a3bcc4307`](https://github.com/subinetwork/subi/commit/a3bcc4307) Refactor governance (#1993)
-- [`04a23bf0c`](https://github.com/subinetwork/subi/commit/04a23bf0c) Fix the bug in CGovernanceObject::ProcessVote() (#1989)
-- [`b0868093b`](https://github.com/subinetwork/subi/commit/b0868093b) simplify gobject JSON format, remove unused fields (#1902)
-- [`1dda9fe6f`](https://github.com/subinetwork/subi/commit/1dda9fe6f) CProposalValidator refactoring and follow up fixes (#1956)
-- [`89380b4c9`](https://github.com/subinetwork/subi/commit/89380b4c9) Drop watchdogs, replace them with sentinel pings (#1949)
-- [`e71cb3861`](https://github.com/subinetwork/subi/commit/e71cb3861) Store CGovernanceVote hash in memory instead of recalculating it via GetHash() every time (#1946)
-- [`580c4884c`](https://github.com/subinetwork/subi/commit/580c4884c) Fix trigger execution and expiration (#1920)
-- [`0670695fe`](https://github.com/subinetwork/subi/commit/0670695fe) Move prev/next sb height logic from rpc to CSuperblock::GetNearestSuperblocksHeights (#1919)
-- [`741fcbc90`](https://github.com/subinetwork/subi/commit/741fcbc90) Remove excessive custom validation in CProposalValidator::ValidatePaymentAddress (#1917)
-- [`354aac8d1`](https://github.com/subinetwork/subi/commit/354aac8d1) rename nEpochStart variable and adjust comments (#1915)
-- [`8ea1bd0f5`](https://github.com/subinetwork/subi/commit/8ea1bd0f5) remove unused method GetObjectSubtype (#1914)
-- [`8a387ee09`](https://github.com/subinetwork/subi/commit/8a387ee09) Drop SPORK_13_OLD_SUPERBLOCK_FLAG and check superblock start hash (#1872)
+- [`6c79c348e`](https://github.com/subinetwork/subinetwork.commit/6c79c348e) Drop "MAY, 2018" clause for proposal validation on mainnet (#2101)
+- [`6079b860e`](https://github.com/subinetwork/subinetwork.commit/6079b860e) Drop trigger objects when triggers are deleted or failed to be created (#2098)
+- [`2583e1963`](https://github.com/subinetwork/subinetwork.commit/2583e1963) Test: Add few valid/invalid proposals (internationalization) (#2044)
+- [`25eb6d7b3`](https://github.com/subinetwork/subinetwork.commit/25eb6d7b3) clean up governance vote code (#2042)
+- [`a0874b72a`](https://github.com/subinetwork/subinetwork.commit/a0874b72a) Validate data size for proposals only (#2004)
+- [`15fac7c7e`](https://github.com/subinetwork/subinetwork.commit/15fac7c7e) Validate proposals for expiration (#2003)
+- [`a3bcc4307`](https://github.com/subinetwork/subinetwork.commit/a3bcc4307) Refactor governance (#1993)
+- [`04a23bf0c`](https://github.com/subinetwork/subinetwork.commit/04a23bf0c) Fix the bug in CGovernanceObject::ProcessVote() (#1989)
+- [`b0868093b`](https://github.com/subinetwork/subinetwork.commit/b0868093b) simplify gobject JSON format, remove unused fields (#1902)
+- [`1dda9fe6f`](https://github.com/subinetwork/subinetwork.commit/1dda9fe6f) CProposalValidator refactoring and follow up fixes (#1956)
+- [`89380b4c9`](https://github.com/subinetwork/subinetwork.commit/89380b4c9) Drop watchdogs, replace them with sentinel pings (#1949)
+- [`e71cb3861`](https://github.com/subinetwork/subinetwork.commit/e71cb3861) Store CGovernanceVote hash in memory instead of recalculating it via GetHash() every time (#1946)
+- [`580c4884c`](https://github.com/subinetwork/subinetwork.commit/580c4884c) Fix trigger execution and expiration (#1920)
+- [`0670695fe`](https://github.com/subinetwork/subinetwork.commit/0670695fe) Move prev/next sb height logic from rpc to CSuperblock::GetNearestSuperblocksHeights (#1919)
+- [`741fcbc90`](https://github.com/subinetwork/subinetwork.commit/741fcbc90) Remove excessive custom validation in CProposalValidator::ValidatePaymentAddress (#1917)
+- [`354aac8d1`](https://github.com/subinetwork/subinetwork.commit/354aac8d1) rename nEpochStart variable and adjust comments (#1915)
+- [`8ea1bd0f5`](https://github.com/subinetwork/subinetwork.commit/8ea1bd0f5) remove unused method GetObjectSubtype (#1914)
+- [`8a387ee09`](https://github.com/subinetwork/subinetwork.commit/8a387ee09) Drop SPORK_13_OLD_SUPERBLOCK_FLAG and check superblock start hash (#1872)
 
 ### InstantSend:
-- [`8c2d16f5f`](https://github.com/subinetwork/subi/commit/8c2d16f5f) Limit IS quorums by updated MNs only (#2107)
-- [`ef85d5144`](https://github.com/subinetwork/subi/commit/ef85d5144) Comment updates - InstantSend (#2062)
-- [`c0a109998`](https://github.com/subinetwork/subi/commit/c0a109998) Fix instantsend in testnet and regtest (#2016)
-- [`2f1661678`](https://github.com/subinetwork/subi/commit/2f1661678) Locked txes should not expire until mined and have sufficient confirmations (#2011)
-- [`846f1d217`](https://github.com/subinetwork/subi/commit/846f1d217) Avoid processing tx lock request twice in the wallet it was sent from (#2007)
-- [`c0c998da3`](https://github.com/subinetwork/subi/commit/c0c998da3) Fix CInstantSend::GetTxLockRequest() (#2006)
-- [`7d5223b5e`](https://github.com/subinetwork/subi/commit/7d5223b5e) Network-specific thresholds for required confirmations (IS) (#1962)
-- [`2c04504f1`](https://github.com/subinetwork/subi/commit/2c04504f1) Refactor IS votes processing (#1951)
+- [`8c2d16f5f`](https://github.com/subinetwork/subinetwork.commit/8c2d16f5f) Limit IS quorums by updated MNs only (#2107)
+- [`ef85d5144`](https://github.com/subinetwork/subinetwork.commit/ef85d5144) Comment updates - InstantSend (#2062)
+- [`c0a109998`](https://github.com/subinetwork/subinetwork.commit/c0a109998) Fix instantsend in testnet and regtest (#2016)
+- [`2f1661678`](https://github.com/subinetwork/subinetwork.commit/2f1661678) Locked txes should not expire until mined and have sufficient confirmations (#2011)
+- [`846f1d217`](https://github.com/subinetwork/subinetwork.commit/846f1d217) Avoid processing tx lock request twice in the wallet it was sent from (#2007)
+- [`c0c998da3`](https://github.com/subinetwork/subinetwork.commit/c0c998da3) Fix CInstantSend::GetTxLockRequest() (#2006)
+- [`7d5223b5e`](https://github.com/subinetwork/subinetwork.commit/7d5223b5e) Network-specific thresholds for required confirmations (IS) (#1962)
+- [`2c04504f1`](https://github.com/subinetwork/subinetwork.commit/2c04504f1) Refactor IS votes processing (#1951)
 
 ### PrivateSend:
-- [`0d5426343`](https://github.com/subinetwork/subi/commit/0d5426343) Fix an edge case in PrepareDenominate (#2138)
-- [`8e129877a`](https://github.com/subinetwork/subi/commit/8e129877a) Partially revert 1922 (#2108)
-- [`fcac40ab4`](https://github.com/subinetwork/subi/commit/fcac40ab4) RPC: fix wallet lock check in `privatesend start` (#2102)
-- [`dbbedc031`](https://github.com/subinetwork/subi/commit/dbbedc031) Fix JoinExistingQueue bug (#2100)
-- [`7ac4b972a`](https://github.com/subinetwork/subi/commit/7ac4b972a) Require all participants to submit equal number of inputs (#2075)
-- [`d1bf615f3`](https://github.com/subinetwork/subi/commit/d1bf615f3) No POOL_STATE_ERROR or POOL_STATE_SUCCESS on smartnodes (#2009)
-- [`d03adb7c3`](https://github.com/subinetwork/subi/commit/d03adb7c3) Check if in smartnode mode first and only then do the job (or not) (#2008)
-- [`ddff32b96`](https://github.com/subinetwork/subi/commit/ddff32b96) Fix TransactionRecord::PrivateSendMakeCollaterals tx type (#1996)
-- [`4f978a263`](https://github.com/subinetwork/subi/commit/4f978a263) Drop Nx requirements for PS collaterals (#1995)
-- [`a44f48743`](https://github.com/subinetwork/subi/commit/a44f48743) Allow data outputs in PS collaterals (#1984)
-- [`ef9a9f2d6`](https://github.com/subinetwork/subi/commit/ef9a9f2d6) Fix unlocking error on "Start Mixing" (#1941)
-- [`0bd8c8e43`](https://github.com/subinetwork/subi/commit/0bd8c8e43) Refactor: vecTxIn -> vecOutPoints for CompactTallyItem (#1932)
-- [`d7f55d508`](https://github.com/subinetwork/subi/commit/d7f55d508) Switch nTimeLastSuccessfulStep from GetTimeMillis() to GetTime() (#1923)
-- [`204b1fe99`](https://github.com/subinetwork/subi/commit/204b1fe99) Drop unnecessary AcceptToMemoryPool in PS (and corresponding cs-main locks), just relay what we have (#1922)
-- [`271c249e1`](https://github.com/subinetwork/subi/commit/271c249e1) Skip next mn payments winners when selecting a MN to mix on (#1921)
-- [`ca89c7b87`](https://github.com/subinetwork/subi/commit/ca89c7b87) [Trivial] Update PrivateSend denominations in comments / typo fixes (#1910)
-- [`b1817dd93`](https://github.com/subinetwork/subi/commit/b1817dd93) Introduce CDarksendAccept class (for DSACCEPT messages) (#1875)
-- [`d69ad9d61`](https://github.com/subinetwork/subi/commit/d69ad9d61) Skip existing smartnode conections on mixing (#1833)
-- [`1d620d1f9`](https://github.com/subinetwork/subi/commit/1d620d1f9) Fix calls to AcceptToMemoryPool in PS submodules (#1823)
+- [`0d5426343`](https://github.com/subinetwork/subinetwork.commit/0d5426343) Fix an edge case in PrepareDenominate (#2138)
+- [`8e129877a`](https://github.com/subinetwork/subinetwork.commit/8e129877a) Partially revert 1922 (#2108)
+- [`fcac40ab4`](https://github.com/subinetwork/subinetwork.commit/fcac40ab4) RPC: fix wallet lock check in `privatesend start` (#2102)
+- [`dbbedc031`](https://github.com/subinetwork/subinetwork.commit/dbbedc031) Fix JoinExistingQueue bug (#2100)
+- [`7ac4b972a`](https://github.com/subinetwork/subinetwork.commit/7ac4b972a) Require all participants to submit equal number of inputs (#2075)
+- [`d1bf615f3`](https://github.com/subinetwork/subinetwork.commit/d1bf615f3) No POOL_STATE_ERROR or POOL_STATE_SUCCESS on smartnodes (#2009)
+- [`d03adb7c3`](https://github.com/subinetwork/subinetwork.commit/d03adb7c3) Check if in smartnode mode first and only then do the job (or not) (#2008)
+- [`ddff32b96`](https://github.com/subinetwork/subinetwork.commit/ddff32b96) Fix TransactionRecord::PrivateSendMakeCollaterals tx type (#1996)
+- [`4f978a263`](https://github.com/subinetwork/subinetwork.commit/4f978a263) Drop Nx requirements for PS collaterals (#1995)
+- [`a44f48743`](https://github.com/subinetwork/subinetwork.commit/a44f48743) Allow data outputs in PS collaterals (#1984)
+- [`ef9a9f2d6`](https://github.com/subinetwork/subinetwork.commit/ef9a9f2d6) Fix unlocking error on "Start Mixing" (#1941)
+- [`0bd8c8e43`](https://github.com/subinetwork/subinetwork.commit/0bd8c8e43) Refactor: vecTxIn -> vecOutPoints for CompactTallyItem (#1932)
+- [`d7f55d508`](https://github.com/subinetwork/subinetwork.commit/d7f55d508) Switch nTimeLastSuccessfulStep from GetTimeMillis() to GetTime() (#1923)
+- [`204b1fe99`](https://github.com/subinetwork/subinetwork.commit/204b1fe99) Drop unnecessary AcceptToMemoryPool in PS (and corresponding cs-main locks), just relay what we have (#1922)
+- [`271c249e1`](https://github.com/subinetwork/subinetwork.commit/271c249e1) Skip next mn payments winners when selecting a MN to mix on (#1921)
+- [`ca89c7b87`](https://github.com/subinetwork/subinetwork.commit/ca89c7b87) [Trivial] Update PrivateSend denominations in comments / typo fixes (#1910)
+- [`b1817dd93`](https://github.com/subinetwork/subinetwork.commit/b1817dd93) Introduce CDarksendAccept class (for DSACCEPT messages) (#1875)
+- [`d69ad9d61`](https://github.com/subinetwork/subinetwork.commit/d69ad9d61) Skip existing smartnode conections on mixing (#1833)
+- [`1d620d1f9`](https://github.com/subinetwork/subinetwork.commit/1d620d1f9) Fix calls to AcceptToMemoryPool in PS submodules (#1823)
 
 ### Network:
-- [`fda74b4a8`](https://github.com/subinetwork/subi/commit/fda74b4a8) Use correct protocol when serializing messages in reply to `getdata` (#2157)
-- [`6bf389afb`](https://github.com/subinetwork/subi/commit/6bf389afb) Don't drop mnb-s for outdated MNs (#2131)
-- [`c60079b59`](https://github.com/subinetwork/subi/commit/c60079b59) ThreadOpenSmartnodeConnections should process only one mn at a time (#2080)
-- [`a648d6eff`](https://github.com/subinetwork/subi/commit/a648d6eff) Drop delayed headers logic and fix duplicate initial headers sync by handling block inv correctly (#2032)
-- [`99085c5b6`](https://github.com/subinetwork/subi/commit/99085c5b6) swap devnet magic bytes around (#2028)
-- [`a37dbd6d2`](https://github.com/subinetwork/subi/commit/a37dbd6d2) Fix netfulfilledman usage (#2033)
-- [`08033ffe4`](https://github.com/subinetwork/subi/commit/08033ffe4) Reject subi-specific messages from obsolete peers (#1983)
-- [`43671a39d`](https://github.com/subinetwork/subi/commit/43671a39d) Deprecate nMnCount in mnget (#1942)
-- [`451f7f071`](https://github.com/subinetwork/subi/commit/451f7f071) Fix issues with mnp, mnw and dsq signatures via new spork (SPORK_6_NEW_SIGS) (#1936)
-- [`048062641`](https://github.com/subinetwork/subi/commit/048062641) Force smartnodes to have listen=1 and maxconnections to be at least DEFAULT_MAX_PEER_CONNECTIONS (#1935)
-- [`aadec3735`](https://github.com/subinetwork/subi/commit/aadec3735) Change format of gobject, store/transmit vchData instead of hex-encoded string of a string (#1934)
-- [`ed712eb81`](https://github.com/subinetwork/subi/commit/ed712eb81) Fix nDelayGetHeadersTime (int64_t max == never delay) (#1916)
-- [`f35b5979a`](https://github.com/subinetwork/subi/commit/f35b5979a) Refactor CGovernanceManager::Sync (split in two) (#1930)
-- [`b5046d59c`](https://github.com/subinetwork/subi/commit/b5046d59c) Dseg fixes (#1929)
-- [`312088b56`](https://github.com/subinetwork/subi/commit/312088b56) Fix connectivity check in CActiveSmartnode::ManageStateInitial (#1918)
-- [`8f2c1998d`](https://github.com/subinetwork/subi/commit/8f2c1998d) Rename vBlockHashesFromINV to vDelayedGetHeaders (#1909)
-- [`4719ec477`](https://github.com/subinetwork/subi/commit/4719ec477) Remove some locking in net.h/net.cpp (#1905)
-- [`a6ba82ac9`](https://github.com/subinetwork/subi/commit/a6ba82ac9) Use smartnode list to generate hardcoded seeds (#1892)
-- [`1b1a440f4`](https://github.com/subinetwork/subi/commit/1b1a440f4) Do not send subi-specific requests to smartnodes before we are fully connected (#1882)
-- [`1ca270ed8`](https://github.com/subinetwork/subi/commit/1ca270ed8) No need for msgMakerInitProto for sporks because we loop by fully connected nodes only now (#1877)
-- [`b84afb251`](https://github.com/subinetwork/subi/commit/b84afb251) Allow to filter for fully connected nodes when calling CopyNodeVector (#1864)
-- [`532b9fa3d`](https://github.com/subinetwork/subi/commit/532b9fa3d) Use OpenNetworkConnection instead of calling ConnectNode directly in subi code (#1857)
-- [`3aad9d908`](https://github.com/subinetwork/subi/commit/3aad9d908) Fix logging in PushInventory (#1847)
-- [`81fb931fb`](https://github.com/subinetwork/subi/commit/81fb931fb) Don't delay GETHEADERS when no blocks have arrived yet in devnet (#1807)
+- [`fda74b4a8`](https://github.com/subinetwork/subinetwork.commit/fda74b4a8) Use correct protocol when serializing messages in reply to `getdata` (#2157)
+- [`6bf389afb`](https://github.com/subinetwork/subinetwork.commit/6bf389afb) Don't drop mnb-s for outdated MNs (#2131)
+- [`c60079b59`](https://github.com/subinetwork/subinetwork.commit/c60079b59) ThreadOpenSmartnodeConnections should process only one mn at a time (#2080)
+- [`a648d6eff`](https://github.com/subinetwork/subinetwork.commit/a648d6eff) Drop delayed headers logic and fix duplicate initial headers sync by handling block inv correctly (#2032)
+- [`99085c5b6`](https://github.com/subinetwork/subinetwork.commit/99085c5b6) swap devnet magic bytes around (#2028)
+- [`a37dbd6d2`](https://github.com/subinetwork/subinetwork.commit/a37dbd6d2) Fix netfulfilledman usage (#2033)
+- [`08033ffe4`](https://github.com/subinetwork/subinetwork.commit/08033ffe4) Reject Subi-specific messages from obsolete peers (#1983)
+- [`43671a39d`](https://github.com/subinetwork/subinetwork.commit/43671a39d) Deprecate nMnCount in mnget (#1942)
+- [`451f7f071`](https://github.com/subinetwork/subinetwork.commit/451f7f071) Fix issues with mnp, mnw and dsq signatures via new spork (SPORK_6_NEW_SIGS) (#1936)
+- [`048062641`](https://github.com/subinetwork/subinetwork.commit/048062641) Force smartnodes to have listen=1 and maxconnections to be at least DEFAULT_MAX_PEER_CONNECTIONS (#1935)
+- [`aadec3735`](https://github.com/subinetwork/subinetwork.commit/aadec3735) Change format of gobject, store/transmit vchData instead of hex-encoded string of a string (#1934)
+- [`ed712eb81`](https://github.com/subinetwork/subinetwork.commit/ed712eb81) Fix nDelayGetHeadersTime (int64_t max == never delay) (#1916)
+- [`f35b5979a`](https://github.com/subinetwork/subinetwork.commit/f35b5979a) Refactor CGovernanceManager::Sync (split in two) (#1930)
+- [`b5046d59c`](https://github.com/subinetwork/subinetwork.commit/b5046d59c) Dseg fixes (#1929)
+- [`312088b56`](https://github.com/subinetwork/subinetwork.commit/312088b56) Fix connectivity check in CActiveSmartnode::ManageStateInitial (#1918)
+- [`8f2c1998d`](https://github.com/subinetwork/subinetwork.commit/8f2c1998d) Rename vBlockHashesFromINV to vDelayedGetHeaders (#1909)
+- [`4719ec477`](https://github.com/subinetwork/subinetwork.commit/4719ec477) Remove some locking in net.h/net.cpp (#1905)
+- [`a6ba82ac9`](https://github.com/subinetwork/subinetwork.commit/a6ba82ac9) Use smartnode list to generate hardcoded seeds (#1892)
+- [`1b1a440f4`](https://github.com/subinetwork/subinetwork.commit/1b1a440f4) Do not send subi-specific requests to smartnodes before we are fully connected (#1882)
+- [`1ca270ed8`](https://github.com/subinetwork/subinetwork.commit/1ca270ed8) No need for msgMakerInitProto for sporks because we loop by fully connected nodes only now (#1877)
+- [`b84afb251`](https://github.com/subinetwork/subinetwork.commit/b84afb251) Allow to filter for fully connected nodes when calling CopyNodeVector (#1864)
+- [`532b9fa3d`](https://github.com/subinetwork/subinetwork.commit/532b9fa3d) Use OpenNetworkConnection instead of calling ConnectNode directly in Subi code (#1857)
+- [`3aad9d908`](https://github.com/subinetwork/subinetwork.commit/3aad9d908) Fix logging in PushInventory (#1847)
+- [`81fb931fb`](https://github.com/subinetwork/subinetwork.commit/81fb931fb) Don't delay GETHEADERS when no blocks have arrived yet in devnet (#1807)
 
 ### Mining:
-- [`ff93dd613`](https://github.com/subinetwork/subi/commit/ff93dd613) Check devnet genesis block (#2057)
-- [`1dbf5a0f6`](https://github.com/subinetwork/subi/commit/1dbf5a0f6) Fix transaction/block versions for devnet genesis blocks (#2056)
-- [`880cbf43b`](https://github.com/subinetwork/subi/commit/880cbf43b) Backport fPowAllowMinDifficultyBlocks rule to DarkGravityWave (#2027)
-- [`27dfed424`](https://github.com/subinetwork/subi/commit/27dfed424) Bump default max block size from 750k to 2MB (#2023)
-- [`79183f630`](https://github.com/subinetwork/subi/commit/79183f630) Add tests for GetBlockSubsidy algorithm (#2022)
+- [`ff93dd613`](https://github.com/subinetwork/subinetwork.commit/ff93dd613) Check devnet genesis block (#2057)
+- [`1dbf5a0f6`](https://github.com/subinetwork/subinetwork.commit/1dbf5a0f6) Fix transaction/block versions for devnet genesis blocks (#2056)
+- [`880cbf43b`](https://github.com/subinetwork/subinetwork.commit/880cbf43b) Backport fPowAllowMinDifficultyBlocks rule to DarkGravityWave (#2027)
+- [`27dfed424`](https://github.com/subinetwork/subinetwork.commit/27dfed424) Bump default max block size from 750k to 2MB (#2023)
+- [`79183f630`](https://github.com/subinetwork/subinetwork.commit/79183f630) Add tests for GetBlockSubsidy algorithm (#2022)
 
 ### Wallet:
-- [`0a71c693e`](https://github.com/subinetwork/subi/commit/0a71c693e) Remove explicit wallet lock in SmartnodeList::StartAll() (#2106)
-- [`0de79d70b`](https://github.com/subinetwork/subi/commit/0de79d70b) Do not create oversized transactions (bad-txns-oversize) (#2103)
-- [`0260821f8`](https://github.com/subinetwork/subi/commit/0260821f8) fix SelectCoinsByDenominations (#2074)
-- [`b7bd96e2b`](https://github.com/subinetwork/subi/commit/b7bd96e2b) Clarify the warning displayed when encrypting HD wallet (#2002)
-- [`4930bb9f5`](https://github.com/subinetwork/subi/commit/4930bb9f5) Don't hold cs_storage in CKeyHolderStorage while calling functions which might lock cs_wallet (#2000)
-- [`4d442376e`](https://github.com/subinetwork/subi/commit/4d442376e) Limit the scope of cs_wallet lock in CPrivateSendClient::PrepareDenominate() (#1997)
-- [`1d32d1c32`](https://github.com/subinetwork/subi/commit/1d32d1c32) Add missing includes required for compilation with --disable-wallet flag (#1991)
-- [`3f0c8723e`](https://github.com/subinetwork/subi/commit/3f0c8723e) Slightly refactor AutoBackupWallet (#1927)
-- [`9965d51bb`](https://github.com/subinetwork/subi/commit/9965d51bb) Avoid reference leakage in CKeyHolderStorage::AddKey (#1840)
-- [`c532be1c0`](https://github.com/subinetwork/subi/commit/c532be1c0) Protect CKeyHolderStorage via mutex (#1834)
-- [`144850657`](https://github.com/subinetwork/subi/commit/144850657) Switch KeePassHttp integration to new AES lib, add tests and a note about KeePassHttp security (#1818)
-- [`fa2549986`](https://github.com/subinetwork/subi/commit/fa2549986) Swap iterations and fUseInstantSend parameters in ApproximateBestSubset (#1819)
+- [`0a71c693e`](https://github.com/subinetwork/subinetwork.commit/0a71c693e) Remove explicit wallet lock in SmartnodeList::StartAll() (#2106)
+- [`0de79d70b`](https://github.com/subinetwork/subinetwork.commit/0de79d70b) Do not create oversized transactions (bad-txns-oversize) (#2103)
+- [`0260821f8`](https://github.com/subinetwork/subinetwork.commit/0260821f8) fix SelectCoinsByDenominations (#2074)
+- [`b7bd96e2b`](https://github.com/subinetwork/subinetwork.commit/b7bd96e2b) Clarify the warning displayed when encrypting HD wallet (#2002)
+- [`4930bb9f5`](https://github.com/subinetwork/subinetwork.commit/4930bb9f5) Don't hold cs_storage in CKeyHolderStorage while calling functions which might lock cs_wallet (#2000)
+- [`4d442376e`](https://github.com/subinetwork/subinetwork.commit/4d442376e) Limit the scope of cs_wallet lock in CPrivateSendClient::PrepareDenominate() (#1997)
+- [`1d32d1c32`](https://github.com/subinetwork/subinetwork.commit/1d32d1c32) Add missing includes required for compilation with --disable-wallet flag (#1991)
+- [`3f0c8723e`](https://github.com/subinetwork/subinetwork.commit/3f0c8723e) Slightly refactor AutoBackupWallet (#1927)
+- [`9965d51bb`](https://github.com/subinetwork/subinetwork.commit/9965d51bb) Avoid reference leakage in CKeyHolderStorage::AddKey (#1840)
+- [`c532be1c0`](https://github.com/subinetwork/subinetwork.commit/c532be1c0) Protect CKeyHolderStorage via mutex (#1834)
+- [`144850657`](https://github.com/subinetwork/subinetwork.commit/144850657) Switch KeePassHttp integration to new AES lib, add tests and a note about KeePassHttp security (#1818)
+- [`fa2549986`](https://github.com/subinetwork/subinetwork.commit/fa2549986) Swap iterations and fUseInstantSend parameters in ApproximateBestSubset (#1819)
 
 ### RPC:
-- [`700b7ceb7`](https://github.com/subinetwork/subi/commit/700b7ceb7) RPC: dumphdinfo should throw an error when wallet isn't HD (#2134)
-- [`5669fc880`](https://github.com/subinetwork/subi/commit/5669fc880) Fix typos and rpc help text (#2120)
-- [`806d7f049`](https://github.com/subinetwork/subi/commit/806d7f049) Fix rpc tests broken by 2110 (#2118)
-- [`8d8fdb433`](https://github.com/subinetwork/subi/commit/8d8fdb433) sendrawtransaction no longer bypasses transaction policy limits by default (#2110)
-- [`6ab1fd763`](https://github.com/subinetwork/subi/commit/6ab1fd763) RPC: Add description for InstantSend-related fields of mempool entry (#2050)
-- [`138441eb8`](https://github.com/subinetwork/subi/commit/138441eb8) Add `forkpoint` to `getchaintips` (#2039)
-- [`9b17f2b9c`](https://github.com/subinetwork/subi/commit/9b17f2b9c) Convert `gobject count` output to json (by default) (#1994)
-- [`4b128b1b9`](https://github.com/subinetwork/subi/commit/4b128b1b9) Fix listaddressbalances (#1987)
-- [`d115efacb`](https://github.com/subinetwork/subi/commit/d115efacb) [RPC] Few additions to smartnodelist (#1971)
-- [`9451782a0`](https://github.com/subinetwork/subi/commit/9451782a0) RPC: Add `listaddressbalances` (#1972)
-- [`bab543f3e`](https://github.com/subinetwork/subi/commit/bab543f3e) Various RPC fixes (#1958)
-- [`151152b98`](https://github.com/subinetwork/subi/commit/151152b98) rpc - Update getaddednodeinfo help to remove dummy argument (#1947)
-- [`3c44dde2e`](https://github.com/subinetwork/subi/commit/3c44dde2e) Return JSON object for smartnode count (by default but still support old modes for now) (#1900)
-- [`4bc4a7dac`](https://github.com/subinetwork/subi/commit/4bc4a7dac) Fix `debug` rpc (#1897)
-- [`063bc5542`](https://github.com/subinetwork/subi/commit/063bc5542) Fix `smartnode list` (#1893)
-- [`5a5f61872`](https://github.com/subinetwork/subi/commit/5a5f61872) Shorten MN outpoint output from getvotes (#1871)
-- [`86d33b276`](https://github.com/subinetwork/subi/commit/86d33b276) Remove double registration of "privatesend" RPC (#1853)
-- [`c2de362b9`](https://github.com/subinetwork/subi/commit/c2de362b9) Actually honor fMiningRequiresPeers in getblocktemplate (#1844)
-- [`1cffb8a7e`](https://github.com/subinetwork/subi/commit/1cffb8a7e) Include p2pk into addressindex (#1839)
+- [`700b7ceb7`](https://github.com/subinetwork/subinetwork.commit/700b7ceb7) RPC: dumphdinfo should throw an error when wallet isn't HD (#2134)
+- [`5669fc880`](https://github.com/subinetwork/subinetwork.commit/5669fc880) Fix typos and rpc help text (#2120)
+- [`806d7f049`](https://github.com/subinetwork/subinetwork.commit/806d7f049) Fix rpc tests broken by 2110 (#2118)
+- [`8d8fdb433`](https://github.com/subinetwork/subinetwork.commit/8d8fdb433) sendrawtransaction no longer bypasses transaction policy limits by default (#2110)
+- [`6ab1fd763`](https://github.com/subinetwork/subinetwork.commit/6ab1fd763) RPC: Add description for InstantSend-related fields of mempool entry (#2050)
+- [`138441eb8`](https://github.com/subinetwork/subinetwork.commit/138441eb8) Add `forkpoint` to `getchaintips` (#2039)
+- [`9b17f2b9c`](https://github.com/subinetwork/subinetwork.commit/9b17f2b9c) Convert `gobject count` output to json (by default) (#1994)
+- [`4b128b1b9`](https://github.com/subinetwork/subinetwork.commit/4b128b1b9) Fix listaddressbalances (#1987)
+- [`d115efacb`](https://github.com/subinetwork/subinetwork.commit/d115efacb) [RPC] Few additions to smartnodelist (#1971)
+- [`9451782a0`](https://github.com/subinetwork/subinetwork.commit/9451782a0) RPC: Add `listaddressbalances` (#1972)
+- [`bab543f3e`](https://github.com/subinetwork/subinetwork.commit/bab543f3e) Various RPC fixes (#1958)
+- [`151152b98`](https://github.com/subinetwork/subinetwork.commit/151152b98) rpc - Update getaddednodeinfo help to remove dummy argument (#1947)
+- [`3c44dde2e`](https://github.com/subinetwork/subinetwork.commit/3c44dde2e) Return JSON object for smartnode count (by default but still support old modes for now) (#1900)
+- [`4bc4a7dac`](https://github.com/subinetwork/subinetwork.commit/4bc4a7dac) Fix `debug` rpc (#1897)
+- [`063bc5542`](https://github.com/subinetwork/subinetwork.commit/063bc5542) Fix `smartnode list` (#1893)
+- [`5a5f61872`](https://github.com/subinetwork/subinetwork.commit/5a5f61872) Shorten MN outpoint output from getvotes (#1871)
+- [`86d33b276`](https://github.com/subinetwork/subinetwork.commit/86d33b276) Remove double registration of "privatesend" RPC (#1853)
+- [`c2de362b9`](https://github.com/subinetwork/subinetwork.commit/c2de362b9) Actually honor fMiningRequiresPeers in getblocktemplate (#1844)
+- [`1cffb8a7e`](https://github.com/subinetwork/subinetwork.commit/1cffb8a7e) Include p2pk into addressindex (#1839)
 
 ### GUI:
-- [`7ab5b4a28`](https://github.com/subinetwork/subi/commit/7ab5b4a28) Update/optimize images (#2147)
-- [`82805a6c6`](https://github.com/subinetwork/subi/commit/82805a6c6) swap out old logo for T&C logo in Qt GUI (#2081)
-- [`e9f63073d`](https://github.com/subinetwork/subi/commit/e9f63073d) Warn when more than 50% of smartnodes are using newer version (#1963)
-- [`653600352`](https://github.com/subinetwork/subi/commit/653600352) Draw text on top of everything else in TrafficGraphWidget (#1944)
-- [`118eeded6`](https://github.com/subinetwork/subi/commit/118eeded6) [GUI] Create QR-code for Smartnode private key (#1970)
-- [`9f2467af8`](https://github.com/subinetwork/subi/commit/9f2467af8) Hide autocompleter on Enter/Return key (#1898)
-- [`e30009c31`](https://github.com/subinetwork/subi/commit/e30009c31) Fix qt and fontconfig depends #1884
+- [`7ab5b4a28`](https://github.com/subinetwork/subinetwork.commit/7ab5b4a28) Update/optimize images (#2147)
+- [`82805a6c6`](https://github.com/subinetwork/subinetwork.commit/82805a6c6) swap out old logo for T&C logo in Qt GUI (#2081)
+- [`e9f63073d`](https://github.com/subinetwork/subinetwork.commit/e9f63073d) Warn when more than 50% of smartnodes are using newer version (#1963)
+- [`653600352`](https://github.com/subinetwork/subinetwork.commit/653600352) Draw text on top of everything else in TrafficGraphWidget (#1944)
+- [`118eeded6`](https://github.com/subinetwork/subinetwork.commit/118eeded6) [GUI] Create QR-code for Smartnode private key (#1970)
+- [`9f2467af8`](https://github.com/subinetwork/subinetwork.commit/9f2467af8) Hide autocompleter on Enter/Return key (#1898)
+- [`e30009c31`](https://github.com/subinetwork/subinetwork.commit/e30009c31) Fix qt and fontconfig depends #1884
 
 ### Docs:
-- [`a80ef0423`](https://github.com/subinetwork/subi/commit/a80ef0423) Update release notes (#2155)
-- [`5e1149a65`](https://github.com/subinetwork/subi/commit/5e1149a65) Update release notes (#2142)
-- [`d46dc0f56`](https://github.com/subinetwork/subi/commit/d46dc0f56) Update release notes (#2135)
-- [`d076ad4ce`](https://github.com/subinetwork/subi/commit/d076ad4ce) Update release notes and staging tree in README (#2116)
-- [`ca2eae6e6`](https://github.com/subinetwork/subi/commit/ca2eae6e6) 12.3 release notes draft (#2045)
-- [`faeb4480a`](https://github.com/subinetwork/subi/commit/faeb4480a) Update manpages with ./contrib/devtools/gen-manpages.sh (#2088)
-- [`4148b8200`](https://github.com/subinetwork/subi/commit/4148b8200) Release notes cleanup (#2034)
-- [`d2c46a6a3`](https://github.com/subinetwork/subi/commit/d2c46a6a3) Update protocol-documentation.md (#1964)
-- [`4db8483d4`](https://github.com/subinetwork/subi/commit/4db8483d4) [Docs] Doxyfile Project version update (#1938)
-- [`6e022c57b`](https://github.com/subinetwork/subi/commit/6e022c57b) Remove src/drafted folder (#1907)
-- [`0318c76ba`](https://github.com/subinetwork/subi/commit/0318c76ba) Update links and references to current communication channels (#1906)
-- [`e23861c0e`](https://github.com/subinetwork/subi/commit/e23861c0e) [Trivial] RPC Typos / markdown formatting (#1830)
-- [`3dc62106b`](https://github.com/subinetwork/subi/commit/3dc62106b) [Docs] Doxygen config update (#1796)
+- [`a80ef0423`](https://github.com/subinetwork/subinetwork.commit/a80ef0423) Update release notes (#2155)
+- [`5e1149a65`](https://github.com/subinetwork/subinetwork.commit/5e1149a65) Update release notes (#2142)
+- [`d46dc0f56`](https://github.com/subinetwork/subinetwork.commit/d46dc0f56) Update release notes (#2135)
+- [`d076ad4ce`](https://github.com/subinetwork/subinetwork.commit/d076ad4ce) Update release notes and staging tree in README (#2116)
+- [`ca2eae6e6`](https://github.com/subinetwork/subinetwork.commit/ca2eae6e6) 12.3 release notes draft (#2045)
+- [`faeb4480a`](https://github.com/subinetwork/subinetwork.commit/faeb4480a) Update manpages with ./contrib/devtools/gen-manpages.sh (#2088)
+- [`4148b8200`](https://github.com/subinetwork/subinetwork.commit/4148b8200) Release notes cleanup (#2034)
+- [`d2c46a6a3`](https://github.com/subinetwork/subinetwork.commit/d2c46a6a3) Update protocol-documentation.md (#1964)
+- [`4db8483d4`](https://github.com/subinetwork/subinetwork.commit/4db8483d4) [Docs] Doxyfile Project version update (#1938)
+- [`6e022c57b`](https://github.com/subinetwork/subinetwork.commit/6e022c57b) Remove src/drafted folder (#1907)
+- [`0318c76ba`](https://github.com/subinetwork/subinetwork.commit/0318c76ba) Update links and references to current communication channels (#1906)
+- [`e23861c0e`](https://github.com/subinetwork/subinetwork.commit/e23861c0e) [Trivial] RPC Typos / markdown formatting (#1830)
+- [`3dc62106b`](https://github.com/subinetwork/subinetwork.commit/3dc62106b) [Docs] Doxygen config update (#1796)
 
 ### Other fixes and improvements:
-- [`4dbde218b`](https://github.com/subinetwork/subi/commit/4dbde218b) Fix p2pkh tests asserts (#2153)
-- [`26c891f67`](https://github.com/subinetwork/subi/commit/26c891f67) Fix block value/payee validation in lite mode (#2148)
-- [`9af9d57b4`](https://github.com/subinetwork/subi/commit/9af9d57b4) Release 0.12.3 (#2145)
-- [`8e6364694`](https://github.com/subinetwork/subi/commit/8e6364694) Bump SERIALIZATION_VERSION_STRINGs (#2136)
-- [`641070521`](https://github.com/subinetwork/subi/commit/641070521) Fix 2 small issues in sporks module (#2133)
-- [`97b9b4fed`](https://github.com/subinetwork/subi/commit/97b9b4fed) Bump nMinimumChainWork, defaultAssumeValid and checkpoints (#2130)
-- [`1c9917e22`](https://github.com/subinetwork/subi/commit/1c9917e22) Fix CVE-2018-12356 by hardening the regex (#2126)
-- [`b7c326115`](https://github.com/subinetwork/subi/commit/b7c326115) Do not create mnb until sync is finished (#2122)
-- [`b98643c27`](https://github.com/subinetwork/subi/commit/b98643c27) Split sentinel expiration in CSmartnode::Check() in two parts (timeout and version) (#2121)
-- [`836e10471`](https://github.com/subinetwork/subi/commit/836e10471) Bump proto to 70210 (#2109)
-- [`23ba94b37`](https://github.com/subinetwork/subi/commit/23ba94b37) Bump remaining min protocols (#2097)
-- [`9299a84b1`](https://github.com/subinetwork/subi/commit/9299a84b1) Bump few consts (#2096)
-- [`7b43720f0`](https://github.com/subinetwork/subi/commit/7b43720f0) Fix copying of final binaries into subicore-binaries (#2090)
-- [`cc593615e`](https://github.com/subinetwork/subi/commit/cc593615e) Bump copyright year to 2018 (#2087)
-- [`2129ee4d8`](https://github.com/subinetwork/subi/commit/2129ee4d8) Add docker support when doing Gitian builds (#2084)
-- [`6a1456ef4`](https://github.com/subinetwork/subi/commit/6a1456ef4) Update gitian key for codablock (#2085)
-- [`ab96a6af6`](https://github.com/subinetwork/subi/commit/ab96a6af6) Update gitian keys, script and doc (#2082)
-- [`5d057cf66`](https://github.com/subinetwork/subi/commit/5d057cf66) Add string_cast benchmark (#2073)
-- [`cf71f5767`](https://github.com/subinetwork/subi/commit/cf71f5767) Fix potential DoS vector for smartnode payments (#2071)
-- [`febdc2116`](https://github.com/subinetwork/subi/commit/febdc2116) Fix `nl` locale alias (#2061)
-- [`1264a5577`](https://github.com/subinetwork/subi/commit/1264a5577) Fix spork signature check for new nodes after SPORK_6_NEW_SIGS is switched to ON (#2060)
-- [`41680f4d9`](https://github.com/subinetwork/subi/commit/41680f4d9) small cleanup in a few places (#2058)
-- [`741b94875`](https://github.com/subinetwork/subi/commit/741b94875) Translations201804 (#2012)
-- [`8e24b087b`](https://github.com/subinetwork/subi/commit/8e24b087b) replace boost iterators in subi-specific code (#2048)
-- [`7719b7ec2`](https://github.com/subinetwork/subi/commit/7719b7ec2) Update BIP147 deployment times, nMinimumChainWork and defaultAssumeValid (#2030)
-- [`b07503f01`](https://github.com/subinetwork/subi/commit/b07503f01) Some cleanup (mostly trivial) (#2038)
-- [`f8e5c5d56`](https://github.com/subinetwork/subi/commit/f8e5c5d56) Simplify spork defaults by using a map (#2037)
-- [`6dd8304a5`](https://github.com/subinetwork/subi/commit/6dd8304a5) Remove duplication of "class CBlockIndex;" (#2036)
-- [`4ea790377`](https://github.com/subinetwork/subi/commit/4ea790377) subiify lib names (#2035)
-- [`53093c65b`](https://github.com/subinetwork/subi/commit/53093c65b) Run tests in mocked time (#2031)
-- [`f7b9aae27`](https://github.com/subinetwork/subi/commit/f7b9aae27) Correctly update pindexBestHeader and pindexBestInvalid in InvalidateBlock (#2029)
-- [`8b09e779b`](https://github.com/subinetwork/subi/commit/8b09e779b) Bump testnet checkpoint and nMinimumChainWork/defaultAssumeValid params (#2026)
-- [`eecc69223`](https://github.com/subinetwork/subi/commit/eecc69223) Fix a very ancient bug from mid 2015 (#2021)
-- [`72a225b9b`](https://github.com/subinetwork/subi/commit/72a225b9b) Few fixes for lite mode (#2014)
-- [`c7e9ea9fb`](https://github.com/subinetwork/subi/commit/c7e9ea9fb) Avoid repeating the full scan in CSmartnodeMan::UpdateLastPaid() on non-MNs (#1985)
-- [`f28a58e0a`](https://github.com/subinetwork/subi/commit/f28a58e0a) Refactor and fix restart (#1999)
-- [`7248700b3`](https://github.com/subinetwork/subi/commit/7248700b3) Add missing cs_main locks (#1998)
-- [`9e98c856f`](https://github.com/subinetwork/subi/commit/9e98c856f) A pack of small fixes (#1992)
-- [`19ea1a791`](https://github.com/subinetwork/subi/commit/19ea1a791) Use operator[] instead of emplace in CSmartnodePayments::AddPaymentVote (#1980)
-- [`ca3655f49`](https://github.com/subinetwork/subi/commit/ca3655f49) Fix some (potential dead)locks (#1977)
-- [`2a7e6861d`](https://github.com/subinetwork/subi/commit/2a7e6861d) Include "clientversion.h" in rpc/smartnode.cpp (#1979)
-- [`ef1a86c3e`](https://github.com/subinetwork/subi/commit/ef1a86c3e) Add dummy CMakeLists.txt file to make development with CLion easier (#1978)
-- [`a9d8e2c5d`](https://github.com/subinetwork/subi/commit/a9d8e2c5d) [Init] Avoid segfault when called with -enableinstantsend=0 (#1976)
-- [`3200eae9b`](https://github.com/subinetwork/subi/commit/3200eae9b) Don't use short version of 'tinyformat/fmt' namespace in util.h (#1975)
-- [`97a07cbc4`](https://github.com/subinetwork/subi/commit/97a07cbc4) Refactor `CSmartnodePayment*` (#1974)
-- [`4ffa7bac0`](https://github.com/subinetwork/subi/commit/4ffa7bac0) Introduce DIP0001Height (#1973)
-- [`611879aa6`](https://github.com/subinetwork/subi/commit/611879aa6) Use spork addresses instead of raw keys and allow changing them on startup (#1969)
-- [`9ef38c6d7`](https://github.com/subinetwork/subi/commit/9ef38c6d7) Switch CNetFulfilledRequestManager and CSmartnodeMan maps/funcs to CService (#1967)
-- [`929c1584a`](https://github.com/subinetwork/subi/commit/929c1584a) Rename CheckPreviousBlockVotes to CheckBlockVotes and adjust its log output a bit (#1965)
-- [`bf0854e58`](https://github.com/subinetwork/subi/commit/bf0854e58) Swap `expired` and `sentinel_expired` states in order (#1961)
-- [`9876207ce`](https://github.com/subinetwork/subi/commit/9876207ce) Multiple devnet fixes (#1960)
-- [`e37b6c7da`](https://github.com/subinetwork/subi/commit/e37b6c7da) Fix BIP147 deployment threshold parameter (#1955)
-- [`106276a3e`](https://github.com/subinetwork/subi/commit/106276a3e) Adjust/fix log output (#1954)
-- [`0abd1894e`](https://github.com/subinetwork/subi/commit/0abd1894e) Call CheckMnbAndUpdateSmartnodeList when starting MN (#1945)
-- [`e23f61822`](https://github.com/subinetwork/subi/commit/e23f61822) Make TrafficGraphDataTests more general (#1943)
-- [`5b1c4d8a1`](https://github.com/subinetwork/subi/commit/5b1c4d8a1) Few (mostly trivial) cleanups and fixes (#1940)
-- [`99273f63a`](https://github.com/subinetwork/subi/commit/99273f63a) Use SPORK_6_NEW_SIGS to switch from signing string messages to hashes (#1937)
-- [`c65613350`](https://github.com/subinetwork/subi/commit/c65613350) Switch smartnode id in subi data structures from CTxIn to COutPoint (#1933)
-- [`2ea6f7d82`](https://github.com/subinetwork/subi/commit/2ea6f7d82) Use `override` keyword for overriden class member functions (#1644)
-- [`d5ef77ba9`](https://github.com/subinetwork/subi/commit/d5ef77ba9) Refactor: use constant refs and `Ret` suffix (#1928)
-- [`2e04864b2`](https://github.com/subinetwork/subi/commit/2e04864b2) Replace boost::lexical_cast<int> with atoi (#1926)
-- [`0f4d963ba`](https://github.com/subinetwork/subi/commit/0f4d963ba) Add DSHA256 and X11 benchmarks, refactor names of other algo benchmarks to group them together (#1925)
-- [`4528c735f`](https://github.com/subinetwork/subi/commit/4528c735f) Replace some instantsend/privatesend magic numbers with constants (#1924)
-- [`120893c63`](https://github.com/subinetwork/subi/commit/120893c63) Update timeLastMempoolReq when responding to MEMPOOL request (#1904)
-- [`bb20b4e7b`](https://github.com/subinetwork/subi/commit/bb20b4e7b) Few cleanups after backporting (#1903)
-- [`a7fa07a30`](https://github.com/subinetwork/subi/commit/a7fa07a30) Drop BOOST_FOREACH and use references in loops (const ref where applicable, subi code only) (#1899)
-- [`e0b6988a4`](https://github.com/subinetwork/subi/commit/e0b6988a4) Various fixes and refactoring for Cache*Map classes (#1896)
-- [`99b2789a7`](https://github.com/subinetwork/subi/commit/99b2789a7) Fix DeserializeAndCheckBlockTest benchmark and store hashDevnetGenesisBlock in `consensus` (#1888)
-- [`88646bd0d`](https://github.com/subinetwork/subi/commit/88646bd0d) Rename `fMasterNode` to `fSmartnodeMode` to clarify its meaning and to avoid confusion with `CNode::fSmartnode` (#1874)
-- [`f6d98422c`](https://github.com/subinetwork/subi/commit/f6d98422c) Silence ratecheck_test (#1873)
-- [`9cee4193b`](https://github.com/subinetwork/subi/commit/9cee4193b) Separate .h generation from .json/.raw for different modules (#1870)
-- [`83957f2d3`](https://github.com/subinetwork/subi/commit/83957f2d3) Fix alertTests.raw.h (again) (#1869)
-- [`c13afaad8`](https://github.com/subinetwork/subi/commit/c13afaad8) Fix alertTests.raw.h generation (#1868)
-- [`a46bf120b`](https://github.com/subinetwork/subi/commit/a46bf120b) Don't directly call "wine test_subi.exe" and let "make check" handle it (#1841)
-- [`e805f790e`](https://github.com/subinetwork/subi/commit/e805f790e) Automatically build and push docker image to docker.io/subi/subid-develop (#1809)
-- [`d9058aa04`](https://github.com/subinetwork/subi/commit/d9058aa04) Increase travis timeout for "wine src/test/test_subi.exe" call (#1820)
-- [`10786fe8e`](https://github.com/subinetwork/subi/commit/10786fe8e) Use travis_wait for "wine test_subi.exe" call to fix timeouts (#1812)
-- [`4bce3bf8b`](https://github.com/subinetwork/subi/commit/4bce3bf8b) Fix crash on exit when -createwalletbackups=0 (#1810)
-- [`cd9c6994c`](https://github.com/subinetwork/subi/commit/cd9c6994c) Implement named devnets (#1791)
-- [`ebbd26a05`](https://github.com/subinetwork/subi/commit/ebbd26a05) Drop IsInputAssociatedWithPubkey and optimize CheckOutpoint (#1783)
+- [`4dbde218b`](https://github.com/subinetwork/subinetwork.commit/4dbde218b) Fix p2pkh tests asserts (#2153)
+- [`26c891f67`](https://github.com/subinetwork/subinetwork.commit/26c891f67) Fix block value/payee validation in lite mode (#2148)
+- [`9af9d57b4`](https://github.com/subinetwork/subinetwork.commit/9af9d57b4) Release 0.12.3 (#2145)
+- [`8e6364694`](https://github.com/subinetwork/subinetwork.commit/8e6364694) Bump SERIALIZATION_VERSION_STRINGs (#2136)
+- [`641070521`](https://github.com/subinetwork/subinetwork.commit/641070521) Fix 2 small issues in sporks module (#2133)
+- [`97b9b4fed`](https://github.com/subinetwork/subinetwork.commit/97b9b4fed) Bump nMinimumChainWork, defaultAssumeValid and checkpoints (#2130)
+- [`1c9917e22`](https://github.com/subinetwork/subinetwork.commit/1c9917e22) Fix CVE-2018-12356 by hardening the regex (#2126)
+- [`b7c326115`](https://github.com/subinetwork/subinetwork.commit/b7c326115) Do not create mnb until sync is finished (#2122)
+- [`b98643c27`](https://github.com/subinetwork/subinetwork.commit/b98643c27) Split sentinel expiration in CSmartnode::Check() in two parts (timeout and version) (#2121)
+- [`836e10471`](https://github.com/subinetwork/subinetwork.commit/836e10471) Bump proto to 70210 (#2109)
+- [`23ba94b37`](https://github.com/subinetwork/subinetwork.commit/23ba94b37) Bump remaining min protocols (#2097)
+- [`9299a84b1`](https://github.com/subinetwork/subinetwork.commit/9299a84b1) Bump few consts (#2096)
+- [`7b43720f0`](https://github.com/subinetwork/subinetwork.commit/7b43720f0) Fix copying of final binaries into subicore-binaries (#2090)
+- [`cc593615e`](https://github.com/subinetwork/subinetwork.commit/cc593615e) Bump copyright year to 2018 (#2087)
+- [`2129ee4d8`](https://github.com/subinetwork/subinetwork.commit/2129ee4d8) Add docker support when doing Gitian builds (#2084)
+- [`6a1456ef4`](https://github.com/subinetwork/subinetwork.commit/6a1456ef4) Update gitian key for codablock (#2085)
+- [`ab96a6af6`](https://github.com/subinetwork/subinetwork.commit/ab96a6af6) Update gitian keys, script and doc (#2082)
+- [`5d057cf66`](https://github.com/subinetwork/subinetwork.commit/5d057cf66) Add string_cast benchmark (#2073)
+- [`cf71f5767`](https://github.com/subinetwork/subinetwork.commit/cf71f5767) Fix potential DoS vector for smartnode payments (#2071)
+- [`febdc2116`](https://github.com/subinetwork/subinetwork.commit/febdc2116) Fix `nl` locale alias (#2061)
+- [`1264a5577`](https://github.com/subinetwork/subinetwork.commit/1264a5577) Fix spork signature check for new nodes after SPORK_6_NEW_SIGS is switched to ON (#2060)
+- [`41680f4d9`](https://github.com/subinetwork/subinetwork.commit/41680f4d9) small cleanup in a few places (#2058)
+- [`741b94875`](https://github.com/subinetwork/subinetwork.commit/741b94875) Translations201804 (#2012)
+- [`8e24b087b`](https://github.com/subinetwork/subinetwork.commit/8e24b087b) replace boost iterators in subi-specific code (#2048)
+- [`7719b7ec2`](https://github.com/subinetwork/subinetwork.commit/7719b7ec2) Update BIP147 deployment times, nMinimumChainWork and defaultAssumeValid (#2030)
+- [`b07503f01`](https://github.com/subinetwork/subinetwork.commit/b07503f01) Some cleanup (mostly trivial) (#2038)
+- [`f8e5c5d56`](https://github.com/subinetwork/subinetwork.commit/f8e5c5d56) Simplify spork defaults by using a map (#2037)
+- [`6dd8304a5`](https://github.com/subinetwork/subinetwork.commit/6dd8304a5) Remove duplication of "class CBlockIndex;" (#2036)
+- [`4ea790377`](https://github.com/subinetwork/subinetwork.commit/4ea790377) Subiify lib names (#2035)
+- [`53093c65b`](https://github.com/subinetwork/subinetwork.commit/53093c65b) Run tests in mocked time (#2031)
+- [`f7b9aae27`](https://github.com/subinetwork/subinetwork.commit/f7b9aae27) Correctly update pindexBestHeader and pindexBestInvalid in InvalidateBlock (#2029)
+- [`8b09e779b`](https://github.com/subinetwork/subinetwork.commit/8b09e779b) Bump testnet checkpoint and nMinimumChainWork/defaultAssumeValid params (#2026)
+- [`eecc69223`](https://github.com/subinetwork/subinetwork.commit/eecc69223) Fix a very ancient bug from mid 2015 (#2021)
+- [`72a225b9b`](https://github.com/subinetwork/subinetwork.commit/72a225b9b) Few fixes for lite mode (#2014)
+- [`c7e9ea9fb`](https://github.com/subinetwork/subinetwork.commit/c7e9ea9fb) Avoid repeating the full scan in CSmartnodeMan::UpdateLastPaid() on non-MNs (#1985)
+- [`f28a58e0a`](https://github.com/subinetwork/subinetwork.commit/f28a58e0a) Refactor and fix restart (#1999)
+- [`7248700b3`](https://github.com/subinetwork/subinetwork.commit/7248700b3) Add missing cs_main locks (#1998)
+- [`9e98c856f`](https://github.com/subinetwork/subinetwork.commit/9e98c856f) A pack of small fixes (#1992)
+- [`19ea1a791`](https://github.com/subinetwork/subinetwork.commit/19ea1a791) Use operator[] instead of emplace in CSmartnodePayments::AddPaymentVote (#1980)
+- [`ca3655f49`](https://github.com/subinetwork/subinetwork.commit/ca3655f49) Fix some (potential dead)locks (#1977)
+- [`2a7e6861d`](https://github.com/subinetwork/subinetwork.commit/2a7e6861d) Include "clientversion.h" in rpc/smartnode.cpp (#1979)
+- [`ef1a86c3e`](https://github.com/subinetwork/subinetwork.commit/ef1a86c3e) Add dummy CMakeLists.txt file to make development with CLion easier (#1978)
+- [`a9d8e2c5d`](https://github.com/subinetwork/subinetwork.commit/a9d8e2c5d) [Init] Avoid segfault when called with -enableinstantsend=0 (#1976)
+- [`3200eae9b`](https://github.com/subinetwork/subinetwork.commit/3200eae9b) Don't use short version of 'tinyformat/fmt' namespace in util.h (#1975)
+- [`97a07cbc4`](https://github.com/subinetwork/subinetwork.commit/97a07cbc4) Refactor `CSmartnodePayment*` (#1974)
+- [`4ffa7bac0`](https://github.com/subinetwork/subinetwork.commit/4ffa7bac0) Introduce DIP0001Height (#1973)
+- [`611879aa6`](https://github.com/subinetwork/subinetwork.commit/611879aa6) Use spork addresses instead of raw keys and allow changing them on startup (#1969)
+- [`9ef38c6d7`](https://github.com/subinetwork/subinetwork.commit/9ef38c6d7) Switch CNetFulfilledRequestManager and CSmartnodeMan maps/funcs to CService (#1967)
+- [`929c1584a`](https://github.com/subinetwork/subinetwork.commit/929c1584a) Rename CheckPreviousBlockVotes to CheckBlockVotes and adjust its log output a bit (#1965)
+- [`bf0854e58`](https://github.com/subinetwork/subinetwork.commit/bf0854e58) Swap `expired` and `sentinel_expired` states in order (#1961)
+- [`9876207ce`](https://github.com/subinetwork/subinetwork.commit/9876207ce) Multiple devnet fixes (#1960)
+- [`e37b6c7da`](https://github.com/subinetwork/subinetwork.commit/e37b6c7da) Fix BIP147 deployment threshold parameter (#1955)
+- [`106276a3e`](https://github.com/subinetwork/subinetwork.commit/106276a3e) Adjust/fix log output (#1954)
+- [`0abd1894e`](https://github.com/subinetwork/subinetwork.commit/0abd1894e) Call CheckMnbAndUpdateSmartnodeList when starting MN (#1945)
+- [`e23f61822`](https://github.com/subinetwork/subinetwork.commit/e23f61822) Make TrafficGraphDataTests more general (#1943)
+- [`5b1c4d8a1`](https://github.com/subinetwork/subinetwork.commit/5b1c4d8a1) Few (mostly trivial) cleanups and fixes (#1940)
+- [`99273f63a`](https://github.com/subinetwork/subinetwork.commit/99273f63a) Use SPORK_6_NEW_SIGS to switch from signing string messages to hashes (#1937)
+- [`c65613350`](https://github.com/subinetwork/subinetwork.commit/c65613350) Switch smartnode id in Subi data structures from CTxIn to COutPoint (#1933)
+- [`2ea6f7d82`](https://github.com/subinetwork/subinetwork.commit/2ea6f7d82) Use `override` keyword for overriden class member functions (#1644)
+- [`d5ef77ba9`](https://github.com/subinetwork/subinetwork.commit/d5ef77ba9) Refactor: use constant refs and `Ret` suffix (#1928)
+- [`2e04864b2`](https://github.com/subinetwork/subinetwork.commit/2e04864b2) Replace boost::lexical_cast<int> with atoi (#1926)
+- [`0f4d963ba`](https://github.com/subinetwork/subinetwork.commit/0f4d963ba) Add DSHA256 and X11 benchmarks, refactor names of other algo benchmarks to group them together (#1925)
+- [`4528c735f`](https://github.com/subinetwork/subinetwork.commit/4528c735f) Replace some instantsend/privatesend magic numbers with constants (#1924)
+- [`120893c63`](https://github.com/subinetwork/subinetwork.commit/120893c63) Update timeLastMempoolReq when responding to MEMPOOL request (#1904)
+- [`bb20b4e7b`](https://github.com/subinetwork/subinetwork.commit/bb20b4e7b) Few cleanups after backporting (#1903)
+- [`a7fa07a30`](https://github.com/subinetwork/subinetwork.commit/a7fa07a30) Drop BOOST_FOREACH and use references in loops (const ref where applicable, Subi code only) (#1899)
+- [`e0b6988a4`](https://github.com/subinetwork/subinetwork.commit/e0b6988a4) Various fixes and refactoring for Cache*Map classes (#1896)
+- [`99b2789a7`](https://github.com/subinetwork/subinetwork.commit/99b2789a7) Fix DeserializeAndCheckBlockTest benchmark and store hashDevnetGenesisBlock in `consensus` (#1888)
+- [`88646bd0d`](https://github.com/subinetwork/subinetwork.commit/88646bd0d) Rename `fMasterNode` to `fSmartnodeMode` to clarify its meaning and to avoid confusion with `CNode::fSmartnode` (#1874)
+- [`f6d98422c`](https://github.com/subinetwork/subinetwork.commit/f6d98422c) Silence ratecheck_test (#1873)
+- [`9cee4193b`](https://github.com/subinetwork/subinetwork.commit/9cee4193b) Separate .h generation from .json/.raw for different modules (#1870)
+- [`83957f2d3`](https://github.com/subinetwork/subinetwork.commit/83957f2d3) Fix alertTests.raw.h (again) (#1869)
+- [`c13afaad8`](https://github.com/subinetwork/subinetwork.commit/c13afaad8) Fix alertTests.raw.h generation (#1868)
+- [`a46bf120b`](https://github.com/subinetwork/subinetwork.commit/a46bf120b) Don't directly call "wine test_subi.exe" and let "make check" handle it (#1841)
+- [`e805f790e`](https://github.com/subinetwork/subinetwork.commit/e805f790e) Automatically build and push docker image to docker.io/subi/subid-develop (#1809)
+- [`d9058aa04`](https://github.com/subinetwork/subinetwork.commit/d9058aa04) Increase travis timeout for "wine src/test/test_subi.exe" call (#1820)
+- [`10786fe8e`](https://github.com/subinetwork/subinetwork.commit/10786fe8e) Use travis_wait for "wine test_subi.exe" call to fix timeouts (#1812)
+- [`4bce3bf8b`](https://github.com/subinetwork/subinetwork.commit/4bce3bf8b) Fix crash on exit when -createwalletbackups=0 (#1810)
+- [`cd9c6994c`](https://github.com/subinetwork/subinetwork.commit/cd9c6994c) Implement named devnets (#1791)
+- [`ebbd26a05`](https://github.com/subinetwork/subinetwork.commit/ebbd26a05) Drop IsInputAssociatedWithPubkey and optimize CheckOutpoint (#1783)
 
 ### Backports and related fixes:
 - See commit list [here](https://github.com/subinetwork/subi/blob/master/doc/release-notes/subi/release-notes-0.12.3-backports.md)
@@ -467,7 +467,7 @@ reviewed pull requests or helped translating on
 Older releases
 ==============
 
-subi was previously known as Darkcoin.
+Subi was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -478,12 +478,12 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
-Darkcoin was rebranded to subi.
+Subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
+Darkcoin was rebranded to Subi.
 
-subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
-subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
+Subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 

@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2021 The Dash Core developers
-// Copyright (c) 2020-2022 The subi developers
+// Copyright (c) 2020-2022 The Subi developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -387,11 +387,11 @@ void BitcoinGUI::stopConnectingAnimation()
 void BitcoinGUI::createActions()
 {
     sendCoinsMenuAction = new QAction(tr("&Send"), this);
-    sendCoinsMenuAction->setStatusTip(tr("Send coins to a subi address"));
+    sendCoinsMenuAction->setStatusTip(tr("Send coins to a Subi address"));
     sendCoinsMenuAction->setToolTip(sendCoinsMenuAction->statusTip());
 
     coinJoinCoinsMenuAction = new QAction("&CoinJoin", this);
-    coinJoinCoinsMenuAction->setStatusTip(tr("Send %1 funds to a subi address").arg("CoinJoin"));
+    coinJoinCoinsMenuAction->setStatusTip(tr("Send %1 funds to a Subi address").arg("CoinJoin"));
     coinJoinCoinsMenuAction->setToolTip(coinJoinCoinsMenuAction->statusTip());
 
     receiveCoinsMenuAction = new QAction(tr("&Receive"), this);
@@ -412,7 +412,7 @@ void BitcoinGUI::createActions()
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
     aboutAction = new QAction(QIcon(":/icons/about"), tr("&About %1").arg(tr(PACKAGE_NAME)), this);
-    aboutAction->setStatusTip(tr("Show information about subi Core"));
+    aboutAction->setStatusTip(tr("Show information about Subi Core"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutAction->setEnabled(false);
     aboutQtAction = new QAction(QIcon(":/icons/about_qt"), tr("About &Qt"), this);
@@ -436,9 +436,9 @@ void BitcoinGUI::createActions()
     lockWalletAction = new QAction(tr("&Lock Wallet"), this);
   
     signMessageAction = new QAction(QIcon(":/icons/edit"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your subi addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your Subi addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified subi addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Subi addresses"));
 
     openInfoAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation),tr("&Information"), this);
     openInfoAction->setStatusTip(tr("Show diagnostic information"));
@@ -474,7 +474,7 @@ void BitcoinGUI::createActions()
 
     showHelpMessageAction = new QAction(QIcon(":/icons/configure"), tr("&Command-line options"), this);
     showHelpMessageAction->setMenuRole(QAction::NoRole);
-    showHelpMessageAction->setStatusTip(tr("Show the %1 help message to get a list with possible subi command-line options").arg(tr(PACKAGE_NAME)));
+    showHelpMessageAction->setStatusTip(tr("Show the %1 help message to get a list with possible Subi command-line options").arg(tr(PACKAGE_NAME)));
 
     showCoinJoinHelpAction = new QAction(QIcon(":/icons/configure"), tr("%1 &information").arg("CoinJoin"), this);
     showCoinJoinHelpAction->setMenuRole(QAction::NoRole);
@@ -1132,7 +1132,7 @@ void BitcoinGUI::updateNetworkState()
     fNetworkActivePrev = fNetworkActive;
 
     if (fNetworkActive) {
-        labelConnectionsIcon->setToolTip(tr("%n active connection(s) to subi network", "", count));
+        labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Subi network", "", count));
     } else {
         labelConnectionsIcon->setToolTip(tr("Network activity disabled"));
         icon = "connect_4";
@@ -1403,7 +1403,7 @@ void BitcoinGUI::setAdditionalDataSyncProgress(double nSyncProgress)
 
 void BitcoinGUI::message(const QString &title, const QString &message, unsigned int style, bool *ret)
 {
-    QString strTitle = tr("subi Core"); // default title
+    QString strTitle = tr("Subi Core"); // default title
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -1429,7 +1429,7 @@ void BitcoinGUI::message(const QString &title, const QString &message, unsigned 
             break;
         }
     }
-    // Append title to "subi Core - "
+    // Append title to "Subi Core - "
     if (!msgType.isEmpty())
         strTitle += " - " + msgType;
 

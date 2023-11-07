@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2020 The Dash Core developers
-// Copyright (c) 2020-2022 The subi developers
+// Copyright (c) 2020-2022 The Subi developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -518,8 +518,8 @@ public:
         consensus.DIP0008Enabled = true;
         // consensus.DIP0003EnforcementHeight = 1047200;
         consensus.powLimit = uint256S("00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // subi: 1 day
-        consensus.nPowTargetSpacing = 2 * 60; // subi: 2 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // Subi: 1 day
+        consensus.nPowTargetSpacing = 2 * 60; // Subi: 2 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nPowDGWHeight = 60;
@@ -541,10 +541,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_V17].nFalloffCoeff = 5; // this corresponds to 10 periods
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000"); // 0
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000002513a8920f"); // 3000
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x00076a971459b24eac3f88884be0f3f6454384b2619584a7dfed122bcea177e8"); // 0
+        consensus.defaultAssumeValid = uint256S("0xdf68012bbfc970bc0ae4efcd9833b9358d03e72449d381dd7de3bb5e0cff0647"); // 3000
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -555,7 +555,7 @@ public:
         pchMessageStart[1] = 0x78;
         pchMessageStart[2] = 0x79;
         pchMessageStart[3] = 0x71;
-        nDefaultPort = 15289;
+        nDefaultPort = 19289;
         nPruneAfterHeight = 100000;
         //FindMainNetGenesisBlock(1684675316, 0x20001fff, "main");
         genesis = CreateGenesisBlock(1684675316, 1160, 0x20001fff, 4, 5000 * COIN);
@@ -563,22 +563,22 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x657a352808ddf1f43a631a5d1533cd2a7a32e34a775cb7d6048d24f154b4e309"));
         assert(genesis.hashMerkleRoot == uint256S("0x28872e67260d6425b65fd1acc5f77bacad848e2e6cd9028007c067dd806ade73"));
 
-        vSeeds.emplace_back("net1.subinetwork.com");
-        vSeeds.emplace_back("net2.subinetwork.com");
+        vSeeds.emplace_back("net1.Subinetwork.com");
+        vSeeds.emplace_back("net2.Subinetwork.com");
 
 
 
-        // subi addresses start with 'S'
+        // Subi addresses start with 'S'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
-        // subi script addresses start with '7'
+        // Subi script addresses start with '7'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,16);
-        // subi private keys start with '7' or 'X'
+        // Subi private keys start with '7' or 'X'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,128);
-        // subi BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Subi BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
-        // subi BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Subi BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
-        // subi BIP44 coin type is '5'
+        // Subi BIP44 coin type is '5'
         std::string strExtCoinType = gArgs.GetArg("-extcoinindex", "");
         nExtCoinType = strExtCoinType.empty() ? 200 : std::stoi(strExtCoinType);
 //        if(gArgs.GetChainName() == CBaseChainParams::MAIN) {
@@ -630,7 +630,9 @@ public:
         fBIP9CheckSmartnodesUpgraded = true;
 
         checkpointData = {
-          {  
+          {  {2000, uint256S("0xfde793fc223e29b3574f19c2dc82b979a7dd2c788822497099d9670e8956f320")},
+             {3000, uint256S("0xdf68012bbfc970bc0ae4efcd9833b9358d03e72449d381dd7de3bb5e0cff0647")},
+             {3988, uint256S("0x4e6eb2c1d75a2d107108e0ebd1f53b5bcfc55ea0b53540cb5e6aa53963e05778")}             
 
           }
         };
@@ -676,8 +678,8 @@ public:
         consensus.DIP0008Enabled = true;
         // consensus.DIP0003EnforcementHeight = 7300;
         consensus.powLimit = uint256S("00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // subi: 1 day
-        consensus.nPowTargetSpacing = 60; // subi: 1 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // Subi: 1 day
+        consensus.nPowTargetSpacing = 60; // Subi: 1 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nPowDGWHeight = 60;
@@ -721,22 +723,22 @@ public:
 
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("tes.subinetwork.com");
-        //vSeeds.emplace_back("tnet1.subinetwork.com", true);
-        //vSeeds.emplace_back("tnet2.subinetwork.com", true);
+        vSeeds.emplace_back("tes.Subinetwork.com");
+        //vSeeds.emplace_back("tnet1.Subinetwork.com", true);
+        //vSeeds.emplace_back("tnet2.Subinetwork.com", true);
 
-        // Testnet subi addresses start with 't'
+        // Testnet Subi addresses start with 't'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
-        // Testnet subi script addresses start with '8' or '9'
+        // Testnet Subi script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        // Testnet subi BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Subi BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
-        // Testnet subi BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Subi BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        // Testnet subi BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Subi BIP44 coin type is '1' (All coin's testnet default)
         std::string strExtCoinType = gArgs.GetArg("-extcoinindex", "");
         nExtCoinType = strExtCoinType.empty() ? 10227 : std::stoi(strExtCoinType);
 
@@ -826,8 +828,8 @@ public:
         consensus.DIP0008Enabled = true;// DIP0008 activated immediately on devnet
        // consensus.DIP0003EnforcementHeight = 2; // DIP0003 activated immediately on devnet
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 1
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // subi: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // subi: 2.5 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // Subi: 1 day
+        consensus.nPowTargetSpacing = 2.5 * 60; // Subi: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nPowDGWHeight = 60;
@@ -875,20 +877,20 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("subievo.org",  "devnet-seed.subievo.org"));
+        //vSeeds.push_back(CDNSSeedData("Subievo.org",  "devnet-seed.Subievo.org"));
 
-        // Testnet subi addresses start with 'y'
+        // Testnet Subi addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
-        // Testnet subi script addresses start with '8' or '9'
+        // Testnet Subi script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        // Testnet subi BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Subi BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
-        // Testnet subi BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Subi BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        // Testnet subi BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Subi BIP44 coin type is '1' (All coin's testnet default)
         nExtCoinType = 1;
 
         // long living quorum params
@@ -965,8 +967,8 @@ public:
         consensus.DIP0003Enabled = true;
        // consensus.DIP0003EnforcementHeight = 500;
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 1
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // subi: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // subi: 2.5 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // Subi: 1 day
+        consensus.nPowTargetSpacing = 2.5 * 60; // Subi: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nPowDGWHeight = 60;
@@ -1043,18 +1045,18 @@ public:
             0
         };
 
-        // Regtest subi addresses start with 'y'
+        // Regtest Subi addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
-        // Regtest subi script addresses start with '8' or '9'
+        // Regtest Subi script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Regtest private keys start with '9' or 'c' (Bitcoin defaults)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        // Regtest subi BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Regtest Subi BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
-        // Regtest subi BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Regtest Subi BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        // Regtest subi BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest Subi BIP44 coin type is '1' (All coin's testnet default)
         nExtCoinType = 1;
 
         // long living quorum params

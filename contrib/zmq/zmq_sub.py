@@ -6,7 +6,7 @@
 """
     ZMQ example using python3's asyncio
 
-    subi should be started with the command line arguments:
+    Subi should be started with the command line arguments:
         subid -testnet -daemon \
                 -zmqpubrawtx=tcp://127.0.0.1:28332 \
                 -zmqpubrawblock=tcp://127.0.0.1:28332 \

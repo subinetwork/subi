@@ -75,12 +75,12 @@
       <translation>Adresa prijatia</translation>
     </message>
     <message>
-      <source>These are your subi addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-      <translation>Toto sú vaše subi adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+      <source>These are your Subi addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+      <translation>Toto sú vaše Subi adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-      <source>These are your subi addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-      <translation>Toto sú vaše subi adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+      <source>These are your Subi addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+      <translation>Toto sú vaše Subi adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
       <source>&amp;Copy Address</source>
@@ -313,12 +313,12 @@
   <context>
     <name>BitcoinGUI</name>
     <message>
-      <source>A fatal error occurred. subi Core can no longer continue safely and will quit.</source>
-      <translation>Došlo k závažnej chybe. subi Core už nemôže bezpečne pokračovať a bude ukončený.</translation>
+      <source>A fatal error occurred. Subi Core can no longer continue safely and will quit.</source>
+      <translation>Došlo k závažnej chybe. Subi Core už nemôže bezpečne pokračovať a bude ukončený.</translation>
     </message>
     <message>
-      <source>subi Core</source>
-      <translation>subi Core</translation>
+      <source>Subi Core</source>
+      <translation>Subi Core</translation>
     </message>
     <message>
       <source>Wallet</source>
@@ -341,8 +341,8 @@
       <translation>&amp;Odoslať</translation>
     </message>
     <message>
-      <source>Send coins to a subi address</source>
-      <translation>Poslať mince na subi adresu</translation>
+      <source>Send coins to a Subi address</source>
+      <translation>Poslať mince na Subi adresu</translation>
     </message>
     <message>
       <source>&amp;Receive</source>
@@ -350,7 +350,7 @@
     </message>
     <message>
       <source>Request payments (generates QR codes and subi: URIs)</source>
-      <translation>Vyžiadať platby (vygeneruje QR kódy a subi: URI)</translation>
+      <translation>Vyžiadať platby (vygeneruje QR kódy a Subi: URI)</translation>
     </message>
     <message>
       <source>&amp;Transactions</source>
@@ -377,8 +377,8 @@
       <translation>Ukončiť program</translation>
     </message>
     <message>
-      <source>Show information about subi Core</source>
-      <translation>Zobraziť informácie o subi Core</translation>
+      <source>Show information about Subi Core</source>
+      <translation>Zobraziť informácie o Subi Core</translation>
     </message>
     <message>
       <source>About &amp;Qt</source>
@@ -397,8 +397,8 @@
       <translation>&amp;O %1</translation>
     </message>
     <message>
-      <source>Send %1 funds to a subi address</source>
-      <translation>Poslať zdroje %1 na subi adresu</translation>
+      <source>Send %1 funds to a Subi address</source>
+      <translation>Poslať zdroje %1 na Subi adresu</translation>
     </message>
     <message>
       <source>Modify configuration options for %1</source>
@@ -453,16 +453,16 @@
       <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-      <source>Sign messages with your subi addresses to prove you own them</source>
-      <translation>Podpísať správy s vašimi subi adresami ako dôkaz že ich vlastníte</translation>
+      <source>Sign messages with your Subi addresses to prove you own them</source>
+      <translation>Podpísať správy s vašimi Subi adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
       <source>&amp;Verify message...</source>
       <translation>&amp;Overiť správu...</translation>
     </message>
     <message>
-      <source>Verify messages to ensure they were signed with specified subi addresses</source>
-      <translation>Overiť správy pre uistenie, že boli podpísané zadanými subi adresami</translation>
+      <source>Verify messages to ensure they were signed with specified Subi addresses</source>
+      <translation>Overiť správy pre uistenie, že boli podpísané zadanými Subi adresami</translation>
     </message>
     <message>
       <source>&amp;Information</source>
@@ -549,8 +549,8 @@
       <translation>&amp;Možnosti príkazového riadku</translation>
     </message>
     <message>
-      <source>Show the %1 help message to get a list with possible subi command-line options</source>
-      <translation>Ukázať %1 zoznam možných nastavení subi pomocou príkazového riadku</translation>
+      <source>Show the %1 help message to get a list with possible Subi command-line options</source>
+      <translation>Ukázať %1 zoznam možných nastavení Subi pomocou príkazového riadku</translation>
     </message>
     <message>
       <source>default wallet</source>
@@ -599,12 +599,12 @@
       <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-      <source>%n active connection(s) to subi network</source>
+      <source>%n active connection(s) to Subi network</source>
       <translation>
-        <numerusform>%n aktívne spojenie so sieťou subi</numerusform>
-        <numerusform>%n aktívne spojenia so sieťou subi</numerusform>
-        <numerusform>%n aktívnych spojení so sieťou subi</numerusform>
-        <numerusform>%n aktívnych spojení so sieťou subi</numerusform>
+        <numerusform>%n aktívne spojenie so sieťou Subi</numerusform>
+        <numerusform>%n aktívne spojenia so sieťou Subi</numerusform>
+        <numerusform>%n aktívnych spojení so sieťou Subi</numerusform>
+        <numerusform>%n aktívnych spojení so sieťou Subi</numerusform>
       </translation>
     </message>
     <message>
@@ -989,8 +989,8 @@
       <translation>Upraviť adresu pre odoslanie</translation>
     </message>
     <message>
-      <source>The entered address "%1" is not a valid subi address.</source>
-      <translation>Zadaná adresa "%1" nie je platná subi adresa.</translation>
+      <source>The entered address "%1" is not a valid Subi address.</source>
+      <translation>Zadaná adresa "%1" nie je platná Subi adresa.</translation>
     </message>
     <message>
       <source>The entered address "%1" is already in the address book.</source>
@@ -1051,8 +1051,8 @@
       <translation>%1 Informácie</translation>
     </message>
     <message>
-      <source>&lt;h3&gt;%1 Basics&lt;/h3&gt; %1 gives you true financial privacy by obscuring the origins of your funds. All the subi in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; %1 uses an innovative process to mix your inputs with the inputs of two or more other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The %1 process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;%1 begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI and 10 SUBI -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "smartnodes." These smartnodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the smartnodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two or more other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The smartnode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of %1 makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have %1 disabled. &lt;hr&gt;For more information, see the &lt;a style="%2" href="%3"&gt;%1 documentation&lt;/a&gt;.</source>
-      <translation>&lt;h3&gt;Základy %1&lt;/h3&gt; %1 vám poskytuje skutočné finančné súkromie skrývaním pôvodu vašich zdrojov. Všetky subie vo vašej peňaženke pozostávajú z rôznych "vstupov", ktoré si môžete predstaviť ako rozdelené,  diskrétne mince.&lt;br&gt; %1 používa zdokonalený proces pre miešanie vašich vstupov so vstupmi iných ľudí bez toho, aby vaše mince museli opustiť peňaženku. Počas celej doby máte kontrolu nad vašimi peniazmi.&lt;hr&gt; &lt;b&gt;Proces %1 funguje nasledovne:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;%1 začne rozdelením vašich transakčných vstupov na štandardné časti, takzvané denominácie. Tieto denominácie sú 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI a 10 SUBI -- v podstate niečo ako papierové peniaze, ktoré používate každý deň.&lt;/li&gt; &lt;li&gt;Vaša peňaženka potom pošle požiadavok špeciálne nastavenému softvérovému uzlu nazvaného "Masternód". Tieto masternódy sú potom informované, že máte záujem miešať určité denominácie. Masternód neobdrží žiadne informácie ktoré by vás identifikovali, takže nikdy nevie kto ste.&lt;/li&gt; &lt;li&gt;Keď ďalší dvaja ľudia pošlú podobnú správu hovoriacu o tom, že chcú miešať rovnakú denomináciu, začne sa samotné miešanie. Masternód zamieša vstupy a povie peňaženkám všetkých troch používateľov, aby zaplatili teraz už zmiešané vstupy sami sebe. Vaša peňaženka zaplatí tieto denominácie priamo sebe, ale už na inú adresu (nazývanú "meniaca adresa").&lt;/li&gt; &lt;li&gt;Aby boli vaše zdroje plne ukryté, vaša peňaženka musí zopakovať tento proces niekoľko krát s každou denomináciou.  Vždy keď je tento proces dokončený, je nazvaný "kolo". Každé kolo %1 exponenciálne sťažuje určiť, odkiaľ pochádzajú vaše zdroje.&lt;/li&gt; &lt;li&gt;Toto miešanie sa deje na pozadí, bez nutnosti zásahov z vašej strany. Keď si prajete uskutočniť transakciu, vaše zdroje budú už zmiešané. Nie je nutné na nič čakať.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;b&gt;DÔLEŽITÉ:&lt;/b&gt; Vaša peňaženka obsahuje iba 1000 takýchto "meniacich adries". Vždy keď prebehne miešanie, použije sa maximálne až 9 vašich adries. To znamená, že týchto 1000 adries vystačí zhruba na 100 miešaní. Keď sa použije 900 adries, vaša peňaženka musí vytvoriť viac adries. Toto je však možné iba vtedy, keď máte zapnuté automatické zálohovanie.&lt;br&gt; V dôsledku toho, používatelia ktorí majú zálohovanie vypnuté, budú mať vypnutý aj %1. &lt;hr&gt;Viac informácií nájdete v &lt;a style="%2" href="%3"&gt;dokumentácií ku %1&lt;/a&gt;.</translation>
+      <source>&lt;h3&gt;%1 Basics&lt;/h3&gt; %1 gives you true financial privacy by obscuring the origins of your funds. All the Subi in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; %1 uses an innovative process to mix your inputs with the inputs of two or more other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The %1 process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;%1 begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI and 10 SUBI -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "smartnodes." These smartnodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the smartnodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two or more other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The smartnode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of %1 makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have %1 disabled. &lt;hr&gt;For more information, see the &lt;a style="%2" href="%3"&gt;%1 documentation&lt;/a&gt;.</source>
+      <translation>&lt;h3&gt;Základy %1&lt;/h3&gt; %1 vám poskytuje skutočné finančné súkromie skrývaním pôvodu vašich zdrojov. Všetky Subie vo vašej peňaženke pozostávajú z rôznych "vstupov", ktoré si môžete predstaviť ako rozdelené,  diskrétne mince.&lt;br&gt; %1 používa zdokonalený proces pre miešanie vašich vstupov so vstupmi iných ľudí bez toho, aby vaše mince museli opustiť peňaženku. Počas celej doby máte kontrolu nad vašimi peniazmi.&lt;hr&gt; &lt;b&gt;Proces %1 funguje nasledovne:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;%1 začne rozdelením vašich transakčných vstupov na štandardné časti, takzvané denominácie. Tieto denominácie sú 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI a 10 SUBI -- v podstate niečo ako papierové peniaze, ktoré používate každý deň.&lt;/li&gt; &lt;li&gt;Vaša peňaženka potom pošle požiadavok špeciálne nastavenému softvérovému uzlu nazvaného "Masternód". Tieto masternódy sú potom informované, že máte záujem miešať určité denominácie. Masternód neobdrží žiadne informácie ktoré by vás identifikovali, takže nikdy nevie kto ste.&lt;/li&gt; &lt;li&gt;Keď ďalší dvaja ľudia pošlú podobnú správu hovoriacu o tom, že chcú miešať rovnakú denomináciu, začne sa samotné miešanie. Masternód zamieša vstupy a povie peňaženkám všetkých troch používateľov, aby zaplatili teraz už zmiešané vstupy sami sebe. Vaša peňaženka zaplatí tieto denominácie priamo sebe, ale už na inú adresu (nazývanú "meniaca adresa").&lt;/li&gt; &lt;li&gt;Aby boli vaše zdroje plne ukryté, vaša peňaženka musí zopakovať tento proces niekoľko krát s každou denomináciou.  Vždy keď je tento proces dokončený, je nazvaný "kolo". Každé kolo %1 exponenciálne sťažuje určiť, odkiaľ pochádzajú vaše zdroje.&lt;/li&gt; &lt;li&gt;Toto miešanie sa deje na pozadí, bez nutnosti zásahov z vašej strany. Keď si prajete uskutočniť transakciu, vaše zdroje budú už zmiešané. Nie je nutné na nič čakať.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;b&gt;DÔLEŽITÉ:&lt;/b&gt; Vaša peňaženka obsahuje iba 1000 takýchto "meniacich adries". Vždy keď prebehne miešanie, použije sa maximálne až 9 vašich adries. To znamená, že týchto 1000 adries vystačí zhruba na 100 miešaní. Keď sa použije 900 adries, vaša peňaženka musí vytvoriť viac adries. Toto je však možné iba vtedy, keď máte zapnuté automatické zálohovanie.&lt;br&gt; V dôsledku toho, používatelia ktorí majú zálohovanie vypnuté, budú mať vypnutý aj %1. &lt;hr&gt;Viac informácií nájdete v &lt;a style="%2" href="%3"&gt;dokumentácií ku %1&lt;/a&gt;.</translation>
     </message>
   </context>
   <context>
@@ -1098,8 +1098,8 @@
       <translation>V tomto adresári bude uložených približne %1 GB dát.</translation>
     </message>
     <message>
-      <source>%1 will download and store a copy of the subi block chain.</source>
-      <translation>%1 stiahne a bude uchovávať kópiu subi blockchainu.</translation>
+      <source>%1 will download and store a copy of the Subi block chain.</source>
+      <translation>%1 stiahne a bude uchovávať kópiu Subi blockchainu.</translation>
     </message>
     <message>
       <source>The wallet will also be stored in this directory.</source>
@@ -1129,12 +1129,12 @@
       <translation>Forma</translation>
     </message>
     <message>
-      <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the subi network, as detailed below.</source>
-      <translation>Nedávne transakcie ešte nemusia byť viditeľné a preto môže byť stav vašej peňaženky nesprávny. Informácia bude správna hneď ako vaša peňaženka dokončí synchronizáciu so sieťou subi. Viac detailov nájdete nižšie.</translation>
+      <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Subi network, as detailed below.</source>
+      <translation>Nedávne transakcie ešte nemusia byť viditeľné a preto môže byť stav vašej peňaženky nesprávny. Informácia bude správna hneď ako vaša peňaženka dokončí synchronizáciu so sieťou Subi. Viac detailov nájdete nižšie.</translation>
     </message>
     <message>
-      <source>Attempting to spend subi that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-      <translation>Pokús o minutie subiov, ktoré sú ovplyvnené "ešte nezobrazenými" transakciami, nebude sieťou akceptovaný.</translation>
+      <source>Attempting to spend Subi that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+      <translation>Pokús o minutie Subiov, ktoré sú ovplyvnené "ešte nezobrazenými" transakciami, nebude sieťou akceptovaný.</translation>
     </message>
     <message>
       <source>Number of blocks left</source>
@@ -1291,8 +1291,8 @@
       <translation>Cieľový zostatok</translation>
     </message>
     <message>
-      <source>Automatically open the subi Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-      <translation>Automaticky otvoriť na smerovači port pre subi Core klient. Toto funguje iba ak váš smerovač  podporuje UPnP a je povolené</translation>
+      <source>Automatically open the Subi Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+      <translation>Automaticky otvoriť na smerovači port pre Subi Core klient. Toto funguje iba ak váš smerovač  podporuje UPnP a je povolené</translation>
     </message>
     <message>
       <source>Accept connections from outside.</source>
@@ -1303,8 +1303,8 @@
       <translation>Povoliť pric&amp;hádzajúce spojenia</translation>
     </message>
     <message>
-      <source>Connect to the subi network through a SOCKS5 proxy.</source>
-      <translation>Pripojiť sa do siete subi cez proxy SOCKS5.</translation>
+      <source>Connect to the Subi network through a SOCKS5 proxy.</source>
+      <translation>Pripojiť sa do siete Subi cez proxy SOCKS5.</translation>
     </message>
     <message>
       <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1403,8 +1403,8 @@
       <translation>Tor</translation>
     </message>
     <message>
-      <source>Connect to the subi network through a separate SOCKS5 proxy for Tor hidden services.</source>
-      <translation>Pripojiť sa do siete subi cez oddelené SOCKS5 proxy pre skryté služby Tor.</translation>
+      <source>Connect to the Subi network through a separate SOCKS5 proxy for Tor hidden services.</source>
+      <translation>Pripojiť sa do siete Subi cez oddelené SOCKS5 proxy pre skryté služby Tor.</translation>
     </message>
     <message>
       <source>Show only a tray icon after minimizing the window.</source>
@@ -1504,8 +1504,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>Forma</translation>
     </message>
     <message>
-      <source>The displayed information may be out of date. Your wallet automatically synchronizes with the subi network after a connection is established, but this process has not completed yet.</source>
-      <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou subi akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+      <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Subi network after a connection is established, but this process has not completed yet.</source>
+      <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Subi akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
       <source>Available:</source>
@@ -1734,7 +1734,7 @@ https://www.transifex.com/projects/p/subi/</translation>
     </message>
     <message>
       <source>Cannot start subi: click-to-pay handler</source>
-      <translation>subi sa nedá spustiť: click-to-pay handler</translation>
+      <translation>Subi sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
       <source>URI handling</source>
@@ -1753,8 +1753,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-      <source>URI cannot be parsed! This can be caused by an invalid subi address or malformed URI parameters.</source>
-      <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou subi adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+      <source>URI cannot be parsed! This can be caused by an invalid Subi address or malformed URI parameters.</source>
+      <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Subi adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
       <source>Payment request file handling</source>
@@ -1899,8 +1899,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>Suma</translation>
     </message>
     <message>
-      <source>Enter a subi address (e.g. %1)</source>
-      <translation>Zadajte subi adresu (e.g. %1)</translation>
+      <source>Enter a Subi address (e.g. %1)</source>
+      <translation>Zadajte Subi adresu (e.g. %1)</translation>
     </message>
     <message>
       <source>Appearance Setup</source>
@@ -2539,8 +2539,8 @@ https://www.transifex.com/projects/p/subi/</translation>
   <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-      <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the subi network.</source>
-      <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť subi.</translation>
+      <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Subi network.</source>
+      <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Subi.</translation>
     </message>
     <message>
       <source>&amp;Message:</source>
@@ -2551,8 +2551,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-      <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the subi network.</source>
-      <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť subi.</translation>
+      <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Subi network.</source>
+      <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Subi.</translation>
     </message>
     <message>
       <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2801,7 +2801,7 @@ https://www.transifex.com/projects/p/subi/</translation>
     </message>
     <message>
       <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for subi transactions than the network can process.</source>
-      <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po subi transakciách väčší ako dokáže sieť subi spracovať.</translation>
+      <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Subi transakciách väčší ako dokáže sieť Subi spracovať.</translation>
     </message>
     <message>
       <source>per kilobyte</source>
@@ -3030,8 +3030,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       </translation>
     </message>
     <message>
-      <source>Warning: Invalid subi address</source>
-      <translation>Upozornenie: Neplatná subi adresa</translation>
+      <source>Warning: Invalid Subi address</source>
+      <translation>Upozornenie: Neplatná Subi adresa</translation>
     </message>
     <message>
       <source>Warning: Unknown change address</source>
@@ -3061,8 +3061,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-      <source>The subi address to send the payment to</source>
-      <translation>subi adresa pre poslanie platby</translation>
+      <source>The Subi address to send the payment to</source>
+      <translation>Subi adresa pre poslanie platby</translation>
     </message>
     <message>
       <source>Choose previously used address</source>
@@ -3101,8 +3101,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>Su&amp;ma:</translation>
     </message>
     <message>
-      <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of subi than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-      <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej subi ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovnakým dielom.</translation>
+      <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Subi than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+      <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej Subi ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovnakým dielom.</translation>
     </message>
     <message>
       <source>S&amp;ubtract fee from amount</source>
@@ -3117,8 +3117,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>Správa:</translation>
     </message>
     <message>
-      <source>A message that was attached to the subi: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the subi network.</source>
-      <translation>Správa ktorá bola pripojená ku subi: URI ktorá sa uchová spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť subi.</translation>
+      <source>A message that was attached to the subi: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Subi network.</source>
+      <translation>Správa ktorá bola pripojená ku subi: URI ktorá sa uchová spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Subi.</translation>
     </message>
     <message>
       <source>Future</source>
@@ -3194,12 +3194,12 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-      <source>You can sign messages/agreements with your addresses to prove you can receive subi sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-      <translation>Môžete podpísať správy/dohody svojou adresou aby ste dokázali, že na ňu prijať subi. Buďte opatrní a nepodpisuje nič vágne alebo náhodné, nakoľko útoky typu "phishing" vás môžu lákať k ich podpísaniu vašej identity. Podpisujte iba vyhlásenia s úplnými detailami s ktorými súhlasíte.</translation>
+      <source>You can sign messages/agreements with your addresses to prove you can receive Subi sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+      <translation>Môžete podpísať správy/dohody svojou adresou aby ste dokázali, že na ňu prijať Subi. Buďte opatrní a nepodpisuje nič vágne alebo náhodné, nakoľko útoky typu "phishing" vás môžu lákať k ich podpísaniu vašej identity. Podpisujte iba vyhlásenia s úplnými detailami s ktorými súhlasíte.</translation>
     </message>
     <message>
-      <source>The subi address to sign the message with</source>
-      <translation>subi adresa na podpísanie správy</translation>
+      <source>The Subi address to sign the message with</source>
+      <translation>Subi adresa na podpísanie správy</translation>
     </message>
     <message>
       <source>Choose previously used address</source>
@@ -3230,8 +3230,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>Kopírovať práve zvolenú adresu do systémovej schránky</translation>
     </message>
     <message>
-      <source>Sign the message to prove you own this subi address</source>
-      <translation>Podpísať spravu aby ste dokázali, že vlastníte túto subi adresu</translation>
+      <source>Sign the message to prove you own this Subi address</source>
+      <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Subi adresu</translation>
     </message>
     <message>
       <source>Sign &amp;Message</source>
@@ -3254,12 +3254,12 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-      <source>The subi address the message was signed with</source>
-      <translation>Adresa subi s ktorou bola podpísaná správa</translation>
+      <source>The Subi address the message was signed with</source>
+      <translation>Adresa Subi s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-      <source>Verify the message to ensure it was signed with the specified subi address</source>
-      <translation>Overiť správu pre uistenie, že bola podpísaná zadanou subi adresou</translation>
+      <source>Verify the message to ensure it was signed with the specified Subi address</source>
+      <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Subi adresou</translation>
     </message>
     <message>
       <source>Verify &amp;Message</source>
@@ -4149,8 +4149,8 @@ https://www.transifex.com/projects/p/subi/</translation>
   <context>
     <name>subi-core</name>
     <message>
-      <source>subi Core</source>
-      <translation>subi Core</translation>
+      <source>Subi Core</source>
+      <translation>Subi Core</translation>
     </message>
     <message>
       <source>The %s developers</source>

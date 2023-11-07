@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2020 The Dash Core developers
-// Copyright (c) 2020-2022 The subi developers
+// Copyright (c) 2020-2022 The Subi developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,10 +16,10 @@ static const int MODEL_UPDATE_DELAY_SYNC = 10000;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* subiGUI -- Size of icons in status bar */
+/* SubiGUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 18;
 
-/* subiGUI -- Size of button icons e.g. in SendCoinEntry or SignVerifyMessageDialog */
+/* SubiGUI -- Size of button icons e.g. in SendCoinEntry or SignVerifyMessageDialog */
 static const int BUTTON_ICONSIZE = 23;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -45,11 +45,11 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "subi"
+#define QAPP_ORG_NAME "Subi"
 #define QAPP_ORG_DOMAIN "subinetwork.com"
-#define QAPP_APP_NAME_DEFAULT "subi-Qt"
-#define QAPP_APP_NAME_TESTNET "subi-Qt-testnet"
-#define QAPP_APP_NAME_DEVNET "subi-Qt-%s"
-#define QAPP_APP_NAME_REGTEST "subi-Qt-regtest"
+#define QAPP_APP_NAME_DEFAULT "Subi-Qt"
+#define QAPP_APP_NAME_TESTNET "Subi-Qt-testnet"
+#define QAPP_APP_NAME_DEVNET "Subi-Qt-%s"
+#define QAPP_APP_NAME_REGTEST "Subi-Qt-regtest"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

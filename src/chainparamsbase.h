@@ -11,7 +11,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between subi-cli and subid)
- * of a given instance of the subi system.
+ * of a given instance of the Subi system.
  */
 class CBaseChainParams
 {

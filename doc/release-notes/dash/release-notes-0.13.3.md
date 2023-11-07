@@ -1,4 +1,4 @@
-subi Core version 0.13.3.0
+Subi Core version 0.13.3.0
 ==========================
 
 Release is now available from:
@@ -20,7 +20,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/subi-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Subi-Qt (on Mac) or
 subid/subi-qt (on Linux). If you upgrade after DIP0003 activation you will
 have to reindex (start with -reindex-chainstate or -reindex) to make sure
 your wallet has all the new data synced (only if you were using version < 0.13).
@@ -70,21 +70,21 @@ There are few bug fixes in this release:
  0.13.3.0 Change log
 ===================
 
-See detailed [set of changes](https://github.com/subinetwork/subi/compare/v0.13.2.0...subi:v0.13.3.0).
+See detailed [set of changes](https://github.com/subinetwork/subinetwork.compare/v0.13.2.0...subi:v0.13.3.0).
 
 ### Backports
 
-- [`575cafc01`](https://github.com/subinetwork/subi/commit/575cafc01) Do not skip pushing of vMatch and vHashes in CMerkleBlock (#2826)
-- [`8c58799d8`](https://github.com/subinetwork/subi/commit/8c58799d8) There can be no two votes which differ by the outcome only (#2819)
-- [`66c2f3953`](https://github.com/subinetwork/subi/commit/66c2f3953) Fix vote ratecheck (#2813)
-- [`b52d0ad19`](https://github.com/subinetwork/subi/commit/b52d0ad19) Fix revoke reason check for ProUpRevTx (#2787)
-- [`35914e084`](https://github.com/subinetwork/subi/commit/35914e084) Skip mempool.dat when wallet is starting in "zap" mode (#2782)
-- [`46d875100`](https://github.com/subinetwork/subi/commit/46d875100) Disable in-wallet miner for win/macos Travis/Gitian builds (#2778)
+- [`575cafc01`](https://github.com/subinetwork/subinetwork.commit/575cafc01) Do not skip pushing of vMatch and vHashes in CMerkleBlock (#2826)
+- [`8c58799d8`](https://github.com/subinetwork/subinetwork.commit/8c58799d8) There can be no two votes which differ by the outcome only (#2819)
+- [`66c2f3953`](https://github.com/subinetwork/subinetwork.commit/66c2f3953) Fix vote ratecheck (#2813)
+- [`b52d0ad19`](https://github.com/subinetwork/subinetwork.commit/b52d0ad19) Fix revoke reason check for ProUpRevTx (#2787)
+- [`35914e084`](https://github.com/subinetwork/subinetwork.commit/35914e084) Skip mempool.dat when wallet is starting in "zap" mode (#2782)
+- [`46d875100`](https://github.com/subinetwork/subinetwork.commit/46d875100) Disable in-wallet miner for win/macos Travis/Gitian builds (#2778)
 
 ### Other
 
-- [`25038ff36`](https://github.com/subinetwork/subi/commit/25038ff36) Bump version to 0.13.3.0
-- [`53b2162e2`](https://github.com/subinetwork/subi/commit/53b2162e2) Harden spork15 value to 1047200 when on mainnet (#2830)
+- [`25038ff36`](https://github.com/subinetwork/subinetwork.commit/25038ff36) Bump version to 0.13.3.0
+- [`53b2162e2`](https://github.com/subinetwork/subinetwork.commit/53b2162e2) Harden spork15 value to 1047200 when on mainnet (#2830)
 
 Credits
 =======
@@ -100,7 +100,7 @@ As well as everyone that submitted issues and reviewed pull requests.
 Older releases
 ==============
 
-subi was previously known as Darkcoin.
+Subi was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -111,12 +111,12 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
-Darkcoin was rebranded to subi.
+Subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
+Darkcoin was rebranded to Subi.
 
-subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
-subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
+Subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 

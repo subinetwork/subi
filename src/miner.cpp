@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2019 The Dash Core developers
-// Copyright (c) 2020-2022 The subi developers
+// Copyright (c) 2020-2022 The Subi developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -47,7 +47,7 @@
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// subiMiner
+// SubiMiner
 //
 
 //
@@ -530,9 +530,9 @@ static bool ProcessBlockFound(const CBlock* pblock, const CChainParams& chainpar
     return true;
 }
 
-void static subiMiner(const CChainParams& chainparams)
+void static SubiMiner(const CChainParams& chainparams)
 {
-    LogPrintf("subiMiner -- started\n");
+    LogPrintf("SubiMiner -- started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("subi-miner");
 
@@ -545,7 +545,7 @@ void static subiMiner(const CChainParams& chainparams)
         pWallet = GetFirstWallet();
     #endif
     if (!EnsureWalletIsAvailable(pWallet, false)) {
-        LogPrintf("subiMiner -- Wallet not available\n");
+        LogPrintf("SubiMiner -- Wallet not available\n");
     }
 
     if (pWallet == NULL)
@@ -601,7 +601,7 @@ void static subiMiner(const CChainParams& chainparams)
 
             if (!pblocktemplate.get())
             {
-                LogPrintf("subiMiner -- Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
+                LogPrintf("SubiMiner -- Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
                 return;
             }
             CBlock *pblock = &pblocktemplate->block;
@@ -611,7 +611,7 @@ void static subiMiner(const CChainParams& chainparams)
             LogPrintf("Algos: %s\n",hashSelection.getHashSelectionString());
             IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-            LogPrintf("subiMiner -- Running miner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+            LogPrintf("SubiMiner -- Running miner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
                 ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
             //
@@ -629,7 +629,7 @@ void static subiMiner(const CChainParams& chainparams)
                     {
                         // Found a solution
                         SetThreadPriority(THREAD_PRIORITY_NORMAL);
-                        LogPrintf("subiMiner:\n  proof-of-work found\n  hash: %s\n  target: %s\n", hash.GetHex(), hashTarget.GetHex());
+                        LogPrintf("SubiMiner:\n  proof-of-work found\n  hash: %s\n  target: %s\n", hash.GetHex(), hashTarget.GetHex());
                         ProcessBlockFound(pblock, chainparams, hash);
                         SetThreadPriority(THREAD_PRIORITY_LOWEST);
                         coinbaseScript->KeepScript();
@@ -645,7 +645,7 @@ void static subiMiner(const CChainParams& chainparams)
                     if (nHashesDone % 1000 == 0) {   //Calculate hashing speed
                         nHashesPerSec = nHashesDone / (((GetTimeMicros() - nMiningTimeStart) / 1000000.00) + 1);
                         LogPrintf("nNonce: %d, hashRate %f\n",pblock->nNonce, nHashesPerSec);
-                        //LogPrintf("subiMiner:\n  proof-of-work in progress \n  hash: %s\n  target: %s\n, different=%s\n", hash.GetHex(), hashTarget.GetHex(), (UintToArith256(hash) - hashTarget));
+                        //LogPrintf("SubiMiner:\n  proof-of-work in progress \n  hash: %s\n  target: %s\n, different=%s\n", hash.GetHex(), hashTarget.GetHex(), (UintToArith256(hash) - hashTarget));
                     }
                     if ((pblock->nNonce & 0xFF) == 0)
                         break;
@@ -677,17 +677,17 @@ void static subiMiner(const CChainParams& chainparams)
     }
     catch (const boost::thread_interrupted&)
     {
-        LogPrintf("subiMiner -- terminated\n");
+        LogPrintf("SubiMiner -- terminated\n");
         throw;
     }
     catch (const std::runtime_error &e)
     {
-        LogPrintf("subiMiner -- runtime error: %s\n", e.what());
+        LogPrintf("SubiMiner -- runtime error: %s\n", e.what());
         return;
     }
 }
 
-int Generatesubis(bool fGenerate, int nThreads, const CChainParams& chainparams)
+int GenerateSubis(bool fGenerate, int nThreads, const CChainParams& chainparams)
 {
 
     static boost::thread_group* minerThreads = NULL;
@@ -715,7 +715,7 @@ int Generatesubis(bool fGenerate, int nThreads, const CChainParams& chainparams)
     nHashesPerSec = 0;
 
     for (int i = 0; i < nThreads; i++){
-        minerThreads->create_thread(boost::bind(&subiMiner, boost::cref(chainparams)));
+        minerThreads->create_thread(boost::bind(&SubiMiner, boost::cref(chainparams)));
     }
     return(numCores);
 }

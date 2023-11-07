@@ -102,7 +102,7 @@ public:
         vOutpoints.assign(setSelected.begin(), setSelected.end());
     }
 
-    // subi-specific helpers
+    // Subi-specific helpers
 
     void UseCoinJoin(bool fUseCoinJoin)
     {

@@ -76,11 +76,11 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your subi addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Subi addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Esses são os seus endereços para enviar pagamentos. Sempre cheque a quantia e o endereço de recebimento antes de enviar moedas,</translation>
     </message>
     <message>
-        <source>These are your subi addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Subi addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Estes são os seus endereços para receber pagamentos. É recomendado usar um novo para cada transação.</translation>
     </message>
     <message>
@@ -314,12 +314,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. subi Core can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. A subi não pode mais continuar de forma segura, e irá fechar</translation>
+        <source>A fatal error occurred. Subi Core can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. A Subi não pode mais continuar de forma segura, e irá fechar</translation>
     </message>
     <message>
-        <source>subi Core</source>
-        <translation>subi Core</translation>
+        <source>Subi Core</source>
+        <translation>Subi Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -342,8 +342,8 @@
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <source>Send coins to a subi address</source>
-        <translation>Envie moedas para um endereço subi</translation>
+        <source>Send coins to a Subi address</source>
+        <translation>Envie moedas para um endereço Subi</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -378,8 +378,8 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>Show information about subi Core</source>
-        <translation>Exibe informações sobre subi Core</translation>
+        <source>Show information about Subi Core</source>
+        <translation>Exibe informações sobre Subi Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -398,8 +398,8 @@
         <translation>&amp;Sobre %1</translation>
     </message>
     <message>
-        <source>Send %1 funds to a subi address</source>
-        <translation>Enviar recursos %1 para um endereço subi</translation>
+        <source>Send %1 funds to a Subi address</source>
+        <translation>Enviar recursos %1 para um endereço Subi</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -454,16 +454,16 @@
         <translation>Assinar &amp;Mensagem...</translation>
     </message>
     <message>
-        <source>Sign messages with your subi addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços subi para provar que você é dono delas</translation>
+        <source>Sign messages with your Subi addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços Subi para provar que você é dono delas</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified subi addresses</source>
-        <translation>Verifique as mensagens para ter certeza de que elas foram assinadas com o endereço da subi especificado</translation>
+        <source>Verify messages to ensure they were signed with specified Subi addresses</source>
+        <translation>Verifique as mensagens para ter certeza de que elas foram assinadas com o endereço da Subi especificado</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -550,8 +550,8 @@
         <translation>Opções de linha de &amp;comando</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible subi command-line options</source>
-        <translation>Mostrar a mensagem de ajuda do %1 para obter uma lista com possíveis opções de linha de comando subi</translation>
+        <source>Show the %1 help message to get a list with possible Subi command-line options</source>
+        <translation>Mostrar a mensagem de ajuda do %1 para obter uma lista com possíveis opções de linha de comando Subi</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -600,10 +600,10 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to subi network</source>
+        <source>%n active connection(s) to Subi network</source>
         <translation>
-            <numerusform>%n conexões ativas com a rede subi</numerusform>
-            <numerusform>%n conexões ativas com a rede subi</numerusform>
+            <numerusform>%n conexões ativas com a rede Subi</numerusform>
+            <numerusform>%n conexões ativas com a rede Subi</numerusform>
         </translation>
     </message>
     <message>
@@ -986,7 +986,7 @@
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid subi address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Subi address.</source>
         <translation>O endereço digitado &quot;%1&quot; não é um endereço válido.</translation>
     </message>
     <message>
@@ -1048,7 +1048,7 @@
         <translation>%1 Informação</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;%1 Basics&lt;/h3&gt; %1 gives you true financial privacy by obscuring the origins of your funds. All the subi in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; %1 uses an innovative process to mix your inputs with the inputs of two or more other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The %1 process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;%1 begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI and 10 SUBI -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;smartnodes.&quot; These smartnodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the smartnodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two or more other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The smartnode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of %1 makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have %1 disabled. &lt;hr&gt;For more information, see the &lt;a style=&quot;%2&quot; href=&quot;%3&quot;&gt;%1 documentation&lt;/a&gt;.</source>
+        <source>&lt;h3&gt;%1 Basics&lt;/h3&gt; %1 gives you true financial privacy by obscuring the origins of your funds. All the Subi in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; %1 uses an innovative process to mix your inputs with the inputs of two or more other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The %1 process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;%1 begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI and 10 SUBI -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;smartnodes.&quot; These smartnodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the smartnodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two or more other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The smartnode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of %1 makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have %1 disabled. &lt;hr&gt;For more information, see the &lt;a style=&quot;%2&quot; href=&quot;%3&quot;&gt;%1 documentation&lt;/a&gt;.</source>
         <translation>&lt;h3&gt;O básico sobre %1&lt;/h3&gt;O %1 te dá verdadeira privacidade financeira ao obscurecer a origem dos seus fundos. Todos os subis na sua carteira é composto de &quot;inputs&quot; diferentes que você pode pensar como sendo moedas separadas, discretas. &lt;br&gt;O %1 usa um processo inovador para misturas os inputs de duas pessoas diferentes, sem que suas moedas saiam de suas carteiras. Você mantém o controle de seu dinheiro o tempo todo.&lt;hr&gt;&lt;b&gt;O processo do %1 funciona assim: &lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;O %1 começa quebrando os inputs de suuas transações em denominações padrão. Essas denominações são 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI e 10 SUBI -- algo como o dinheiro de papel que você usa todo dia.&lt;/li&gt;&lt;li&gt;Sua carteira então envia uma requisição para um software especialmente configurado na rede, chamados de &quot;smartnodes.&quot; Esses smartnodes são informados que você está interessado em misturar uma denominação específica. Nenhuma informação identificável é enviada aos smartnodes, então eles nunca sabem &quot;quem&quot; você é.&lt;/li&gt;&lt;li&gt;Quando duas pessoas enviam mensagens similares, uma sessão de mistura tem início. O smartnode mistura os inputs e instrui os três usuários da carteira para pagar o input agora transformado de volta a si mesmos. Sua carteira paga a denominação diretamente a si mesmo, mas em um endereço diferente (chamado de endereço mudado).&lt;/li&gt;&lt;li&gt;A fim de obscurecer plenamente seus fundos, sua carteira repete esse processo várias vezes com cada denominação. Cada vez que o processo é completado, se chama um &quot;round&quot;. Cada round de %1 torna exponencialmente mais difícil determinar onde os fundos se originaram.&lt;/li&gt;&lt;li&gt;Esse processo de mistura acontece no background sem nenhuma intervenção da sua parte. Quando você deseja fazer uma transação, seus fundos jã estarão misturados. Nenhuma espera adicional é requerida.&lt;/li&gt;&lt;/ol&gt;&lt;hr&gt;&lt;b&gt;IMPORTANTE:&lt;/b&gt; Sua carteira só contém 1000 desses &quot;mudar endereços.&quot; Cada vez que um evento de mistura acontece, 9 de seus endereços são usados. Isso indica que esses 1000 endereços duram por cerca de 100 eventos de mistura. Quando 900 desses endereços são usados, sua carteira deve criar mais endereços. Contudo, ela só é capaz de fazer isso se você tem o backup automático habilitado.&lt;br&gt;Consequentemente, usuários que têm seus backups desabilitados também terão o %1 desabilitado. &lt;hr&gt;Para mais informações, consulte a &lt;a style=&quot;%2&quot; href=&quot;%3&quot;&gt;documentação do %1&lt;/a&gt;.</translation>
     </message>
 </context>
@@ -1095,8 +1095,8 @@
         <translation>Aproximadamente %1 GB de dados irão ser guardados nesta pasta. </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the subi block chain.</source>
-        <translation>%1 irá descarregar e armazenar uma cópia da cadeia de blocos da subi.</translation>
+        <source>%1 will download and store a copy of the Subi block chain.</source>
+        <translation>%1 irá descarregar e armazenar uma cópia da cadeia de blocos da Subi.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1126,12 +1126,12 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the subi network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Subi network, as detailed below.</source>
         <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
     </message>
     <message>
-        <source>Attempting to spend subi that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>A tentativa de gastar o subi que é afetado por transações ainda não exibidas não será aceita pela rede.</translation>
+        <source>Attempting to spend Subi that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>A tentativa de gastar o Subi que é afetado por transações ainda não exibidas não será aceita pela rede.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1288,8 +1288,8 @@
         <translation>Escolher saldo</translation>
     </message>
     <message>
-        <source>Automatically open the subi Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automaticamente a porta para o cliente subi Core no roteador. Essa função apenas funciona se o seu roteador oferece suporte a UPnP e a opção estiver habilitada.</translation>
+        <source>Automatically open the Subi Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automaticamente a porta para o cliente Subi Core no roteador. Essa função apenas funciona se o seu roteador oferece suporte a UPnP e a opção estiver habilitada.</translation>
     </message>
     <message>
         <source>Accept connections from outside.</source>
@@ -1300,8 +1300,8 @@
         <translation>Permitir conexões de entrada</translation>
     </message>
     <message>
-        <source>Connect to the subi network through a SOCKS5 proxy.</source>
-        <translation>Conecta à rede subi através de um proxy SOCKS5.</translation>
+        <source>Connect to the Subi network through a SOCKS5 proxy.</source>
+        <translation>Conecta à rede Subi através de um proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1400,8 +1400,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the subi network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conecte-se à rede subi através de um proxy SOCKS5 separado para serviços ocultos Tor</translation>
+        <source>Connect to the Subi network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Conecte-se à rede Subi através de um proxy SOCKS5 separado para serviços ocultos Tor</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
@@ -1501,8 +1501,8 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the subi network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação exibida pode estar desatualizada. Sua wallet é sincronizada automaticamente com a rede subi tão logo uma conexão se estabeleça, entrtanto esse processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Subi network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação exibida pode estar desatualizada. Sua wallet é sincronizada automaticamente com a rede Subi tão logo uma conexão se estabeleça, entrtanto esse processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1727,7 +1727,7 @@ https://www.transifex.com/projects/p/subi/</translation>
     </message>
     <message>
         <source>Cannot start subi: click-to-pay handler</source>
-        <translation>Não foi possível iniciar subi: manipulador click-to-pay</translation>
+        <translation>Não foi possível iniciar Subi: manipulador click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1746,7 +1746,7 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid subi address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Subi address or malformed URI parameters.</source>
         <translation>A URI não pode ser analisada! Isto pode ser causado por um endereço inválido ou um parâmetro URI malformado.</translation>
     </message>
     <message>
@@ -1892,8 +1892,8 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a subi address (e.g. %1)</source>
-        <translation>Informe um endereço subi (ex: %1)</translation>
+        <source>Enter a Subi address (e.g. %1)</source>
+        <translation>Informe um endereço Subi (ex: %1)</translation>
     </message>
     <message>
         <source>Appearance Setup</source>
@@ -2520,8 +2520,8 @@ https://www.transifex.com/projects/p/subi/</translation>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the subi network.</source>
-        <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede subi.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Subi network.</source>
+        <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede Subi.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2532,8 +2532,8 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>Um marcador opcional para associar ao novo endereço de recebimento.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the subi network.</source>
-        <translation>Uma mensagem opcional para anexar à solicitação de pagamento, que será exibida quando a solicitação for aberta. &lt;br&gt;Observação: a mensagem não será enviada com o pagamento pela rede do subi.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Subi network.</source>
+        <translation>Uma mensagem opcional para anexar à solicitação de pagamento, que será exibida quando a solicitação for aberta. &lt;br&gt;Observação: a mensagem não será enviada com o pagamento pela rede do Subi.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3007,8 +3007,8 @@ https://www.transifex.com/projects/p/subi/</translation>
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid subi address</source>
-        <translation>Aviso: Endereço subi inválido</translation>
+        <source>Warning: Invalid Subi address</source>
+        <translation>Aviso: Endereço Subi inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3038,8 +3038,8 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The subi address to send the payment to</source>
-        <translation>O endereço subi para enviar o pagamento a</translation>
+        <source>The Subi address to send the payment to</source>
+        <translation>O endereço Subi para enviar o pagamento a</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3078,8 +3078,8 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>Q&amp;uantidade:</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of subi than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>A taxa será deduzida do valor enviado. O destinatário receberá uma quantidade menor de subi do que você insere no campo de valor. Se vários destinatários forem selecionados, a taxa será dividida igualmente.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Subi than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>A taxa será deduzida do valor enviado. O destinatário receberá uma quantidade menor de Subi do que você insere no campo de valor. Se vários destinatários forem selecionados, a taxa será dividida igualmente.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3094,8 +3094,8 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the subi: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the subi network.</source>
-        <translation>A mensagem que foi anexada ao subi: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede subi.</translation>
+        <source>A message that was attached to the subi: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Subi network.</source>
+        <translation>A mensagem que foi anexada ao Subi: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Subi.</translation>
     </message>
     <message>
         <source>Future</source>
@@ -3171,12 +3171,12 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive subi sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Você pode assinar mensagens/acordos com seus endereços para provar que pode receber o subi enviado para eles. Tenha cuidado para não assinar nada vago ou aleatório, pois os ataques de phishing podem tentar convencê-lo a assinar sua identidade para eles. Assine apenas declarações totalmente detalhadas com as quais você concorda.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Subi sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Você pode assinar mensagens/acordos com seus endereços para provar que pode receber o Subi enviado para eles. Tenha cuidado para não assinar nada vago ou aleatório, pois os ataques de phishing podem tentar convencê-lo a assinar sua identidade para eles. Assine apenas declarações totalmente detalhadas com as quais você concorda.</translation>
     </message>
     <message>
-        <source>The subi address to sign the message with</source>
-        <translation>O endereço subi que assinará a mensagem</translation>
+        <source>The Subi address to sign the message with</source>
+        <translation>O endereço Subi que assinará a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3207,8 +3207,8 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>Copiar a assinatura para a área de transferência do sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this subi address</source>
-        <translation>Assinar mensagem para provar que você é dono deste endereço subi</translation>
+        <source>Sign the message to prove you own this Subi address</source>
+        <translation>Assinar mensagem para provar que você é dono deste endereço Subi</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3231,12 +3231,12 @@ https://www.transifex.com/projects/p/subi/</translation>
         <translation>Coloque o endereço do autor, a mensagem (certifique-se de copiar toda a mensagem, incluindo quebras de linha, espaços, tabulações, etc.) e a assinatura embaixo para verificar a mensagem. Cuidado para não ler mais da assinatura do que está assinado na mensagem, para evitar ser enganado pelo ataque man-in-the-middle. Note que isso somente prova a propriedade de um endereço, e não o remetende de qualquer transação.</translation>
     </message>
     <message>
-        <source>The subi address the message was signed with</source>
-        <translation>O endereço subi que foi usado para assinar a mensagem</translation>
+        <source>The Subi address the message was signed with</source>
+        <translation>O endereço Subi que foi usado para assinar a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified subi address</source>
-        <translation>Verifique a mensagem para se assegurar de que foi assinada pelo endereço subi específicado</translation>
+        <source>Verify the message to ensure it was signed with the specified Subi address</source>
+        <translation>Verifique a mensagem para se assegurar de que foi assinada pelo endereço Subi específicado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -4120,8 +4120,8 @@ https://www.transifex.com/projects/p/subi/</translation>
 <context>
     <name>subi-core</name>
     <message>
-        <source>subi Core</source>
-        <translation>subi Core</translation>
+        <source>Subi Core</source>
+        <translation>Subi Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

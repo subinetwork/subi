@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2015-2020 The Dash Core developers
-# Copyright (c) 2020-2022 The subi developers
+# Copyright (c) 2020-2022 The Subi developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@ Simulate and check DKG errors
 
 '''
 
-class LLMQDKGErrors(subiTestFramework):
+class LLMQDKGErrors(SubiTestFramework):
     def set_test_params(self):
         self.set_subi_test_params(6, 5, [["-whitelist=127.0.0.1"]] * 6, fast_dip3_enforcement=True)
 

@@ -75,12 +75,12 @@
       <translation>受取アドレス</translation>
     </message>
     <message>
-      <source>These are your subi addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-      <translation>これらは送金するためのあなたの subi アドレスです。送金する前に常に金額と受取アドレスを確認してください。</translation>
+      <source>These are your Subi addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+      <translation>これらは送金するためのあなたの Subi アドレスです。送金する前に常に金額と受取アドレスを確認してください。</translation>
     </message>
     <message>
-      <source>These are your subi addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-      <translation>これらは送金を受取用のあなたのsubiアドレスです。トランザクションごとに新しい受け取り用アドレスの作成を推奨します。</translation>
+      <source>These are your Subi addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+      <translation>これらは送金を受取用のあなたのSubiアドレスです。トランザクションごとに新しい受け取り用アドレスの作成を推奨します。</translation>
     </message>
     <message>
       <source>&amp;Copy Address</source>
@@ -237,7 +237,7 @@
     </message>
     <message>
       <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SUBI&lt;/b&gt;!</source>
-      <translation>警告: ウォレットを暗号化しパスフレーズを紛失した場合、あなたは &lt;b&gt;すべてのsubi&lt;/b&gt;を失います!</translation>
+      <translation>警告: ウォレットを暗号化しパスフレーズを紛失した場合、あなたは &lt;b&gt;すべてのSubi&lt;/b&gt;を失います!</translation>
     </message>
     <message>
       <source>Are you sure you wish to encrypt your wallet?</source>
@@ -313,12 +313,12 @@
   <context>
     <name>BitcoinGUI</name>
     <message>
-      <source>A fatal error occurred. subi Core can no longer continue safely and will quit.</source>
-      <translation>重大なエラーが発生しました。 subi Coreは安全に続行できなくなり終了します。</translation>
+      <source>A fatal error occurred. Subi Core can no longer continue safely and will quit.</source>
+      <translation>重大なエラーが発生しました。 Subi Coreは安全に続行できなくなり終了します。</translation>
     </message>
     <message>
-      <source>subi Core</source>
-      <translation>subi Core</translation>
+      <source>Subi Core</source>
+      <translation>Subi Core</translation>
     </message>
     <message>
       <source>Wallet</source>
@@ -341,8 +341,8 @@
       <translation>送金 (&amp;S)</translation>
     </message>
     <message>
-      <source>Send coins to a subi address</source>
-      <translation>subi アドレスに送金</translation>
+      <source>Send coins to a Subi address</source>
+      <translation>Subi アドレスに送金</translation>
     </message>
     <message>
       <source>&amp;Receive</source>
@@ -377,8 +377,8 @@
       <translation>アプリケーションを終了</translation>
     </message>
     <message>
-      <source>Show information about subi Core</source>
-      <translation>subi Coreについての情報を表示</translation>
+      <source>Show information about Subi Core</source>
+      <translation>Subi Coreについての情報を表示</translation>
     </message>
     <message>
       <source>About &amp;Qt</source>
@@ -397,7 +397,7 @@
       <translation>%1 について (&amp;A)</translation>
     </message>
     <message>
-      <source>Send %1 funds to a subi address</source>
+      <source>Send %1 funds to a Subi address</source>
       <translation type="unfinished"></translation>
     </message>
     <message>
@@ -453,16 +453,16 @@
       <translation>メッセージの署名… (&amp;M)</translation>
     </message>
     <message>
-      <source>Sign messages with your subi addresses to prove you own them</source>
-      <translation>あなたがsubi アドレスを所有していることを証明するために、あなたのsubiアドレスでメッセージに署名してください。</translation>
+      <source>Sign messages with your Subi addresses to prove you own them</source>
+      <translation>あなたがSubi アドレスを所有していることを証明するために、あなたのSubiアドレスでメッセージに署名してください。</translation>
     </message>
     <message>
       <source>&amp;Verify message...</source>
       <translation>メッセージの検証… (&amp;V)</translation>
     </message>
     <message>
-      <source>Verify messages to ensure they were signed with specified subi addresses</source>
-      <translation>指定されたsubiアドレスで署名されたことを確認するためにメッセージを検証してください。</translation>
+      <source>Verify messages to ensure they were signed with specified Subi addresses</source>
+      <translation>指定されたSubiアドレスで署名されたことを確認するためにメッセージを検証してください。</translation>
     </message>
     <message>
       <source>&amp;Information</source>
@@ -549,8 +549,8 @@
       <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message>
-      <source>Show the %1 help message to get a list with possible subi command-line options</source>
-      <translation>有効なsubiのコマンドラインオプションのリストを見るために %1 のヘルプメッセージを表示</translation>
+      <source>Show the %1 help message to get a list with possible Subi command-line options</source>
+      <translation>有効なSubiのコマンドラインオプションのリストを見るために %1 のヘルプメッセージを表示</translation>
     </message>
     <message>
       <source>default wallet</source>
@@ -598,7 +598,7 @@
       <translation>タブツールバー</translation>
     </message>
     <message numerus="yes">
-      <source>%n active connection(s) to subi network</source>
+      <source>%n active connection(s) to Subi network</source>
       <translation>
         <numerusform>%n アクティブコネクション</numerusform>
       </translation>
@@ -980,8 +980,8 @@
       <translation>送金アドレスを編集</translation>
     </message>
     <message>
-      <source>The entered address "%1" is not a valid subi address.</source>
-      <translation>入力されたアドレス "%1" は有効なsubiアドレスではありません。</translation>
+      <source>The entered address "%1" is not a valid Subi address.</source>
+      <translation>入力されたアドレス "%1" は有効なSubiアドレスではありません。</translation>
     </message>
     <message>
       <source>The entered address "%1" is already in the address book.</source>
@@ -1042,7 +1042,7 @@
       <translation type="unfinished"></translation>
     </message>
     <message>
-      <source>&lt;h3&gt;%1 Basics&lt;/h3&gt; %1 gives you true financial privacy by obscuring the origins of your funds. All the subi in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; %1 uses an innovative process to mix your inputs with the inputs of two or more other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The %1 process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;%1 begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI and 10 SUBI -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "smartnodes." These smartnodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the smartnodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two or more other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The smartnode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of %1 makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have %1 disabled. &lt;hr&gt;For more information, see the &lt;a style="%2" href="%3"&gt;%1 documentation&lt;/a&gt;.</source>
+      <source>&lt;h3&gt;%1 Basics&lt;/h3&gt; %1 gives you true financial privacy by obscuring the origins of your funds. All the Subi in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; %1 uses an innovative process to mix your inputs with the inputs of two or more other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The %1 process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;%1 begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 SUBI, 0.01 SUBI, 0.1 SUBI, 1 SUBI and 10 SUBI -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "smartnodes." These smartnodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the smartnodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two or more other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The smartnode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of %1 makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have %1 disabled. &lt;hr&gt;For more information, see the &lt;a style="%2" href="%3"&gt;%1 documentation&lt;/a&gt;.</source>
       <translation type="unfinished"></translation>
     </message>
   </context>
@@ -1090,8 +1090,8 @@
       <translation>おおむね%1GBのデータがこのディレクトリに保存されます。</translation>
     </message>
     <message>
-      <source>%1 will download and store a copy of the subi block chain.</source>
-      <translation>%1はsubiのブロックチェーンの複製をダウンロードし保存します。</translation>
+      <source>%1 will download and store a copy of the Subi block chain.</source>
+      <translation>%1はSubiのブロックチェーンの複製をダウンロードし保存します。</translation>
     </message>
     <message>
       <source>The wallet will also be stored in this directory.</source>
@@ -1121,12 +1121,12 @@
       <translation>フォーム</translation>
     </message>
     <message>
-      <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the subi network, as detailed below.</source>
-      <translation>確認できない最新のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度subiのネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
+      <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Subi network, as detailed below.</source>
+      <translation>確認できない最新のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度Subiのネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
     </message>
     <message>
-      <source>Attempting to spend subi that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-      <translation>表示されてないトランザクションに影響を受けたsubiを使用しようとするとネットワークに承認されません。</translation>
+      <source>Attempting to spend Subi that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+      <translation>表示されてないトランザクションに影響を受けたSubiを使用しようとするとネットワークに承認されません。</translation>
     </message>
     <message>
       <source>Number of blocks left</source>
@@ -1283,8 +1283,8 @@
       <translation type="unfinished"></translation>
     </message>
     <message>
-      <source>Automatically open the subi Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-      <translation>自動的にルーターのsubi Core クライアントポートを開放します。これはルーターがUPnP機能をサポートしておりUPnP機能が有効な場合にのみ機能します。</translation>
+      <source>Automatically open the Subi Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+      <translation>自動的にルーターのSubi Core クライアントポートを開放します。これはルーターがUPnP機能をサポートしておりUPnP機能が有効な場合にのみ機能します。</translation>
     </message>
     <message>
       <source>Accept connections from outside.</source>
@@ -1295,8 +1295,8 @@
       <translation type="unfinished"></translation>
     </message>
     <message>
-      <source>Connect to the subi network through a SOCKS5 proxy.</source>
-      <translation>SOCKS5プロキシ経由でsubiネットワークに接続</translation>
+      <source>Connect to the Subi network through a SOCKS5 proxy.</source>
+      <translation>SOCKS5プロキシ経由でSubiネットワークに接続</translation>
     </message>
     <message>
       <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1395,8 +1395,8 @@
       <translation>Tor</translation>
     </message>
     <message>
-      <source>Connect to the subi network through a separate SOCKS5 proxy for Tor hidden services.</source>
-      <translation>Tor秘匿サービスを利用するため独立なSOCKS5プロキシ経由でsubiネットワークに接続</translation>
+      <source>Connect to the Subi network through a separate SOCKS5 proxy for Tor hidden services.</source>
+      <translation>Tor秘匿サービスを利用するため独立なSOCKS5プロキシ経由でSubiネットワークに接続</translation>
     </message>
     <message>
       <source>Show only a tray icon after minimizing the window.</source>
@@ -1496,8 +1496,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>フォーム</translation>
     </message>
     <message>
-      <source>The displayed information may be out of date. Your wallet automatically synchronizes with the subi network after a connection is established, but this process has not completed yet.</source>
-      <translation>表示された情報は古いかもしれません。接続が確立されればあなたのウォレットは subiネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+      <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Subi network after a connection is established, but this process has not completed yet.</source>
+      <translation>表示された情報は古いかもしれません。接続が確立されればあなたのウォレットは Subiネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
       <source>Available:</source>
@@ -1720,7 +1720,7 @@ https://www.transifex.com/projects/p/subi/</translation>
     </message>
     <message>
       <source>Cannot start subi: click-to-pay handler</source>
-      <translation>subi を起動できません: click-to-pay ハンドラー</translation>
+      <translation>Subi を起動できません: click-to-pay ハンドラー</translation>
     </message>
     <message>
       <source>URI handling</source>
@@ -1739,8 +1739,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>支払いのアドレス　%1　は無効です</translation>
     </message>
     <message>
-      <source>URI cannot be parsed! This can be caused by an invalid subi address or malformed URI parameters.</source>
-      <translation>URI を解析できません! これは無効な subi アドレスあるいは不正な形式の URI パラメーターによって引き起こされた可能性があります。</translation>
+      <source>URI cannot be parsed! This can be caused by an invalid Subi address or malformed URI parameters.</source>
+      <translation>URI を解析できません! これは無効な Subi アドレスあるいは不正な形式の URI パラメーターによって引き起こされた可能性があります。</translation>
     </message>
     <message>
       <source>Payment request file handling</source>
@@ -1885,8 +1885,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>総額</translation>
     </message>
     <message>
-      <source>Enter a subi address (e.g. %1)</source>
-      <translation>subiアドレスを入力してください (例 %1)</translation>
+      <source>Enter a Subi address (e.g. %1)</source>
+      <translation>Subiアドレスを入力してください (例 %1)</translation>
     </message>
     <message>
       <source>Appearance Setup</source>
@@ -2507,8 +2507,8 @@ https://www.transifex.com/projects/p/subi/</translation>
   <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-      <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the subi network.</source>
-      <translation>支払いリクエストが開始された時に表示される、支払いリクエストに添付される任意のメッセージです。注意：このメッセージはsubiネットワークを通じて支払いと共に送信されるわけではありません。</translation>
+      <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Subi network.</source>
+      <translation>支払いリクエストが開始された時に表示される、支払いリクエストに添付される任意のメッセージです。注意：このメッセージはSubiネットワークを通じて支払いと共に送信されるわけではありません。</translation>
     </message>
     <message>
       <source>&amp;Message:</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>新しい受け取り用アドレスに紐づく任意のラベル。</translation>
     </message>
     <message>
-      <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the subi network.</source>
-      <translation>支払いリクエストが開始された時に表示される、支払いリクエストに添付される任意のメッセージです。注意：このメッセージはsubiネットワークを通じて支払いと共に送信されるわけではありません。</translation>
+      <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Subi network.</source>
+      <translation>支払いリクエストが開始された時に表示される、支払いリクエストに添付される任意のメッセージです。注意：このメッセージはSubiネットワークを通じて支払いと共に送信されるわけではありません。</translation>
     </message>
     <message>
       <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2990,8 +2990,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       </translation>
     </message>
     <message>
-      <source>Warning: Invalid subi address</source>
-      <translation>警告：subiアドレスが無効です</translation>
+      <source>Warning: Invalid Subi address</source>
+      <translation>警告：Subiアドレスが無効です</translation>
     </message>
     <message>
       <source>Warning: Unknown change address</source>
@@ -3021,8 +3021,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>送り先: (&amp;T)</translation>
     </message>
     <message>
-      <source>The subi address to send the payment to</source>
-      <translation>送金先subiアドレス</translation>
+      <source>The Subi address to send the payment to</source>
+      <translation>送金先Subiアドレス</translation>
     </message>
     <message>
       <source>Choose previously used address</source>
@@ -3061,8 +3061,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>金額： (&amp;M)</translation>
     </message>
     <message>
-      <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of subi than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-      <translation>手数料は総額から差し引かれます。受取人は入力した金額より少ないsubiを受け取ります。複数の受取人を選択した場合、手数料は等しく分割されます。</translation>
+      <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Subi than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+      <translation>手数料は総額から差し引かれます。受取人は入力した金額より少ないSubiを受け取ります。複数の受取人を選択した場合、手数料は等しく分割されます。</translation>
     </message>
     <message>
       <source>S&amp;ubtract fee from amount</source>
@@ -3077,8 +3077,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>メッセージ：</translation>
     </message>
     <message>
-      <source>A message that was attached to the subi: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the subi network.</source>
-      <translation>subi: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはsubiネットワークを経由して送信されるわけではありません。</translation>
+      <source>A message that was attached to the subi: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Subi network.</source>
+      <translation>Subi: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはSubiネットワークを経由して送信されるわけではありません。</translation>
     </message>
     <message>
       <source>Future</source>
@@ -3154,12 +3154,12 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>メッセージの署名 (&amp;S)</translation>
     </message>
     <message>
-      <source>You can sign messages/agreements with your addresses to prove you can receive subi sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-      <translation>あなたのアドレスを使用してあなたがsubiを受け取ることができるようにメッセージやアグリーメントに署名できます。充分に詳細が判明していてあなたが確認しているものだけに署名してください。フィッシングによってあなたの署名を読み取られないように注意してください。</translation>
+      <source>You can sign messages/agreements with your addresses to prove you can receive Subi sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+      <translation>あなたのアドレスを使用してあなたがSubiを受け取ることができるようにメッセージやアグリーメントに署名できます。充分に詳細が判明していてあなたが確認しているものだけに署名してください。フィッシングによってあなたの署名を読み取られないように注意してください。</translation>
     </message>
     <message>
-      <source>The subi address to sign the message with</source>
-      <translation>メッセージを署名する際に使用するsubiアドレス</translation>
+      <source>The Subi address to sign the message with</source>
+      <translation>メッセージを署名する際に使用するSubiアドレス</translation>
     </message>
     <message>
       <source>Choose previously used address</source>
@@ -3190,8 +3190,8 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>現在の署名をシステムのクリップボードにコピー</translation>
     </message>
     <message>
-      <source>Sign the message to prove you own this subi address</source>
-      <translation>この subi アドレスを所有していることを証明するためにメッセージに署名</translation>
+      <source>Sign the message to prove you own this Subi address</source>
+      <translation>この Subi アドレスを所有していることを証明するためにメッセージに署名</translation>
     </message>
     <message>
       <source>Sign &amp;Message</source>
@@ -3214,12 +3214,12 @@ https://www.transifex.com/projects/p/subi/</translation>
       <translation>受取人のアドレスとメッセージ（改行やスペース、タブなども完全に一致するよう注意してください）および署名を以下に入力し、メッセージを検証してください。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージに書かれていること以上の意味を署名から読み取ろうとしないよう注意してください。これは署名作成者がこのアドレスで受け取ることを証明するだけであり、トランザクションの送信者を証明するものではないことに注意してください！</translation>
     </message>
     <message>
-      <source>The subi address the message was signed with</source>
-      <translation>メッセージの署名に使用されたsubiアドレス</translation>
+      <source>The Subi address the message was signed with</source>
+      <translation>メッセージの署名に使用されたSubiアドレス</translation>
     </message>
     <message>
-      <source>Verify the message to ensure it was signed with the specified subi address</source>
-      <translation>指定されたsubiアドレスで署名されたことを確認するためメッセージを検証</translation>
+      <source>Verify the message to ensure it was signed with the specified Subi address</source>
+      <translation>指定されたSubiアドレスで署名されたことを確認するためメッセージを検証</translation>
     </message>
     <message>
       <source>Verify &amp;Message</source>
@@ -4100,8 +4100,8 @@ https://www.transifex.com/projects/p/subi/</translation>
   <context>
     <name>subi-core</name>
     <message>
-      <source>subi Core</source>
-      <translation>subiコア</translation>
+      <source>Subi Core</source>
+      <translation>Subiコア</translation>
     </message>
     <message>
       <source>The %s developers</source>

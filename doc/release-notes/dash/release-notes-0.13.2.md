@@ -1,4 +1,4 @@
-subi Core version 0.13.2.0
+Subi Core version 0.13.2.0
 ==========================
 
 Release is now available from:
@@ -20,7 +20,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/subi-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Subi-Qt (on Mac) or
 subid/subi-qt (on Linux). If you upgrade after DIP0003 activation you will
 have to reindex (start with -reindex-chainstate or -reindex) to make sure
 your wallet has all the new data synced (only if you were using version < 0.13).
@@ -96,27 +96,27 @@ There are few bug fixes in this release:
  0.13.2.0 Change log
 ===================
 
-See detailed [set of changes](https://github.com/subinetwork/subi/compare/v0.13.1.0...subi:v0.13.2.0).
+See detailed [set of changes](https://github.com/subinetwork/subinetwork.compare/v0.13.1.0...subi:v0.13.2.0).
 
 ### Backports
 
-- [`548a48918`](https://github.com/subinetwork/subi/commit/548a48918) Move IS block filtering into ConnectBlock (#2766)
-- [`6374dce99`](https://github.com/subinetwork/subi/commit/6374dce99) Fix error message for invalid voting addresses (#2747)
-- [`25222b378`](https://github.com/subinetwork/subi/commit/25222b378) Make -smartnodeblsprivkey mandatory when -smartnode is given (#2745)
-- [`0364e033a`](https://github.com/subinetwork/subi/commit/0364e033a) Implement 2-stage commit for CEvoDB to avoid inconsistencies after crashes (#2744)
-- [`a11e2f9eb`](https://github.com/subinetwork/subi/commit/a11e2f9eb) Add collateraladdress into smartnode/protx list rpc output (#2740)
-- [`43612a272`](https://github.com/subinetwork/subi/commit/43612a272) Only include selected TX types into CMerkleBlock (#2737)
-- [`f868fbc78`](https://github.com/subinetwork/subi/commit/f868fbc78) Stop g_connman first before deleting it (#2734)
-- [`9e233f391`](https://github.com/subinetwork/subi/commit/9e233f391) Fix incorrect usage of begin() when genesis block is requested in "protx diff" (#2699)
-- [`e75f971b9`](https://github.com/subinetwork/subi/commit/e75f971b9) Do not process blocks in CDeterministicMNManager before dip3 activation (#2698)
-- [`1cc47ebcd`](https://github.com/subinetwork/subi/commit/1cc47ebcd) Backport #14701: build: Add CLIENT_VERSION_BUILD to CFBundleGetInfoString (#2687)
+- [`548a48918`](https://github.com/subinetwork/subinetwork.commit/548a48918) Move IS block filtering into ConnectBlock (#2766)
+- [`6374dce99`](https://github.com/subinetwork/subinetwork.commit/6374dce99) Fix error message for invalid voting addresses (#2747)
+- [`25222b378`](https://github.com/subinetwork/subinetwork.commit/25222b378) Make -smartnodeblsprivkey mandatory when -smartnode is given (#2745)
+- [`0364e033a`](https://github.com/subinetwork/subinetwork.commit/0364e033a) Implement 2-stage commit for CEvoDB to avoid inconsistencies after crashes (#2744)
+- [`a11e2f9eb`](https://github.com/subinetwork/subinetwork.commit/a11e2f9eb) Add collateraladdress into smartnode/protx list rpc output (#2740)
+- [`43612a272`](https://github.com/subinetwork/subinetwork.commit/43612a272) Only include selected TX types into CMerkleBlock (#2737)
+- [`f868fbc78`](https://github.com/subinetwork/subinetwork.commit/f868fbc78) Stop g_connman first before deleting it (#2734)
+- [`9e233f391`](https://github.com/subinetwork/subinetwork.commit/9e233f391) Fix incorrect usage of begin() when genesis block is requested in "protx diff" (#2699)
+- [`e75f971b9`](https://github.com/subinetwork/subinetwork.commit/e75f971b9) Do not process blocks in CDeterministicMNManager before dip3 activation (#2698)
+- [`1cc47ebcd`](https://github.com/subinetwork/subinetwork.commit/1cc47ebcd) Backport #14701: build: Add CLIENT_VERSION_BUILD to CFBundleGetInfoString (#2687)
 
 ### Other
 
-- [`2516a6e19`](https://github.com/subinetwork/subi/commit/2516a6e19) Bump version to 0.13.2
-- [`9dd16cdbe`](https://github.com/subinetwork/subi/commit/9dd16cdbe) Bump minChainWork and AssumeValid to block #1033120 (#2750)
-- [`18f087b27`](https://github.com/subinetwork/subi/commit/18f087b27) Fix some typos in doc/guide-startmany.md (#2711)
-- [`709ab6d3e`](https://github.com/subinetwork/subi/commit/709ab6d3e) Minimal fix for litemode vs bad-protx-key-not-same issue (#2694)
+- [`2516a6e19`](https://github.com/subinetwork/subinetwork.commit/2516a6e19) Bump version to 0.13.2
+- [`9dd16cdbe`](https://github.com/subinetwork/subinetwork.commit/9dd16cdbe) Bump minChainWork and AssumeValid to block #1033120 (#2750)
+- [`18f087b27`](https://github.com/subinetwork/subinetwork.commit/18f087b27) Fix some typos in doc/guide-startmany.md (#2711)
+- [`709ab6d3e`](https://github.com/subinetwork/subinetwork.commit/709ab6d3e) Minimal fix for litemode vs bad-protx-key-not-same issue (#2694)
 
 Credits
 =======
@@ -133,7 +133,7 @@ As well as everyone that submitted issues and reviewed pull requests.
 Older releases
 ==============
 
-subi was previously known as Darkcoin.
+Subi was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -144,12 +144,12 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
-Darkcoin was rebranded to subi.
+Subi Core tree 0.11.x was a fork of Bitcoin Core tree 0.9,
+Darkcoin was rebranded to Subi.
 
-subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Subi Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
-subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
+Subi Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 
