@@ -1,0 +1,22 @@
+[Unit]
+Description=Subi's distributed currency daemon
+After=network.target
+
+[Service]
+User=subicore
+Group=subicore
+
+Type=forking
+PIDFile=/var/lib/subid/subid.pid
+ExecStart=/usr/bin/subid -daemon -pid=/var/lib/subid/subid.pid \
+-conf=/etc/subicore/subi.conf -datadir=/var/lib/subid -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
